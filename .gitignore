@@ -8,3 +8,6 @@ __pycache__/
 *.pyd
 .idea
 raw.zip
+notebooks/graders_defined_referenced.ipynb
+notebooks/baseline.ipynb
+.env
