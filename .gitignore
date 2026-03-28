@@ -2,6 +2,7 @@ data/*.json
 *.html
 project_context.md
 .env
+.env.*
 __pycache__/
 *.pyc
 *.pyo
