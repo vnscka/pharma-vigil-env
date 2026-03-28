@@ -1,4 +1,4 @@
-from ade_environment import ADEEnvironment
+from server.ade_environment import ADEEnvironment
 from models import Action
 
 # Initialize the environment

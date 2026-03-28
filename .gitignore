@@ -1,4 +1,4 @@
-data
+data/*.json
 *.html
 project_context.md
 env
@@ -7,3 +7,4 @@ __pycache__/
 *.pyo
 *.pyd
 .idea
+.vscode
