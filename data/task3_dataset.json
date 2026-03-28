@@ -1,0 +1,2086 @@
+[
+  {
+    "episode_id": "task3_000",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "HORRIBLE JOINT PAIN IN ALL MAJOR JOINTS, INCLUDING PROGRESSING TO ALMOST UNBEARABLE MUSCLE PAIN IN ALL MUSCLES IN BOTH UPPER AND LOWER EXTREMITIES, HAIR FALLING OUT, PRESCRIBED DARVACET FOR THE PAIN AND WAS ALMOST DIAGNOSED WITH FIBROMYALGIA, SIMILAR SYMPTOMS.\nMY MOTHER HAS HAD THE SAME SYMPTOMS, ALSO WAS ON LIPITOR AND WAS RECENTLY TAKEN OFF BY HER NURSE PRACTITONER.\nIF YOU ARE TAKING THIS MEDICATION CLOSELY WATCH FOR JOINT OR MUSCLE PAIN AND IMMEDIATELY SEE YOUR PRESCRIBING PHYSICIAN FOR A DIAGNOSIS IF YOU WANT RELIEF.\nI DON'T RECOMMEND THIS MEDICATION FOR THE LOWERING OF CHOLESTEROL.",
+        "reported_symptoms": [
+          "JOINT PAIN",
+          "UNBEARABLE MUSCLE PAIN",
+          "HAIR FALLING OUT",
+          "PAIN",
+          "JOINT PAIN",
+          "MUSCLE PAIN"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "When I began taking Lipitor I had what the doctors referred to as TIA's.\nLoss of balance, loss of speech and after several months I began having seizure type symptoms.\nI have been seeing a Neurologist since I was told I was having TIA's.\nI have gone through a TEE and a brain catheter and everything came back normal.\nThe Neurologist told me to stop taking Liptor one week ago and I am starting to feel a little better.\nI am still feeling extremely tired.\nI am hoping this all passes.",
+        "reported_symptoms": [
+          "Loss of balance",
+          "loss of speech",
+          "seizure type symptoms",
+          "TIA's",
+          "feeling extremely tired"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "intense calf pain, swollen feet & ankles, memory loss.\nYes it did lower cholesterol and LDL but June 04 dosage increased from 20 mg to 40 mg per day because ldl had elevated again and Dr wanted ldl @ 70 and mine was at 114.\nBeen off Lipitor since 08-23-04 due to severe calf pain.\nldl is now 211.\n10-13-04 Dr put me on niaspan 500 mg to start.\nHe is not happy, like I was!!!!!!!!.",
+        "reported_symptoms": [
+          "intense calf pain",
+          "swollen feet & ankles",
+          "memory loss",
+          "severe calf pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Muscle aches, bumps on both sides of my stomach that looks like chicken pots, depression, forgetfullness and severe mood swings.\nConstipation and stomach aches.\nI also have Type II Diabetes.\nMy doctor called me Saturday night to tell me that the Lipitor may be damaging my kidneys following ongoing blood work.\nIt did lower my Cholesterol from 299 to 249 and counting.",
+        "reported_symptoms": [
+          "Muscle aches",
+          "bumps on both sides of my stomach that looks like chicken pots",
+          "depression",
+          "forgetfullness",
+          "severe mood swings",
+          "Constipation",
+          "stomach aches",
+          "Type II Diabetes",
+          "damaging my kidneys"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "My hair is getting very thin, after being on cholesterol lowering drugs for 20 yrs.\nLipitor, for the last 8 yrs.\nDidn't know this was a side effect.\nDo all cholesterol lowering drugs cause hair loss?.",
+        "reported_symptoms": [
+          "hair is getting very thin",
+          "hair loss"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_001",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10033432",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "Aches in calf muscles and hip joint.\nWife says I'm crabby when on it.\nHad similar problems with Zocor.\nTaking fish oil (salmon) and glucosamine sulfate has offset the achiness and moodiness.\nCholosterol levels did go down.\nDosages Lipitor-10mg Zocor- 20mg.",
+        "reported_symptoms": [
+          "Aches in hip joint",
+          "Aches in calf muscles",
+          "crabby",
+          "achiness",
+          "moodiness"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "My husband was on 10 mg for several years.\nincreasing muscle pain in legs, right hip, depression.\nWent to 20 mgs and had heart palpitations and more severe pain.\nThank, God, we went on a 10-day vacation.\nHe forgot his Lipitor and pain decreased dramatically.\nWe were able to make the connection.\nI want to shoot his doctor.\nWhen we returned from vaction he tried to start his dose and experienced flu-like symtoms and all-over muscle pain.\nGet off of it if you can.",
+        "reported_symptoms": [
+          "muscle pain in right hip",
+          "muscle pain in legs",
+          "depression",
+          "heart palpitations",
+          "severe pain",
+          "pain",
+          "flu-like symtoms",
+          "all-over muscle pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Hip pain, knee pain, neuropathy in left foot, general leg pain, mental malaise, arm fatigue especially in the triceps, lack of enthusiasm for familiar activities.\nAlmost all symptoms are now relieved after 3 months off.\nThis drug helped my cholesterol a great deal and helped to lower my blood sugar which was border line.\nI will help myself with other methods.\nI went off it without consulting my primary care.\nI will never take another statin.\nThere were never studies for long term use.",
+        "reported_symptoms": [
+          "Hip pain",
+          "knee pain",
+          "neuropathy in left foot",
+          "leg pain",
+          "mental malaise",
+          "in the triceps arm fatigue",
+          "lack of enthusiasm"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I didn't think I had any side effects until I started reading through some of the list of problems other people are having.\nI thought it was just the over 40 factor.\nBut, I too have joint pain in my knees, hips, lower back, and shoulders.\nI have been having pain in my left thigh.\nAs far as forgetting things, I am occasionally saying to my fellow worker.\nIt has done a good job of lowering my cholestoral but, are the side effects worth it?.",
+        "reported_symptoms": [
+          "joint pain in my hips",
+          "joint pain in my lower back",
+          "joint pain in my shoulders",
+          "joint pain in my knees",
+          "pain in my left thigh"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "It concerns me that someone else is recommending SIMVISTATIN as an alternative to LIPITOR.\nUp until 3 weeks ago I was taking LIPEX which is SIMVISTATIN - it reduced my cholesterol very satisfactorily.\nHowever - over time, the following symptoms developed - pain in hips cannot walk even a short distance due to pain.\nLegs felt like they had run a marathon!\nDeep bruising - I thought I was just being clumsy.\nJoint pain in spine, hips and elbows.\nExhaustion.\nA colleague asked if I was on cholesterol medication and informed me there could be a connection - I found this website - amazed at all the similarities to me - I thought I was going MAD!!!\nI came of LIPEX 3 weeks ago, muscles feel better, energy levels picking up, but hip pain still throbbing.\nI also felt like an old woman, I have over the years been to physiotherapists and chiropractors who did not know what to do - recently diagnosed with bursitis in the hips had 2 cortizone injections - still suffering severe hip pain and cannot walk more than 5 yards.\nDoctor agreed I could be having severe side effects of STATIN drug - has insisted I need my cholesterol attended to - has now put me on BEZALIP (no relation to STATINS so I am told) I haven't filled the script yet - need to do more research.\nMy heart goes out to all of you!.",
+        "reported_symptoms": [
+          "pain in hips",
+          "cannot walk even a short distance due to pain",
+          "Legs felt like they had run a marathon",
+          "Deep bruising",
+          "Joint pain in hips",
+          "Joint pain in elbows",
+          "Joint pain in spine",
+          "Exhaustion",
+          "hip pain",
+          "felt like an old woman",
+          "severe hip pain",
+          "cannot walk more than 5 yards"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_002",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "I am writing this for my husband.\nHe initially took 10mg every other day several years ago but would complain of muscle soreness and tore a calf muscle while running once.\nAt that point he stopped the Lipitor and improved.\nFast forward 3 years, he went to dr for check up (he has known coronary disease) and was started back on Lipitor 20mg.\nAt about 2 months in, he had nausea and sweating occasionally.\nOne month later he ended up in hospital for coronary disease and dose up to 40.\nAfter 1 more month had episodes of extreme fatigue, increased belching, stomach discomfort and leg heaviness, low bp and pulse.\nLike the flu without fever.\nHospitalized and cathed again but heart arteries were fine and previously placed stents open Dr stopped blood pressure meds and Lipitor.\nHe was back to normal in a week.\nWe thought it was the Toprol at first due to low bp and pulse also.\nSo started back on Lipitor and within a week felt horrible again.\nStopped it a week ago and will NOT go back on it.",
+        "reported_symptoms": [
+          "muscle soreness",
+          "nausea",
+          "sweating",
+          "fatigue",
+          "increased belching",
+          "stomach discomfort",
+          "leg heaviness",
+          "low bp",
+          "low pulse"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Increased from 20 - 40 mg.\nthree months ago.\nRight elbow just last week became very painful - joint pain.\nAlso, started to have upper and lower back discomfort and trouble sleeping.\nBloated and gassy.\nBlurred vision problems occasionally.\nI did not connect all the dots until I started searching the web for side effects.\nI'm seeing my doctor today and looking into natural cures - 3000 to 6000 mg.\nVitamin C daily, Lysine, Vitamins A & E.\nRead about Dr Linus Pauling on-line and his findings about Vitamin C.\nHe won a Nobel Prize for his research.\nReduced choloesterol levels significantly but side effects are not worth it.\nI like to have a glass of wine with my dinner but with this drug, I'm concerned in addition to the side effects I've just started experiencing.",
+        "reported_symptoms": [
+          "elbow painful",
+          "joint pain",
+          "back discomfort",
+          "trouble sleeping",
+          "Bloated",
+          "gassy",
+          "vision problems"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Terrible burning/numb sensation in hands & feet.\nJoint pain is worse than pre surgery!\nMy chiropractor advised me to look at this website.\nWill be quitting this.\nSince surgery, I've suddenly gone on blood pressure, cholesterol & diabetes meds.\nNever had these problems before.",
+        "reported_symptoms": [
+          "burning",
+          "numb",
+          "Joint pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "muscular pain in the back.",
+        "reported_symptoms": [
+          "muscular pain in the back"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "after I had been on it for 3 months,started breaking out in blisters,and my face looked like it was on fire.\nthe dr took me off of it.\nbut it helped my cholestrol.",
+        "reported_symptoms": [
+          "blisters"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_003",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "Pain along front and outer side of shins.\nvery tender to the touch.\nwalking was the worst,some weird toe tingling at times.\nlasted for years, told it was a pinched nerve in my back.\nAfter reading reports on the internet I stopped it a month ago and its about 50% better already.\nmuscle pain side effects seem much more common than realized by doctors or admitted by the company.",
+        "reported_symptoms": [
+          "Pain along front and outer side of shins",
+          "tender to the touch",
+          "weird toe tingling",
+          "muscle pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I have done very well with Lipitor for the last 2 1/2 years.\nIt has reduced my cholesterol significantly-from over 300 to under 150.\nTwo weeks ago I was given the new generic.\nThis week I noticed that all my fingers and toes were tingling, a pins and needles feeling.\nIt was like they had fallen asleep.\nI immediately went back to pharmacy and got brand name again (luckily my insurance pays-it will be $15/ 3 month supply more, but it's worth it).\nI have noticed just within the last two days the tingling is gone.\nThank goodness!\nI read that generics have the same active ingredients, but there may be a difference in how the medicine is released.\nIt's not EXACTLY the same.\nHigh cholesterol runs in my family and I am greatful that Lipitor can help me manage this.",
+        "reported_symptoms": [
+          "fingers and toes were tingling",
+          "pins and needles feeling",
+          "tingling"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Slight muscle soreness in arms and legs.\nMajor sorness in knees and elbows.\nI have gout and had been attributing the joint pain to that, but after bloodwork, my rheumatologist said it was not gout!\nI have an appt. scheduled to start to deal with this pain but an experience last night and reading some postings on this site are leading me to suspect the lipitor.\nMy usual 20mg dose is taken with dinner, but I had forgotten to take it and remembered just before bedtime.\nI awoke at 3AM with an a knee that was just throbbing with pain.\nI hobbled to the bathroom and took a dose of Advil and was able to get back to sleep after about a half hour.\nI awoke this morning with about a 50% reduction in pain and it seems to have subsided as the day goes on.\nI will never take lipitor before bed again, I may cut the daily dose in half and possibly stop altogether if the pain persists at an intolerable level.\nLipitor has lowered my cholesterol levels to the 180's.\nI had never had a reading below 218 in my life and it has been steadily rising over the last few years to a consistent level in the 240's.\nThe ratio of bad to good cholesterol is in the acceptable zone and never had been before taking lipitor.\nSo, all in all, the lipitor has done a good job.\nI will try to cope with the joint pain, but if it becomes a constant problem, I will have to stop taking the drug.",
+        "reported_symptoms": [
+          "Slight muscle soreness in legs",
+          "Slight muscle soreness in arms",
+          "Major sorness in elbows",
+          "Major sorness in knees",
+          "joint pain",
+          "pain",
+          "knee throbbing with pain",
+          "pain",
+          "pain",
+          "joint pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Deep depression, insomnia, joint stiffness in hands and feet, inability to think clearly to the point I thought I would have to quit my job.\nThis drug dramatically lowered my cholesterol but ruined my quality of life.\nAfter repeated visits to my doctor complaining of these debilitating symptoms he finally made the connection and took me off.\nWithin 3 days, I started to feel like myself again.\nCholesterol plays an important role in brain and nerve function and is essential to our good overall health.\nDo your research.\nStripping your body of it can be devastating.\nI would much rather take my chances with a slightly elevated level than go through that again.\nHorrible.\nPfizer should be ashamed of themselves for not clearly stating the possibility of these side effects.",
+        "reported_symptoms": [
+          "Deep depression",
+          "insomnia",
+          "joint stiffness in feet",
+          "joint stiffness in hands",
+          "inability to think clearly"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Gradual numbing of the feet over a period of a year.\nStarted on Zocor and Insurance recommended switch to Lipitor and had gradual side effects.\nI'm back on Zocor and doing much better after a week.\nI would not recommend Lipitor.",
+        "reported_symptoms": [
+          "feet numbing"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_004",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "Bad muscle pains in legs and constant tiredness.\nChanged to Zocor and things seem better.\nNew discussion forum at http://angina.myfreeforum.org/ to discuss all issues related to this subject.",
+        "reported_symptoms": [
+          "muscle pains",
+          "tiredness"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "MY MUSCLES ACHED AND I DEVELOPED DIFFICULTY IN WALKING.\nIT HAS ALSO AFFECTED MY BALANCE.",
+        "reported_symptoms": [
+          "MUSCLES ACHED",
+          "DIFFICULTY IN WALKING",
+          "AFFECTED MY BALANCE"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Massive hair loss, extreme joint stiffness (esp in my right knee - it would just lock-up), heart palpitations, heavy depression, skin and eyes swollen and itching.\nI have taken it for a long time and only in the last year have these symptoms occurred - perhaps these are long-term usage effects.\nI don't know why this drug is even being allowed to be sold!.",
+        "reported_symptoms": [
+          "hair loss",
+          "joint stiffness",
+          "heart palpitations",
+          "depression",
+          "itching",
+          "swollen"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "After about 4 months of taking Lipitor, one day while walking, my left leg, below the knee, experienced intense pain and stiffness.\nSymtoms have persisted for a week and after reading the comments on this board, I am stopping it.\nWhile it worked well by lowering my cholesterol, I had no idea this was a side affect.",
+        "reported_symptoms": [
+          "left leg, below the knee, experienced stiffness",
+          "left leg, below the knee, experienced intense pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Pain in hip, lower back, knees & elbow.\nStiffness in lower back and legs when getting up in the morning.\nExcercise intolerance and general muscle weakness.\nI ask my doctor about these pains months ago and he said lipitor would not cause my problems.\nHowever, after reading the common side effects with others on this site, I will stop this medication immediately, it not worth feeling like an old man at age 46!.",
+        "reported_symptoms": [
+          "Pain in lower back",
+          "Pain in knees",
+          "Pain in elbow",
+          "Stiffness in lower back",
+          "Stiffness in legs",
+          "Excercise intolerance",
+          "general muscle weakness",
+          "pains",
+          "Pain in hip"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_005",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10016974",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "The drug worked well to lower my cholestorol from 8.5 to <3.\nOf late I have ben getting pain on the sole of my feet and find it dificult to stand or walk for too long.\nHands are also tender and tingle, Often forgetful and tired to point of lacking energy to exercise.\nLack libido.\nI also feel hot and am more sensitive to sunlight.\nAfter reading similar comments, I am off to see my doctor to change medication.",
+        "reported_symptoms": [
+          "pain on the sole of my feet",
+          "dificult to stand or walk for too long",
+          "Hands tender",
+          "Hands tingle",
+          "forgetful",
+          "tired",
+          "Lack libido",
+          "feel hot",
+          "sensitive to sunlight"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "pain in knee and foot.",
+        "reported_symptoms": [
+          "pain in foot",
+          "pain in knee"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Took for 5 years and thought foot pain was from bunion and hammer toe until I started to review side effects.\nSevere neuropathy, sensation of cold toes when they were indeed warm and at times I had severe burning of the feet, leg cramps,.\nIt may have done an excellent job of reducing cholesterol, but it is important to have quality of life and I did not have that anymore.\nI WOULD NEVER TAKE LIPITOR (or any statin) AGAIN!!!!!.",
+        "reported_symptoms": [
+          "foot pain",
+          "Severe neuropathy",
+          "sensation of cold toes",
+          "severe burning of the feet",
+          "leg cramps"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Still have pain in feet and legs, since Dr made me continue this Lipitor (Crippling Medicine from Hell) & when I refused to take it the 2nd time, even though they continued to tell me that I could DIE if I did not take it, with my response being that I could live with agonizing pain and be disabled on this medication or possibly NOT DIE from this medication and still provide for my family by working.\nThat was Long ago & my Feet still hurt so bad by the end of my work day, because they decided I should take Simcor in its place.\nNow I had no ideas at the time about Statin drugs until I found this website, I had been on Simcor for 1 Month & stopped it immediately when I realized that it was perpetuating my Foot/ankle pain.\nI will never take any Statin drugs again, & my Cholesterol is lower from my change in diet.\nDo NOT fall for the Statin Drug Scam, as Big Pharma runs our little Family Dr Offices with Lunches & boxes full of Sample drugs, to either give to patien.\nNever take this Drug or any other Statin Drug, as it has never been proven that Cholesterol will Kill you, especially when I know people who are not over weight and eat right only to have there Hi # above 400 and it is Genetic, with no one dying from Heart attacks in there Family's.\nSo many books out today about the Statin Drug Lies!.",
+        "reported_symptoms": [
+          "pain in feet and legs",
+          "Feet still hurt",
+          "Foot/ankle pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "My feet feel like I have stone bruises just in front of the heel.\nMy hips hurt on both sides when I get up.\nI walk like an old person.\nMy doctor noticed a rough sound in my lungs and a heart murmur that was never mentioned before.\nI'm having tests next week for both.\nI was OK taking 20mg but the doctor raised me to 40mg about 4 months ago.\nIt's only since then that I've had these symptoms.\nI'll probably quit completely though.\nI'm not physically able to do anything much.\nAnd at a young 50 that is just not acceptable.",
+        "reported_symptoms": [
+          "My feet feel like I have stone bruises just in front of the heel",
+          "My hips hurt on both sides",
+          "I walk like an old person"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_006",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "charley horses,back and neck pain--actually an ache, lack of appetite.\nto even a sense of nausea.\nveneer of sadness.\nmy chostral has dropped over the past few months.\ndoc is happy with it--326 to 270 in 3 months<?> i'd like tp dp this without pills--.",
+        "reported_symptoms": [
+          "charley horses",
+          "back ache",
+          "neck ache",
+          "lack of appetite",
+          "nausea",
+          "veneer of sadness"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "No side effect for first 4 weeks, cholesterol down to 150 from 210, then unusual pain and weakness began in both legs, worse on left.\nWorse with exercise.\nLegs felt cramped and sore and weak, especially in calves and lower rear thigh muscles.\nI had been a regular and energetic walker, but I couldn't keep it up.\nMy blood work showed mildly higher levels of whatever is watched for with this drug.\nThe doctor left it up to me whether to continue, and I stopped taking it about 3 weeks ago.\nMy leg pain seemed to improve after about a week but did not go away, and has now worsened again.\nI this drug should be used with far more caution!.",
+        "reported_symptoms": [
+          "in both legs pain",
+          "in both legs weakness",
+          "cramped",
+          "sore",
+          "weak",
+          "blood work showed mildly higher levels",
+          "leg pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "my partner is currently taking this medication liptor, he also takes high blood pressure medication, my reason for initally looking for side effects of liptor was because of my partners decreased libido and to see if there is a connection between this and the medication, however i noticed a small number of people are suffering in this way, i cannot believe the amount of things that are causing such a big problem for so many people taking this drug, my partner is normally very muscular as works out twice a week and has done for years, but over the last 6mths or so seems to have lost a lot of muscle and replacedit with fat, especially around the midrif, he also suffers from regular dioreaha and muscle pain in back and just below shoulder blades, very often also suffers from headaches, doesnt sleep very well at night at all,also gets tired a lot , my partner isnt aware of this website but i will be definetly showing this to him and advising him to perhaps stop taking this medication for a few weeks to see what the difference is , so glad to have found this site.\nmy partner is 40.",
+        "reported_symptoms": [
+          "decreased libido",
+          "lost a lot of muscle and replacedit with fat",
+          "dioreaha",
+          "muscle pain just below shoulder blades",
+          "muscle pain in back",
+          "headaches",
+          "doesnt sleep very well at night",
+          "gets tired a lot"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Hell on earth.\nTook 10 mg for three weeks and stopped.\nWill be seeing my doctor in four days and will tell him what I think, It's dangerous stuff.\nWill never touch this junk again.\nAsked my pharmacist about all the pain especially back, he said it couldn't be the Lipitor!\nReally.\n\nI will probably have to take a blood test but, the results will have no bearing on my decision.\nNo Lipitor, there is something very wrong with it.\nI'm only 40 yrs old and I felt like 90, on the verge of death.\nI couldn't move because of the pain, couldn't sleep or woke up at 11am and could get out of bed, made very irrational moves while driving, couldn't remember where I left my dog 10 minutes before or who I had dinner with last night, had miniscus surgery 3 months ago and now it is painful again, constipation and stomach pain, always hungry.\nGREAT STUFF.\nI'll take my chances without it thanks.\nQuality of life is more important a number, and I can't stand the smell of tiger balm anymore!!\nI think more reseach is needed, something is not right here.",
+        "reported_symptoms": [
+          "pain back",
+          "pain",
+          "couldn't remember who I had dinner with last night",
+          "couldn't remember where I left my dog 10 minutes before",
+          "painful",
+          "constipation",
+          "stomach pain",
+          "always hungry"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Developed severn calf cramps after a couple of weeks on Lipitor where I could bearly walk and after talking to a friend he told me he was prescribed Lipitor and had developed leg cramps and his doctor switched drugs.\nBefore taking Lipitor I never have leg cramps.\nI then called my doctor and told him about my leg cramps and told me to stop taking the Lipitor and he was going to prescribe another drug.\nAfter one week off the drug I still have severn leg cramps and went in for another doctors visit and he said he didn't thiink it was a Lipitor side effect because the cramps were localized and felt maybe the cramps were caused by a muscle enemze.\nHe drew blood and is running tests.\nAbout the same time I got the leg cramps my right knee swelled up so I saw another doctor and I don't know if the knee and leg cramps are related side effects.\nAnyway I asked the second doctor about Liptior side effects re. leg cramps and he felt that the side effect could be localized and that the cramps could.\nAfter learning about the side effects of Liptior and talking to several people who have been prescribed Lipitor all had some kind of side effects.",
+        "reported_symptoms": [
+          "severn calf cramps",
+          "right knee swelled",
+          "bearly walk",
+          "leg cramps",
+          "leg cramps",
+          "leg cramps",
+          "severn leg cramps",
+          "cramps",
+          "cramps",
+          "leg cramps",
+          "leg cramps",
+          "leg cramps",
+          "cramps"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_007",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10022437",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "insommnia, loss of dreaming, inability to visualize; muscle pain, weakness, atrophy; tendinitis, tendinopathy, tendon contracture; miniscus damage; working memory and short-term memory loss, language and learning ability loss including spoken and written aphasia and inability to read; gall bladder disease, pancreatitis, acid reflux; inability to walk.\nI kept taking myself off this drug, was told it COULD NOT BE TH E DRUG, urged to go back on, recovering somewhat each time, but finally the damage was not reversible.\nToday, I live with Lipitor and (other statins) injury which affects my ability to work, and I continue to try to recover.\nAfter long and only partial recovery from Lipitor I took two other statins with similar response.\nMy cholesterol level is over 480.\nI have no cardiovascular disease, and see that according to this evidence based medicine source, there is NO evidence for statins in women for prevention.\nDo statins have a role in primary prevention?\nNO!\nhttp://www.ti.ubc.ca/pages/letter48.htm#comment\nA question to us about Letter #48: What is the evidence of benefit for primary prevention in women?\nThere were 10,990 women in the primary prevention trials (28% of the total).\nOnly coronary events were reported for women, but when these were pooled they were not reduced by statin therapy, RR 0.98 [0.85-1.12].\nThus the coronary benefit in primary prevention trials appears to be limited to men, RR 0.74 [0.68-0.81], ARR 2.0%, NNT 50 for 3 to 5 years.\n.",
+        "reported_symptoms": [
+          "insommnia",
+          "muscle pain",
+          "inability to visualize",
+          "weakness",
+          "atrophy",
+          "tendinitis",
+          "tendinopathy",
+          "tendon contracture",
+          "miniscus damage",
+          "working memory and short-term memory loss",
+          "pancreatitis",
+          "gall bladder disease",
+          "acid reflux",
+          "inability to walk",
+          "language and learning ability loss including spoken and written aphasia and inability to read",
+          "loss of dreaming"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Sleeplessness, tingling in fingers.\nGeneral foggy-headedness.\nTook the drug for several years before realizing that lipitor might be the cause of these symptoms.\nStopped and started several times with recurring side-effects.\nDiscontinued.",
+        "reported_symptoms": [
+          "Sleeplessness",
+          "foggy-headedness",
+          "tingling in fingers"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "sleeplessness, peripheral neuropathy (tingling, numbness), bizarre muscular sensations, rash, itch.\nEffective at lowering cholesterol, but not without side effects.\nDo your research.\nInform your GP as soon as you experience anything strange.\nThis class of medication was most likely produced by a marketing department, rather than sound scientific study.",
+        "reported_symptoms": [
+          "sleeplessness",
+          "tingling",
+          "numbness",
+          "peripheral neuropathy",
+          "rash",
+          "itch",
+          "bizarre muscular sensations"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Insomnia, vivid nightmares when I did sleep, muscle pain, weakness, tired all the time, depression to the point of considering suicide.\nStatins are damaging to so many body processes.\nThe clinical trials for FDA approval weren't nearly long enough to observe all the adverse effects.\nWe're in the REAL clinical trials now, while lining the pockets of the pharmaceutical companies.\nI take grape juice and cider vinegar now - it reduces cholesterol and blood pressure with no side effects.",
+        "reported_symptoms": [
+          "Insomnia",
+          "vivid nightmares",
+          "muscle pain",
+          "weakness",
+          "tired all the time",
+          "depression"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "insommnia.",
+        "reported_symptoms": [
+          "insommnia"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_008",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10047340",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "In decreasing order of severity: Extreme vertigo, short term memory loss, tendonitisis in heels, calf leg cramps, muscle loss, severe tintitinitis (ringing in ears).\nOn Lipitor for 4 months.\nSwitched to Vitorin for six months with decreased side effects, Chlosterol dropped from 220 to 90 but now side effects are worsening, particularly heel tendon bruising and muscle loss.\nSee http://www.spacedoc.net/rest_of_my_story.html for articles on side effects.\nBe aware and monitor side effects.\nRed Yeast is a statin.\nMy allopathic docs are both taking most folks off statins and recommending slo-naicin and coenzyme Q10 with blood tests every three to six months to see if colesterol remains down.",
+        "reported_symptoms": [
+          "Extreme vertigo",
+          "short term memory loss",
+          "tendonitisis in heels",
+          "calf leg cramps",
+          "muscle loss",
+          "severe tintitinitis (ringing in ears)",
+          "heel tendon bruising",
+          "muscle loss"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Vertigo, room spinning , dizziness, nausea, vision problems - seeing two or three of everything.",
+        "reported_symptoms": [
+          "Vertigo",
+          "room spinning",
+          "dizziness",
+          "nausea",
+          "vision problems - seeing two or three of everything"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I Have been on lipitor for several years.\nI have noticed over the last few years that I have not been feeling well.\nThe last couple of months I have been suffering with vertigo.\nI have had all kinds of test and they all come up negative.\nI decided to go off lipitor about three days ago to see if this is causing it.\nI have a freind with the same problem and is on lipitor for about the same amount of time as I have been on it.\nI'm hoping that this dizziness will go away in time now that I have stopped lipitor.\nNone of my doctors will admit that is lipitor causing the problem.",
+        "reported_symptoms": [
+          "vertigo",
+          "dizziness"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "extreme disabling vertigo,loss of support in all muscels in particular calf and leg,excruciatig pain if try to use muscels confined to bed for 2 weeks unable to leave,loss of sex drive,hair,memory loss,extreme fatigue no mater how much i slept,partial tempoary loss of sight one eye,hardest on legs,calfs,and to lesser extent sholders.\nfor me it was a posion,dr did not follow phizer advise,should have taken me off drug a year before due to my complaints instead of blaming it on my age.\ndoctor did not test enzimes or sedementation rate.\nsedimentation rate important norm 1 to 20 mine was several hundred or more.\nbeen off drug for almost 5 months muscel pain is gone strength has recovered to 25 percent of normal,fatigue and vertigo have lifted,cq10 may have helped.\nplus saw palmetto,fish oils ,south beach diet,hydration but stil a long way from all clear,mental strength improving first,but body is still racked,depression has left but still resting when i can and still feeling extremely vulnerable.",
+        "reported_symptoms": [
+          "vertigo",
+          "loss of support in all muscels in particular calf and leg",
+          "excruciatig pain",
+          "loss of hair",
+          "loss of sex drive",
+          "memory loss",
+          "extreme fatigue",
+          "partial tempoary loss of sight one eye",
+          "hardest on legs",
+          "muscel pain",
+          "fatigue",
+          "vertigo",
+          "depression",
+          "feeling extremely vulnerable"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "vertigo caused by cramping neck muscels,all the leg symptons noted on thi sight,arm and total muscel weakness, could not walk for three weeks,depression,excessive sleep reqmt,hair loss,memory (sht term)loss,loss of sex drv.\nbeen off it 10 months,drs spent fortune 160 k looking for additional cause found none,i believe i know how to treat it and what other factors contributed to my severe reaction but it would take a book.\nstill feeling a lot of the effects.\nbut strong improvement since quit taking the poison.",
+        "reported_symptoms": [
+          "vertigo",
+          "cramping neck muscels",
+          "arm weakness",
+          "total muscel weakness",
+          "could not walk for three weeks",
+          "depression",
+          "excessive sleep",
+          "hair loss",
+          "memory (sht term)loss",
+          "loss of sex drv"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_009",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10016256",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "I have had unexplained fatigue (sleeping 11-12 hours a night, and still having no energy all day)since starting Lipitor 2 years ago; my new doctor did a new test and said my SED rate is high- he suspects it is the Lipitor and told me to go off it immediately.\nI don't know if this is the problem, but after reading this site I will not take a statin drug again.\nI also have short term memory loss, and an unexplained cough.\nSure, it lowers cholesterol, but I am a zombie.",
+        "reported_symptoms": [
+          "unexplained fatigue",
+          "no energy all day",
+          "SED rate is high",
+          "short term memory loss",
+          "unexplained cough"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Where to begin?\nOverall fatigue.\nNow get a lot of sinus colds(major pressure pain).\nAlso used to be able to walk 3 miles easily.\nNow cant walk 50 ft without feeling like I am having a heart attack.\nNausea.\nI was on Lipitor of a total of 3 weeks before I had my first chest pain walking to car.\nNow a month off the drug I still have the pain.",
+        "reported_symptoms": [
+          "fatigue",
+          "pressure pain",
+          "cant walk",
+          "feeling like I am having a heart attack",
+          "Nausea",
+          "chest pain",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Have been on Lipitor 3 months.\nIt did lower my cholesterol from 215 to 168.\nHowever, I had been feeling more fatigued and now I am getting severe shoulder, neck and back pain.\nNow my feet are getting sore.\nI am a medical transcriptionist and do a lot of typing, but my hands are so painful, I can hardly sleep at night.\nI am waiting right now for my doctor to call me back.\nMy hands feel cold and tingly now.\nNow I am having constipation problems.\nI cannot believe how painful my arms and shoulders are.\nIt works for cholesterol, but I feel like a truck hit me.\nSince reading all of the comments, I know it is not in my head !\nI feel horrible.",
+        "reported_symptoms": [
+          "fatigued",
+          "pain",
+          "sore",
+          "painful",
+          "tingly",
+          "constipation",
+          "painful",
+          "can hardly sleep"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "SEVERE FATIGUE IN MY BODY AND TIREDNESS AND MUSCLE PAINS IN MY HIPS THAT CONTINUE TO THIS DAY AFTER BEING OFF THE DRUG FOR ALMOST A YEAR.\nDO NOT TAKE THIS DRUG!!!!!!!.\nI was put on this drug by my doctor for my somewhat high cholesterol.\nThe next day, after starting this drug, I suddenly felt like I had aged to eighty years old overnight but did not connect it to starting Lipitor.\nUp until the start of this drug I felt that I was as young as I was in my twenties and wondered if this is how you might start feeling the affects of age, by waking up one morning and feeling all that age caught up with you and now you were older than your years.\nI took the drug for two terrible months and then had a blood test and my cholesterol had dropped.\nMy doctor mailed me the results of my blood test but did not send me a new prescription like he had the last time so I did not know that he wanted me to get it refilled.\nSo I went off of Lipitor and within two months I was feeling normal again and even took a job with the post office where I walked five miles a day with no problem.\nI did not associate my getting better with my coming off Lipitor, unfortunately.\nThen I had an appointment with my doctor and he said I should have refilled that prescription by calling his office.\nSo I did and the next day, after taking only one pill, I was eighty years old again.\nThis time I did associate it with the start of Lipitor and then read the warnings the drug store gives you with meds and found that my symptoms were the same as what they warned against.\nI am not a hypochondriac and I never read those warnings so this was not a head thing.\nI immediately went off the drug but a year later I am still have the same eighty years old feeling and do not know that I will ever be normal again.\nI do not understand how just one pill can do that and this time I am not recovering like I did the first time.\nThis has ruined my life and I would never have taken Lipitor if I knew what I know now and I am so sorry that I ever heard of this drug.\nThis is so severe that I think taking it for even a short time can cause permanent damage.\nMy doctor, when I told him of all this, wanted to change statins because he was still worried about my cholesterol.\nI told him no more statins and he then prescribed Zetia, which he said was was less effective but was not a statin, which I am still afraid to take unless I improve from the affects of the Lipitor.\nHe told me he was on Lipitor himself and that he had no problems but then said, well he did have neck pains that could have been a side affect, but that he had been on the drug two years before this developed.\nI told him of the information on this site that describes some people having that delayed reaction and I advised him to take himself off of this drug for a couple of weeks to see if the neck pains cleared up!\nI advise, DO NOT TAKE THIS DRUG!!!!!.",
+        "reported_symptoms": [
+          "SEVERE FATIGUE IN MY BODY",
+          "TIREDNESS",
+          "MUSCLE PAINS IN MY HIPS",
+          "felt like I had aged to eighty years old overnight",
+          "feeling all that age caught up with you",
+          "I was eighty years old",
+          "eighty years old feeling"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Extreme fatigue, muscle aches, cramps, MEMORY problems, balance problems, cold toes and feet (with NO circulatory problems) cold hands, dry throat/hoarseness, slurred speech.\nLipitor works, but for me it was at a terrible cost to my quality of life.\nAt first, I had no problems.\nProblems began gradually and I never put it together until my GYN said STOP taking Lipitor!\nOver this time, I gradually began to feel like an old, old lady and I was taking medication for arthritis and being tested for sorgren's syndrome.\nI was also joking about developing alzheimers but was really terrified of my memory problems and slurred speech!\nMy internest never suggested it could be the lipitor.\nI've been off 1 month and it's been like waking up from a bad dream.\nEvery day has been better.\nI hope it continues!!\nI took CoQ10 along with it.\nNEVER Again!!.",
+        "reported_symptoms": [
+          "fatigue",
+          "muscle aches,",
+          "cramps",
+          "MEMORY problems",
+          "balance problems",
+          "slurred speech",
+          "dry throat/hoarseness",
+          "slurred speech",
+          "memory problems",
+          "cold toes and feet",
+          "cold hands"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_010",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "Severe cramps in toes.\nFeet sore to walk on.\nTingling and pain in toes and feet.\nSwollen feet.\nInsomnia.\nConstipation.\nHave only been talking the drug for 2 months.\nWill stop taking it now that I find others with similar problems.",
+        "reported_symptoms": [
+          "Severe cramps in toes",
+          "Feet sore",
+          "Tingling in toes and feet",
+          "pain in toes and feet",
+          "Swollen feet",
+          "Insomnia",
+          "Constipation"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I have had muscle/joint pain, mainly in my arms which is very painful when I position them in certain ways; otherwise I am just.\nThis works for lowering Cholesterol, but not so sure about the big picture.\nI hesitated going on it and now believe my original impression was probably correct.\nI am going to try something natural instead.\nThe pain isn't worth it.",
+        "reported_symptoms": [
+          "muscle pain",
+          "joint pain",
+          "arms painful",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I was taking this medication for 2 months.\nIntense pain in both calves and thighs when walking only a few blocks.\nPain in lower back, forearms and left shoulder.\nI thought I was getting PAD.\nI couldn't climb stairs or walk while shopping with my wife.\nI needed to rest every few minutes.\nI don't even have high cholesterol, but my cardiologist suggested I take Lipitor as a preventitive treatment.\nI'm glad I found this site.\nI have stopped taking it for 3 days now, but pain persists.",
+        "reported_symptoms": [
+          "pain in both calves and thighs",
+          "Pain in forearms",
+          "Pain in shoulder",
+          "Pain in lower back",
+          "couldn't walk",
+          "couldn't climb stairs",
+          "needed to rest every few minutes",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "muscle pain, stiffness/pain in hands that kept me awake at night and limited my ability to perform routine tasks such as type, trouble with walking/balance neck, and shoulder pain.\n.\nThey should rename this disability in a bottle ! .",
+        "reported_symptoms": [
+          "muscle pain",
+          "stiffness in hands",
+          "pain in hands",
+          "trouble with walking/balance",
+          "neck pain",
+          "shoulder pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "DEVELOPED LOWER BACK PAIN.\nFOR WEEKS ON END COULD NOT FUNCTION NORMALY.\nHAVE ALWAYS BEEN ACTIVE, WORKED OUT REGULARLY.\nAFTER 2 MONTHS ON THIS DRUG I FELT AS IF I HAD AGED 20 YEARS.\nHAD CONSTANT LOWER BACK PAIN.\nTHERE WAS NO RELIEF.\nDID A SELF EXPERIMENT AND WENT OFF THE MEDICATION FOR A MONTH.\nVIOLA!!!\nI STARTED FEELING LIKE MY OLD SELF, OR SHOULD I SAY YOUNG SELF.\nWILL LOOK FOR AN ALTERNATIVE MEDICATION.",
+        "reported_symptoms": [
+          "LOWER BACK PAIN",
+          "LOWER BACK PAIN"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_011",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10003549",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "Weakness, cramping, muscle spasms.\nSlurred speech and difficulty swallowing.\nHave recently been diagnosed with ALS.\nI blame lipitor.",
+        "reported_symptoms": [
+          "Weakness",
+          "cramping",
+          "muscle spasms",
+          "Slurred speech",
+          "difficulty swallowing"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Extreme fatigue, general muscle aches, dark urine, burning back pain.",
+        "reported_symptoms": [
+          "muscle aches",
+          "dark urine",
+          "Extreme fatigue",
+          "burning back pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Debilitating.\nHas ruined my life.\nOne year - 7 different doctors, no one found the problem for an entire year of suffering!\nNow, off drug for one year and STILL have burning, knotting muscles throughout my body.\nBottoms of feet hurt and are so tight it's hard to walk.\nIt is rare I have a pain free day anymore.\nI'm miserable and used to be quite healthy and active.\nIt should be taken off market.\nWe should be compensated.\nIt's changed my life and I think of the loss every single day.\nI get 4 pain free days per year.",
+        "reported_symptoms": [
+          "burning",
+          "knotting muscles",
+          "feet hurt",
+          "Debilitating"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Made a BIG improvement in cholesterol and triglycerides, but in the three years I've been on it have had extreme fatigue, muscle weakness, depression.\nIn recent months I've had chronic elbow pain in both arms.\nIt just occurred to me that it might be the Lipitor and this site has convinced me.\nI just threw away a bottle with 10 pills remaining and am going to continue with my diet and exercise.\nHope my energy level returns.",
+        "reported_symptoms": [
+          "extreme fatigue",
+          "muscle weakness",
+          "depression",
+          "chronic elbow pain in both arms"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "MY DOCTOR PRESCRIBED 10MG OF LIPITOR 3 YEARS AGO.\nTHIS PAST SEPTEMBER HE INCREASED THE DOSAGE TO 20mg.\nSHORTLY AFTER, I BECAME EXTREMELY FATIGUED AND HAD HEADACHES.\nI HAD TO LEAVE WORK AROUND 1 PM DAILY.\nI WENT BACK TO THE DOCTOR.\nHE SAID IT COULD BE MY THYROID.\nBLOOD TEST WAS NORMAL.\nTHE DR DIDN'T LOOK FURTHER.\nI THEN STARTED TO EXPERIENCE KNEE PAIN,,,SEVERE KNEE PAIN.\nMY DAUGHTER FORWARDED THIS WEB SITE TO ME & I BELIEVE IT'S SAVING MY LIFE.\nI CALLED MY DR AND TOLD HIM THAT I KNEW IT WAS THE LIPITOR EFFECTING ME.\nHE TOLD ME TO STOP TAKING IT FOR 2 WEEKS,,,,I'VE BEEN OFF THE LIPITOR FOR 1 WEEK.\nTHE KNEE PAIN HAS GREATLY SUBSIDED AND I'M LESS FATIGUED.\nTHE HEADACHES ARE GONE.",
+        "reported_symptoms": [
+          "EXTREMELY FATIGUED",
+          "HEADACHES",
+          "KNEE PAIN",
+          "SEVERE KNEE PAIN",
+          "FATIGUED",
+          "KNEE PAIN",
+          "HEADACHES"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_012",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "This is the result of taking 1 pill a day for 12 days: On day 3, I felt stabbing pain above a knee.\nThought I had somehow injured it - but the pain vanished in a day.\nThe next day, I felt stabbing pain in my spine and I thought I had thrown my back out.\nI was hunched over to the left and figured it would take a week to get better, but the pain vanished after a little more than a day.\nI started feeling an odd sensation in the center back of my calves.\nI put weight on suddenly for no reason and ringing in my left ear increased.\nNext the calf sensation turned painful at night and started increasing.\nI figured out these issues all might be caused by Lipitor and stopped taking it immediately.\nBut the pain in my calves continued to get worse for several days!\nMy legs were waking me up at night and were all contorted.\nI've never experienced anything like it but the nurse said,.",
+        "reported_symptoms": [
+          "stabbing pain above a knee",
+          "pain",
+          "stabbing pain in my spine",
+          "pain",
+          "odd sensation in the center back of my calves",
+          "put weight on suddenly for no reason",
+          "ringing in my left ear increased",
+          "calf sensation turned painful",
+          "pain in my calves"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I felt like I had been running a marathon.\nMy legs ached, felt weak, calf muscles painful to touch- extreme fatigue, headaches.",
+        "reported_symptoms": [
+          "legs ached",
+          "felt weak",
+          "calf muscles painful to touch",
+          "extreme fatigue",
+          "headaches"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I have had several boughts of severe muscle cramps that lead to dehydration.\nI have had these while on Lipitor and Zocor.\nThere is no way I can be dehydrated because I am now aware of the problem and drink water and gatorade consantly when I am outside.\nThis site has been amazing to me.\nI am 37 and have been on statins for 13 years.\nOther than the cramps I also have fatigue, muscle twitching, foot pain (10 x-rays), and numbness and tingling in the hands and arms.\n.\nI went to the doctor last week about the cramps, and he took me off Zocor and I am going to wait and see how things are doing.\nThe drugs do lower cholesterol.",
+        "reported_symptoms": [
+          "severe muscle cramps",
+          "dehydration",
+          "dehydrated",
+          "cramps",
+          "fatigue",
+          "muscle twitching",
+          "foot pain",
+          "numbness",
+          "tingling",
+          "cramps"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I was on 10 mgs. and then cut it in half for over two years.\nStopped taking it 11/04 due to severe legs problems; muscle aches/weakness/stiffness, cramps in my feet and hands, pain in my arms and chest, memory problems along with vision problems.\nThis drug needs to be taken off the market and doctors need to realize how much damage it has done to many innocent people.",
+        "reported_symptoms": [
+          "severe legs problems",
+          "muscle aches",
+          "weakness",
+          "stiffness",
+          "cramps in hands",
+          "cramps in my feet",
+          "pain in chest",
+          "pain in my arms",
+          "memory problems",
+          "vision problems"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Severe headache, joint and muscle pain, anorexia, extreme gas, memory loss, mood swings.\nI had a LAD artery 100% blocked a couple years ago and suffered a miocardial infarction.\nThe pain was unbearable and the pain from the headache Lipitor caused was WORSE!\nI've taken Zocor, Crestor and had similar problems with side effects, but i thought Lipitor was going to cause my death.\nNEVER again!.",
+        "reported_symptoms": [
+          "Severe headache",
+          "joint pain",
+          "muscle pain",
+          "anorexia",
+          "extreme gas",
+          "memory loss",
+          "mood swings",
+          "pain from the headache"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_013",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10071701",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "Started on lipitor about 6 months ago.\n2-3 weeks ago I went to MD with sore neck/arms (especially left) feeling of breathlessness and anxiety, feeling like something was going to happen.\nMD told me I was depressed and said Lipitor was not the problem.\nI decided to do some research myself and found this website.\nI immediately stopped taking lipitor a day ago and am experiencing weakness in both arms especially left.\nI am very jittery and tingly and itchy.\nI feel like I am climbing the walls.\nThis is a terrible medicine!!!\nI will never take it again!!\nIt should be taken off the shelves!!!.",
+        "reported_symptoms": [
+          "sore arms",
+          "sore neck",
+          "breathlessness",
+          "anxiety",
+          "feeling like something was going to happen",
+          "depressed",
+          "weakness in both arms",
+          "jittery",
+          "tingly",
+          "itchy"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "pain in shoulder and arm, could not lift arm and had only been taking for 2 weeks.\nCould not sleep because of pain!.\nDon't recommend at all.\nI recommend omega 3 and coq10.\ncholesterol levels went down 100 points with that alone.\nfinally 4 months later my pain has subsided.",
+        "reported_symptoms": [
+          "pain in arm",
+          "pain in shoulder",
+          "could not lift arm",
+          "pain",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I have Rhuematoid Arthritis for 35 yrs and have been on many arthritis meds.\nI currently am on Relefen for inflamation, Prednisone 5mg, every other day and Enbrel injections once a week.\nI have no problems from these drugs.\nEight mos. ago another doctor put me on Lipitor 10mg daily because my chol was 240.\nOver a period of 6 mos., it went down to 159, which was great, BUT I started having terrible aching pain in my arms about that time which was radiating down my arms from my shoulder to my hands and I could not sleep well at all.\nI lost all the strength in my muscles and was fatigued all the time.\nI was blaming my arthritis for my pain for months and months.\nI started taking extra Relefen and Prednisone which helped only temporarly.\nI could hardly lift a glass of milk without using both hands, I was so weak in my arms and hands.\nOne day it just hit me.\nMaybe it's the Lipitor .\nIt was the newest drug I was taking.\nSo, I just quit taking it and within 3 days my arm.\nI suggest anyone who develops a bad symption within a week or month of going on Lipitor, or any other statin drug, quit taking it and call your doctor.\nThere are some important reasons why some people HAVE to be on a statin in some cases.",
+        "reported_symptoms": [
+          "aching pain in my arms",
+          "could not sleep well",
+          "lost all the strength in my muscles",
+          "fatigued",
+          "pain",
+          "could hardly lift a glass",
+          "weak in my arms and hands"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "pain in my arms.",
+        "reported_symptoms": [
+          "pain in my arms"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Pain in shoulder and arms and hands.\nHands are often numb and very weak especially in am.\nI thought it was carpal tunnel syndrome.\nHaving difficulty opening jars.\nI ran marathons in 01, 02 and 03.\nand I have been a regular at the gym until about a year ago when I started lipitor.\nRecently, I noticed that I could not do a single push up without severe pain.\nPlaying basketball has become impossible.\nEven a simple pass causes significant pain.\nThe pain in my arms interrupts my sleep.\nI thought that I was just aging and/or out of shape, but it might be the lipitor.\nI am going off the medication and trying CoQ supplements and vitamin C to see if this helps.",
+        "reported_symptoms": [
+          "Pain in arms",
+          "Pain in hands",
+          "Pain in shoulder",
+          "Hands numb",
+          "Hands very weak",
+          "pain",
+          "pain",
+          "pain in my arms"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_014",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "muscle pain, headache, tingling and sunny sensation on my face, gas.",
+        "reported_symptoms": [
+          "muscle pain",
+          "headache",
+          "tingling and sunny sensation on my face",
+          "gas"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "taking lipitor for 1 year.\nfour months ago I noticed it was difficult for me to get out of bed.\nthe stiffnes and pain in my right hip got worse.\ndifficult for me to walk down the stairs when I first get up.\ni feel like something in my body is going to crack if I move the wrong way.\nlast 3 weeks symptoms are getting worse.\nafter sitting fo a while, it is difficult to stand up.\nvery tired and sometimes legs are restless during the night.\nI thought I was going crazy or had MS or worse.\nBless you for this web site.\nI stopped taking Lipitor on my own but did let my doctor know.\nI will seek alternative treatment.\nI wouldn't recommend it to anyone.",
+        "reported_symptoms": [
+          "difficult for me to get out of bed",
+          "stiffnes and pain in my right hip",
+          "difficult for me to walk",
+          "very tired",
+          "legs are restless"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Very slowly, over many years, I've developed debilitating muscle pains, horrible fatigue, tingling in my arms, legs and fingers; I've gone to the doctor for 5 years, at least, trying to find out what is wrong with me.\nI JUST turned 40 years old and should not feel like this.\nOut of nowhere, I heard about CoQ10 depletion and just started the supplement today.\nI was never told ANY of these symptoms could relate to the Lipitor - in fact, I specifically asked if any of my medications could be causing these problems.",
+        "reported_symptoms": [
+          "debilitating muscle pains",
+          "horrible fatigue",
+          "tingling in my legs",
+          "tingling in my fingers",
+          "tingling in my arms"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "High Liver Enzyme Counts.\nMuscle Fatigue.\nLipitor has damaged my liver permanently.\nI will never be the same.",
+        "reported_symptoms": [
+          "High Liver Enzyme Counts",
+          "Muscle Fatigue",
+          "damaged my liver permanently"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "severe pain in left calf.\nI was only on lipitor for 2 months but I started getting cramps in my left calf and it started to get worse until it was pain and I had trouble standing for longer periods of time.\nWent off the lipitor and within 2 days my calf was better.\nThank God I only took it for 2 months.\nSure, it lowered my cholesterol from 326 to 187 but it is not worth it if you have to live with pain.",
+        "reported_symptoms": [
+          "severe pain in left calf",
+          "cramps in my left calf",
+          "pain",
+          "trouble standing for longer periods of time",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_015",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10028836",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "EXTREME AND EXCRUCIATING MUSCLE PAIN IN SHOULDERS, NECK AND HIP.\nHAS TAKEN 5 MONTHS OFF THIS HORRIBLE DRUG TO BE ABLE TO EVEN LIFT MY ARMS.\nI WILL NEVER TOUCH A STATIN DRUG AGAIN.\nTHESE DRUGS ARE ABSOLUTE POISON AND EXTREMELY DANGEROUS.\nSHOULD BE TAKEN OFF THE MARKET.",
+        "reported_symptoms": [
+          "MUSCLE PAIN IN NECK",
+          "MUSCLE PAIN IN HIP",
+          "MUSCLE PAIN IN SHOULDERS"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "9/20/05.\nI've been taking cholesterol lowering meds for at least 10 years including Mevacor, Zocor, Lipitor and Zetia.\nMy cholesterol went from 398 to 260 on 40 Lipitor.\nThis year I was given 80 mgs of Lipitor and Zetia was added as well.\nAlong with the increased dosage, came crippling pain in my back, neck and then just my left foot, severe pain in my neck to the point where I couldn't hold it up without an effort, increased sinus pain, high blood pressure, insomina, blurred thinking.\nSo to fix all these problems, I was given lots of other meds and tons of physical therapy and exercise each day.\nAll so I could have great numbers.\nFinally, I realized enough was enough, I called the nurse practitioner to say I was stopping Lipitor and she was not really happy to put it mildly.\nI know my cholesterol will always be high, but after 2 weeks off Lipitor, I feel better each day and know it's not my age causing the pain, high blood pressure, memory loss, dizzines.",
+        "reported_symptoms": [
+          "pain in my neck",
+          "high blood pressure",
+          "insomina",
+          "blurred thinking",
+          "sinus pain",
+          "pain",
+          "high blood pressure",
+          "memory loss",
+          "dizzines",
+          "pain in neck",
+          "pain in back"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "My Prostate Oncologist prescribed 10 mg per day for high LDL.\nThe first day I did my normal excercise routine, ran two miles, lifted weights, etc\nThat night I had neck pain, and thought it was nothing.\nTook the second tablet the next day.\nUpon arising on the second day, I noticed that I was very tired.\nPain or cramping in both quads (above knee, back of leg).\nI was not motivated to do anything.\nSpent most of the day in bed, reading a book, something I rarely do.\nBy the afternoon I could barely function.\nFelt generally terrible, flu like symptoms, lower back ache, irritable, no motivation, and pain in knuckles, neck, and both upper legs.\nI had a worse headache than usual (I have migraine), but who knows?\nWent to the internet and found this site.\nSaw Lipitor commercial on TV warning about muscle pain.\nI did not take the tablet today, and I am feeling better.\nI attribute the condition to the Lipitor, although there is no proof.\nI am a prostate cancer patient and take a number of other drugs, which raise the LDL.\nApparently, some (a few) patients cannot tolerate this drug.\nI note that there are some on this list who have permanent damage, so it is serious for some of us.\nMy legs are still sore, and feel worse than they did after a day of agressive downhill skiing a week ago.\nApparently this works for most, but some people have a severe and not so obvious reaction.\nStop immediately if there is any muscle pain.",
+        "reported_symptoms": [
+          "neck pain",
+          "very tired",
+          "Pain in both quads (above knee, back of leg)",
+          "cramping in both quads (above knee, back of leg)",
+          "not motivated to do anything",
+          "Felt generally terrible",
+          "flu like symptoms",
+          "lower back ache",
+          "irritable",
+          "no motivation",
+          "pain in neck",
+          "pain in both upper legs",
+          "pain in knuckles",
+          "worse headache than usual (I have migraine)",
+          "legs are sore"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "neck pain/back spasms/foggy thinking/insomnia.\nI took this drug for 1.5 years.\nGreat results.\nbut the side effects were very negative as listed above.\nMy dr. reviewed my complaints and agreed that it wasn't worth it.\nI am going to do a diet and excercise change.\n60 days blood check and then look at natural options/red rice/increase omega 3/ect.\nNo more statins for me.\nI don't have plaque so I have options.\nMy husband has a high plaque count so he doesn't.",
+        "reported_symptoms": [
+          "neck pain",
+          "back spasms",
+          "foggy thinking",
+          "insomnia"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I experienced severe pain in my left shoulder and neck.\nUnable to raise my left arm.\nAm still in physical therapy after 1 year, and my arm and neck are still unable to move very well.\nI am also seeing an orthopedic surgeon, who took x-rays and cannot see anything on them.\nHe diagnosed it as frozen shoulder.\nFunny, that it only began when I started the Lipitor.\nI took myself off it 4 months ago, and am still in pain and cannot sleep well at night.\nMy doctor never warned me about eating grapefruit, which I had every morning while taking the Lipitor.",
+        "reported_symptoms": [
+          "pain",
+          "cannot sleep",
+          "pain in neck",
+          "pain in shoulder",
+          "Unable to raise my left arm",
+          "unable to move"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_016",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10040617",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "Shoulder, knee, elbow, joint pain.\nMemory fog.\nAnxiety.\nLow Libido.\nAtorvastatin generic.\nExperienced brain fog immediatley.\nReally bad for my highly technical attention to detail work.\nStarted experiencing joint pain approx 6 months in.\nLeft shoulder is so bad right now have ice pack as I am typing this and have been taking alleve daily for the inflamation and pain.\nI previously had pain in the other shoulder, elbow, and knee, but moved and had to get another MD.\nIn the meantime I was off the drug for a few weeks and saw improvement of those areas.\nNow I have been back on for another 6 months and the left shoulder is terribly painful.\nI have stopped the med for a week and hope to see improvement soon.\nDiet and exercise does not work for my genetic high cholesterol, but I am with the majority here and it's not worth it if ending up crippled or senile.\nI will find a natural alternative.\nI wish you all the best.",
+        "reported_symptoms": [
+          "Shoulder pain",
+          "knee pain",
+          "elbow pain",
+          "Memory fog",
+          "Anxiety",
+          "Low Libido",
+          "brain fog",
+          "joint pain",
+          "inflamation",
+          "pain",
+          "left shoulder is terribly painful"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "aches and pain in both arms and shoulders and weakness in arms, especially left arm.\nDifficulty sleeping because of pain.\nNoticed a decrease in sexual desire, but don't know if Lipitor is to blame.\nSeems like the cure is worse than the disease.\nI will discontinue using lipitor and see if the pain goes away.",
+        "reported_symptoms": [
+          "aches and pain in both shoulders",
+          "aches and pain in both arms",
+          "weakness in arms",
+          "Difficulty sleeping",
+          "decrease in sexual desire",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Terrible pain in hips and shoulders.\nAfter taking Lipitor for a year, I started having pain in my hip.\nTold Dr about it, he didn't seem to concerned.\nAfter about 1 1/2 years I started having pain in my shoulders.\nThe pain is so bad at this point that it wakes me up at night and extremely limits the use of my arms.\nDr sent me for x-rays, MRI, to see an orthopedic surgeon.\nAll results negative.\nThey suggested it could be tendonitis or avascular necrosis and recommended anti-inflammatories.\nNobody ever suggested it could be the drug until I found this site doing research on my pain.\nIt makes me wonder how powerful these drug companies are that doctors won't even suggest that the drug could be the problem.\nI'm stopping this drug today in the hopes that the pain goes away.\nHopefully I'll be able to play catch with my boys and swing a golf club again some day.\nIf I die of a heart attack from high cholesteral in 20 years, so be it.\nI'd rather have a shorter life that I enjoy than a long life of pain.",
+        "reported_symptoms": [
+          "Terrible pain in shoulders",
+          "Terrible pain in hips",
+          "pain in my hip",
+          "pain in my shoulders",
+          "pain bad",
+          "extremely limits the use of my arms",
+          "pain",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Pain in shoulders joints to the point it was impossible to reach for anything above my shoulders.\nQuit taking it and was back to normal in two months.\nMy doctor said it was arthritis or bursitus due to my age.\nHe still would rather I be a cripple and go back on Lipitor.",
+        "reported_symptoms": [
+          "Pain in shoulders joints"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Left shoulder pain and right hip and muscle pain over 3 weeks.\nI'm a physician and initially figured the pain was sports related (although being right handed, I was suspicious about the unilateral left shoulder pain).\nI stuck it out for 3 weeks until I had a significant limp.\nThen stopped Lipitor 3 days ago and noticed a very significant mitigation of the pain - about 80% resolved already.\nThe drug worked wonders on cholesterol (down 80 in 4 months), but I'll be starting an alternative shortly.",
+        "reported_symptoms": [
+          "shoulder pain",
+          "muscle pain",
+          "pain",
+          "shoulder pain",
+          "significant limp",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_017",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10028411",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "Muscle and joint aches in arms, elbows, and calves.\nFelt worse when woke up.\nI'm 53 and it made me feel 83.\nLots of gas.\nBeen taking for 7 years.\nSymptoms appeared first last yr - early 06 - stopped taking for two months, restarted and symptoms came back summer of 07.\nDosage for past 2 yrs has been 40 mg once a day.",
+        "reported_symptoms": [
+          "Muscle aches in arms",
+          "Muscle aches in elbows",
+          "Muscle aches in calves",
+          "joint aches in elbows",
+          "joint aches in calves",
+          "joint aches in arms",
+          "Lots of gas"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "muscle pain/inability to walk with left foot pain.\nMemory loss.\noverall loss of muscle tone.\nUnable to control weight.\nTry to get a cardiologist to listen to you regarding symptoms.\nCalled Pfizer and talked with nurse there and she recommended I let my doctor know about symptoms.\nShe explained that drug was mfg in USA.\nMy concern was that maybe some of the drug was mfg outside of USA, like maybe China and that a portion of the formula was causing problems.\nBut in general the whole formula is poison so far as I am concerned.\nThank God for this website.\nAm seeing new GP this week, and if he doesn't take me off Lipitor, am going to do it myself.\nWill take my chances rather than live this hell any longer.\nHave been on Lipitor for 6 years too long.",
+        "reported_symptoms": [
+          "muscle pain",
+          "inability to walk with left foot pain",
+          "Memory loss",
+          "overall loss of muscle tone",
+          "Unable to control weight"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "muscle and joint pains--particularly severe at night--lasting even after stopping medication, although decreasing in severity.\nI'm distressed that pain continues even after stopping the medication.\nI took the medication for 9 months (my doctor said the pains weren't from the Lipitor because there was no indication in the blood work)--finally stopped when could barely walk.\nI've been off the medicine for 2 months and pain is less, but still very present, especially in joints.",
+        "reported_symptoms": [
+          "muscle pains",
+          "joint pains",
+          "pain",
+          "pains",
+          "could barely walk",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Shoulder and neck muscle pain, tender joints, wrist pain, fogginess, depression when not getting enough rest, possible insomnia.\nI took Lipitor for 7 years due a genetic form of high cholesterol.\nControlled cholesterol levels very well.\nNever thought it was doing me harm, until my cardiologist bumped me from 40mg to 80mg.\nHad muscle pain that would not go away, memory loss (could not remember names or words at times), trouble sleeping (possibly-I've always had some insomnia).\nSymptoms eased at 40mg again, but did not go away.\nStill felt like an 'old man'.\nWent off the drug after much thought, all physical symptoms disappeared, physiological problems eased.\nTried Crestor but it was far worse for physical symptoms.\nAbout to try low does of Pravichol and work up from there.",
+        "reported_symptoms": [
+          "Shoulder muscle pain",
+          "neck muscle pain",
+          "tender joints",
+          "wrist pain",
+          "fogginess",
+          "depression",
+          "insomnia",
+          "muscle pain",
+          "memory loss",
+          "trouble sleeping"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "terrible muscle pain terrible mood changes could hardly walk or lift my arms.\nstopped taking them 4 years ago and still suffer terrible muscle pain and wasting.\ni have set up a website for australians to connect who have been afflicted by this medication please come and join and unite in effort to educate the medical fraterity of their ignorance or denial http://australianstatinvictims.com/.",
+        "reported_symptoms": [
+          "muscle pain",
+          "mood changes",
+          "hardly lift my arms",
+          "hardly walk",
+          "muscle pain",
+          "muscle wasting"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_018",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "After about 1 1/2 years of 40mg my MD upped the dose to 60mg.\nShortly afterward I began noticing hip soreness and leg soreness.\nIt feels like my joints don't want to work.\nAlso noticed increase in level of fatigue.",
+        "reported_symptoms": [
+          "hip soreness",
+          "leg soreness",
+          "feels like my joints don't want to work",
+          "increase in level of fatigue"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "mussel twitches every where mussel spasms and cramps.\nwould not give this stuff to a goat.",
+        "reported_symptoms": [
+          "mussel twitches",
+          "mussel cramps",
+          "mussel spasms"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "My brother experienced memory loss and paranoia, leading to a uncharacteristic suicide.\nNo history of mental illness or suicide in the family.\nNo motivation for suicide (police investigation is ongoing).\nHis experience of the side effects apparently frightened him into suicide.\nHe also seems to have had hallucinations.\nExtremely dangerous drug.",
+        "reported_symptoms": [
+          "memory loss",
+          "paranoia",
+          "suicide",
+          "hallucinations"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Muscule pain and numb leg chest pain.",
+        "reported_symptoms": [
+          "Muscule pain",
+          "numb leg",
+          "chest pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "GRADUAL BUT SIGNIFICANT INCREASE IN SLEEP REQUIREMENT AND ENERGY LOSS,LOSS OF CALF SUPPORT IN LEGS,VERTIGO LIKE EPISODES,COMPLAINTS TO DOCTORS WERE TO NO AVAIL, CONVINCED ME IN ERROR.\nAFTER GOING OFF THAT GARBAGE WITH IN TEN DAYS SLEEP REQMT WENT FR 12 TO 7 HOURS, ENERGY LEVEL INCREASED DRAMATICALLY, LEG PAIN WENT AWAY, STRENGTH IS RETURNING, VERTIGO LIKE SYMPTONS DECREASING, LOOKING TO JOIN CLASS ACTION SUITE.",
+        "reported_symptoms": [
+          "INCREASE IN SLEEP REQUIREMENT",
+          "ENERGY LOSS",
+          "LOSS OF CALF SUPPORT IN LEGS",
+          "VERTIGO LIKE EPISODES",
+          "LEG PAIN",
+          "VERTIGO LIKE SYMPTONS"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_019",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "Cannot be sure it is the drug, but around the time I was on it a month, began having pain on outer sides of thighs.\nKnowing some cholesterol meds can cause leg pain my doc did some kind of check on me and said it was not the drug.\nStill have those pains, not terrible, just feel like I have been hiking uphill and am fatigued there.\nHas done a very good job keeping cholesterol down.\nI am going to request lowering the dose w/ the doc.",
+        "reported_symptoms": [
+          "pain on outer sides of thighs",
+          "pains"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "after taking for about 1 yr, I noticed muscle pain and weakness in both arms on and off.\nI ache 24 hrs a day.\nThis is now continous for about 6 weeks.\nI called MD today, he said stop taking lipitor immediately and sent me to lab for blood tests to determine if any damage done to liver, muscles or heart.\nI wish I had called MD sooner.\nHope if any damage, it is reversible.",
+        "reported_symptoms": [
+          "muscle pain",
+          "weakness in both arms",
+          "ache"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "severe muscle pain.\nIt has been about seven years since I've been off this but I still have muscle pains.",
+        "reported_symptoms": [
+          "severe muscle pain",
+          "muscle pains"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Got shingles, and was told by a doctor the shingles resulted from the depletion of CoQ10 caused by the Lipitor.\nA research article in JAMA, 2004;291:2243-2252 concludes this:.",
+        "reported_symptoms": [
+          "shingles",
+          "shingles"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Was put on lipitor 3 months ago because of high cholesteral.\nTook for a month and seemed to have problems with feet, etc but kept taking.\nI had tests done after a month.\nMy doctor sent a letter and said to cut the dose in half for a month and have tests again.\nAfter my second set of tests she called me and told me to go off completely.\nShe said she realized that my cholesteral would go back up, but CPK is of concern.\nWas raised to mid 200's.\nAfter a month I went in and of course my cholesteral was back up and my CPK level was elevated to over 500.\nNow am having another blood test a week later.\nNot sure what it will show but I feel horrible.\nTingly hands, terrible musche aches.\nShe told me no excercise until we determine what the problem is with CPK level.\nMy husband said my face looks puffy.\nMy eyes hurt all the time.\nI look sickly.\nThis is horrible.\nNever again!\nDON'T TAKE THIS!!!!!!!.",
+        "reported_symptoms": [
+          "problems with feet",
+          "Tingly hands",
+          "terrible musche aches",
+          "face looks puffy",
+          "eyes hurt"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_020",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "I have been complaining to a variety of doctors about severe muscle cramping that has been affecting me for the past three years, which started upon waking one morning with what felt like a shark biting into my right calf.\nI'd been taking Zocor for years and had recently been switched to Lipitor.\nNot one of the doctors once mentioned the statin as a possible cause of this problem.\nI wake up each morning feeling paralyzed all over my body.\nas if I have rigor mortis and am being resurrected from death (no exaggeration).\nThanks for this website and to all you people who have shared your experiences of Lipitor.\nI finally have my answer!!! .\nThis drug has been destroying every aspect of my life.\nphysical and psychological.\nIt's destroyed my self-confidence, my sex life, my business.\nAnd now it looks and feels like the medical establishment is keeping it all a dirty little secret for the sake of the income that statins generate.\nI'd rather have died outright from a heart attack than suffer as I have the past three years.\nAnd, reading this website, I can find a little comfort in knowing that I am not alone with this maddening array of weird symptoms.\nThank you!\nThank you!!!\nYou may have saved my life !!!.",
+        "reported_symptoms": [
+          "severe muscle cramping",
+          "felt like a shark biting into my right calf",
+          "feeling paralyzed all over my body",
+          "as if I have rigor mortis and am being resurrected from death (no exaggeration)",
+          "destroyed my sex life",
+          "destroyed my self-confidence"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Depressions, lack of energy.\nSide effects seemed to sneak up on me, it wasn't until I ran out and stopped taking it that I discovered how much better I felt.\nI know several others that take Lipitor without these effects.",
+        "reported_symptoms": [
+          "Depressions",
+          "lack of energy"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Muscle pain which I thought was Arthritis.",
+        "reported_symptoms": [
+          "Muscle pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I did not link my problems to the Lipitor until my husband had major problems, now I know what has caused 10 years of Neuropathy, I have Burning feet always in bed at night, I do not have Diabetes (which would cause this) and was tested in DC at WRAMC and they found no reason that I should have this and gave me a tube of Capsacian!!!\nI still live with this.\nFour years ago I developed Frozen Shoulder in my left arm, unbelievable pain, within weeks the other shoulder became as painful as the first, could not raise my arms at all, tested at Bethesda Naval Hosp., no reason found, I was told it would last about 2 years unless I took therapy sessions, I took the sessions and begged for someone to put me out of my misery each time, it eventually passed in about a year but I still have shoulder pain.\nToday I am stopping the Lipitor, maybe I have read too much on the subject but the one that really scares me is the Memory Loss, All the drug com.\ntests were done to see how well the Statins did for Cholesterol and the heart benefits, but no testing (or none that the consumer was told of) was ever done to see how it effects the brain function.\nMemory is too precious a thing to lose to a drug!.",
+        "reported_symptoms": [
+          "Burning feet",
+          "Frozen Shoulder",
+          "pain",
+          "shoulder painful",
+          "could not raise my arms",
+          "shoulder pain",
+          "Memory Loss"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Took 10mg lipitor for 7 years had soreness of muscles for 4 years.\nThen started with excruciating pain and muscle cramps in lower back,then down left buttock, thigh,calf and ankle.\nLeft foot has a numbness feeling to it,tingling in lower leg when walking,which I have to use a cane now.\nAlso very fatiqued,buzzing in both ears, nausia, sleeplessness, gas and dark urine.\nAll these side effect I have 24/7.\nI have asked my doctors more then once if any of my meds. could be causing me all this pain,3 different doctors said NO.\nThey came up with, Arthritis,Tendonitis,Sciatica,after being checked out for all these, they were wrong.\nI stopped taking Lipitor and Tricor about 6 weeks ago.",
+        "reported_symptoms": [
+          "soreness of muscles",
+          "pain",
+          "muscle cramps",
+          "numbness",
+          "tingling",
+          "fatiqued",
+          "buzzing in both ears",
+          "nausia",
+          "sleeplessness",
+          "gas",
+          "dark urine"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_021",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10012378",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "depression, general malaise, nausea, taste loss, insomnia, hair loss, bronchitis and/or flu 3 times during winter and 1-2 times during summer, abdominal pain, muscle spasmns in legs and left arm, back pain.\nI felt always like I had a veil over my head and lead in my legs.\nThis drug is a nightmare and should be discontinued.\nI had my first child at 34 and my husband and I wanted a second one badly.\nBecause of all the medical issues this had to be postponed.\nMeanwhile my husband lost his job and we had to apply for insurance coverage - I was refused due to my medical history even I had been an extremely healthy individual until I was put on this medication.",
+        "reported_symptoms": [
+          "depression",
+          "general malaise",
+          "nausea",
+          "taste loss",
+          "insomnia",
+          "hair loss",
+          "bronchitis",
+          "abdominal pain",
+          "muscle spasmns in left arm",
+          "muscle spasmns in legs",
+          "back pain",
+          "felt like I had a veil over my head",
+          "felt like I had lead in my legs"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Immediatly reduced my cholesterol.\nOver the 12 years my health has weakened in many ways that I noticed some of you other posters have mentioned.\nIs it because we are aging?\nOr the drug?\nSymptoms.\nhere goes.\nDepression.\nBack surgery but the afterpain was unexplained?\nMaybe Lipitor?\nHips are sore and lower back pain.\nVision reduced greatly.\nHair loss.\nTired most of the time.\nCan't get to sleep and then can't get out of bed till late morning or midday.\nNo strength.\nLoss of breath.\nSo if a person goes off this, what is the drug alternative to keeping the cholesterol down?\nI am thinking of stopping the lipitor and going on a diet to prevent the cholesterol from rising.\nAny other suggestions would be greatly appreciated.\nGood luck to you all.",
+        "reported_symptoms": [
+          "Depression",
+          "sore",
+          "back pain",
+          "Vision reduced",
+          "Hair loss",
+          "Tired most of the time",
+          "Can't get to sleep",
+          "No strength",
+          "Loss of breath",
+          "can't get out of bed"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "sudden onset severe depression.\nIt worked very well the first time it was prescribed and I lost 20 pounds using it with exercise and diet.\nWhen this medication was combined with a SSRI it failed to reduce my HDL cholesterol in a meaningful amount and it caused intense anxiety attacks and short periods of intense depression.",
+        "reported_symptoms": [
+          "severe depression",
+          "intense anxiety attacks",
+          "intense depression"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Overall decline in life.\nDepression, severe and persistent musclo-skeletal pain, insomnia, gas, severe rectal bleeding, nausea, stomach pain, syncope and more.\nAfter ten years of misery I stopped taking lipitor/atorvastatin, on the advice of my doctor, for a week to relieve severe shoulder pain, which I extended to ten days when I noticed an amazing improvement in my general well-being and after the ten days felt so much better I stopped taking it altogether.\nFor those who feel a long life is preferable to a good life, this drug may be worth taking; for those who have enjoyed life and would prefer a slightly shorter one to a longer miserable one, stopping it is not a bad idea.\nTrust me - I get up every morning feeling a thousand times better, stay busy and active all day long and feel as I used to feel before I started taking this drug.\nand ALL of the symptoms have completely disappeared.",
+        "reported_symptoms": [
+          "Depression",
+          "musclo-skeletal pain",
+          "insomnia",
+          "gas",
+          "rectal bleeding",
+          "nausea",
+          "stomach pain",
+          "syncope",
+          "shoulder pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Suffered from depression after taking lipitor but did not realize connection.\nStopped taking lipitor and depression left within days.\nI wouldn't take lipitor in any dose at any time.\nIt made me realize the dangers of drugs.",
+        "reported_symptoms": [
+          "depression",
+          "depression"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_022",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "Constant aching/pain and weakness in arms, wrists, back of hands and shoulders.\nPain in lower legs and lower back not quite as severe but still present.\nGas and frequent diarrhea.\nDifficulty getting to sleep due to aching muscles.\n'Severe aggitation' and quick to snap.\nFor a while I was almost looking for someone to push a little too far so I could punch them.\nI usually avoid confrontations.\nThe aggitation is one of my biggest concerns.\nAlso growing more and more tired.\nI cut the dose from 10mg to 5mg and reduced above side effects by about 40%.\nSurprised when I found others had similar symptoms.\nTook 10mg of Lipitor for 6 weeks and dropped my cholesterol from 310 down to 225.\nMentioned how I felt and was directed to cut the dose in half.\nHave taken 5 mg for about 4 weeks and cholesterol is now around 210.",
+        "reported_symptoms": [
+          "Constant aching/pain",
+          "weakness",
+          "Pain in lower back",
+          "Pain in lower legs",
+          "Gas",
+          "diarrhea",
+          "Difficulty getting to sleep",
+          "aching muscles",
+          "Severe aggitation",
+          "quick to snap",
+          "aggitation",
+          "tired"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Taking it for a little over a year and have had many of the side effects to some degree.\nGas, bloating.\nsleeplesness along with fatigue and not being able to get out of bed in the morning.\nThe worst is muscle stiffness and not being able to walk at times.\nI am feeling like an old lady and I'm only 54 and blamed all this on menopause or arthritis.\nDifficult to walk up and down the steps especially in the morning.\nI just stopped taking lipitor and after this experience I WILL adjust my diet and I just joined the gym again.\nI am taking some herbs to detox my system and in a month,I will begin alternative treatment.\nI was also starting to become depressed.\nGood Luck to all of you.\nWill keep all of you in my prayers.",
+        "reported_symptoms": [
+          "Gas",
+          "bloating",
+          "sleeplesness",
+          "fatigue",
+          "not being able to get out of bed in the morning",
+          "muscle stiffness",
+          "not being able to walk",
+          "Difficult to walk up and down the steps",
+          "depressed"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Severe pain in right heel and related tendons.\nMuscle cramping in left lower leg.\nTook 10 mg daily for four months, then finally had to stop due to inablity to walk down stairs due to the pain (I am 41, and run a 5k every day, so this should not be the case).\nUnder doctor's orders am to wait for full muscle recovery, then try again at 1/2 dosage.\nif pain returns I will have to seek other alternatives besides Lipitor.\nThe drug did knock my cholesteral down by 55%, so I have motivation to try and make it work.",
+        "reported_symptoms": [
+          "Severe pain in right heel",
+          "Muscle cramping in leg",
+          "inablity to walk",
+          "pain",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "memory problems, depression, muscle aches, joint pain, exercise intolerance, transient global amnesia.",
+        "reported_symptoms": [
+          "memory problems",
+          "depression",
+          "muscle aches",
+          "joint pain",
+          "exercise intolerance",
+          "transient global amnesia"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Severe skin rash to my upper thighs .\nThe itch and pain is unbearable to the point you cant sleep or bear to wear your trousers.",
+        "reported_symptoms": [
+          "skin rash",
+          "itch",
+          "pain",
+          "cant sleep"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_023",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "Some muscle soreness, but tolerable.\nHowever weight gain has been a problem.\nSeveral friends mentioned the same weight gain problem.",
+        "reported_symptoms": [
+          "muscle soreness",
+          "weight gain",
+          "weight gain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "blinding headaches, neck and shoulder pain.\nMemory loss and at times find it difficult to work.\nsevere fatigue with aches and pains.\nPrior to taking this medication I felt great and look forward to getting back to my old self again.\nI have been off lipitor for almost 2 weeks and still feel pretty lousy.",
+        "reported_symptoms": [
+          "blinding headaches",
+          "neck pain",
+          "shoulder pain",
+          "Memory loss",
+          "severe fatigue",
+          "aches and pains",
+          "feel pretty lousy"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Nightmares, knee pain.",
+        "reported_symptoms": [
+          "Nightmares",
+          "knee pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Having been on Lipitor for over one year, with a modest reduction in cholesterol levels, I developed a severe reaction following shoulder surgery.\nApproximately 4 months following my surgery, I developed an abrupt and chronic pain in my arms, hands and the back of my upper legs (from buttocks to knees).\nAfter two MRI's and EMG and blood and urine analyisis reviewed by a Neurologist with negative and/or normal results, I self-diagnosed having read numerous patient complaints mirroring my symptoms and reading a cautionary warning to physicians to consider taking their patients off Lipitor when the patient was scheduled for major surgery (www.drug.com).\nMy Neurologist has prescribed Prednisone 10mg to help with the symptoms.\nI am trying to limit my use of the Predisone but cannot take care of basic functions without a minimum of 10mg daily.\nAs a CEO of a large sales company and a physcially active person, I'm extremely concerned about this chronic condition.\nI have been off Lipitor f.",
+        "reported_symptoms": [
+          "pain in hands",
+          "pain in back",
+          "pain in upper legs",
+          "pain in my arms"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "severe abdominal cramps, leg cramps, diahhrea, after taking 10mg only 3 days.\nSymptoms still persist 1 week later.\nDon't take it.",
+        "reported_symptoms": [
+          "severe abdominal cramps",
+          "leg cramps",
+          "diahhrea"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_024",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10018074",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "Lipitor reduced my readings to almost normal.\nAt the same time I suffered from fibromyalgia.\nThe pain all over my body got worse as time went on.\nI noticed that when I left my Lipitor at home when I was on vacation or other trip, that I began to feel better.\nMy doctor told me there was a remote possibility that the Lipitor was agravating the fibromyalgia.\nI stopped taking Lipitor and feel so much better!\nBut, it seems I buggered up my stomach from all the pain killers that I took.\nWhat to do next?.\nPlease be carefull with this drug and watch for all types of body pain,.",
+        "reported_symptoms": [
+          "pain all over my body",
+          "body pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Body aches (knees, back and especially chest) which increased with time, lethargic, short term memory lacking, concentration is worse than ever.\nWorked wonders for my cholesterol but ruined everything else.\nI kept telling my doctor about the body aches but he always blamed it on something else.\nstress, anxiety, lack of exercise.\nI'm still on the lipitor but I'm contacting my doctor to try another cholesterol med.\nI'm glad I came across this site.",
+        "reported_symptoms": [
+          "Body aches",
+          "knees aches",
+          "back aches",
+          "chest aches",
+          "lethargic",
+          "short term memory lacking",
+          "concentration is worse than ever",
+          "body aches",
+          "stress",
+          "anxiety"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Body aches.\nThinking of decreasing my dose from 20mg to 10mg.\nJust read an article about it being very important to take CO-Q10 if you are on a statin because statins deplete your natural CO-Q10 which can affect the heart.",
+        "reported_symptoms": [
+          "Body aches"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Aches and pain from head to toe, very grouchy.\nI have been competitive in road racing for almost 20 years, but after starting this drug I began to notice my performance falling off.\nLater I got pains so bad that I could not run.\nI stopped taking this drug and after about 3 months am almost back where I was with my running.\nI detest lawyers, but statin class drugs are crying out for a class action lawsuit to stop their use.",
+        "reported_symptoms": [
+          "Aches and pain from head to toe",
+          "very grouchy",
+          "pains so bad"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Body aches, joint pain, decreased mobility, decreased testosterone and libido, difficulty getting out of bed in the morning, tingling and itchy hands,and decrease in overall strength.\nI have been taking lipitor for many years.\nI started out on 10mgs and now I am on 40mgs.\nI have had hip replacement, back surgery, and shoulder surgery while on this drug.\nI have seen my strength decrease dramatically.\nI have to be on testosterone replacement.\nMy brother is also on Lipitor and has had recent knee surgery for a torn miniscus and ACL.\nHe is also on testosterone therapy.\nIm only 47 and he is 45.\nThis sounds like alot of physical problems for guys our age.\nIt wasnt until he mentioned that he had heard about the possible dangers that statins have on tendons that I saw all of these other people and their problems with Lipitor.\nThis could be the reason for many things that I have been suffering physically.\nI am getting off the Lipitor immediately for a few months to see if some of my symptoms get better.\nFish oil, niacin, vitimin c, and a healthy diet!!!.",
+        "reported_symptoms": [
+          "Body aches",
+          "joint pain",
+          "decreased mobility",
+          "decreased testosterone",
+          "decreased libido",
+          "difficulty getting out of bed in the morning",
+          "tingling hands",
+          "itchy hands",
+          "decrease in overall strength",
+          "strength decrease dramatically"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_025",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10013573",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "I have been on Lipitor for over a year and it did lower my cholesterol from 299 to 220, but I, too, have been having side effects, I guess now, that might be attributed to Lipitor.\nI have this weird dizzy/vertigo/un-balanced-type feeling sometimes.\nIt is a feeling like I need to hold on to something, in order to make my walk across a large area, like an airport.\n(I fly alot, so I walk throught a lot of airports.)\nI also have a lot of problems with frequent bowel movements.\nI also have arthritic knees, hands that are numb and tingling at times.\nI think since being on this drug, my arms are always falling asleep while I'm sleeping.\nI don't know whether all this is related to being on Lipitor, but after reading some of this posts on this site, it is beginning to make me wonder!.",
+        "reported_symptoms": [
+          "dizzy",
+          "vertigo",
+          "un-balanced-type feeling",
+          "frequent bowel movements",
+          "arthritic knees",
+          "hands numb",
+          "hands tingling",
+          "arms are always falling asleep"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "episode of intense dizziness lasting nearly an hour, then an episode of intense chills and shivers lasting nearly an hour, and continued lassitude for another day.\ncure is worse than the problem.",
+        "reported_symptoms": [
+          "intense dizziness",
+          "intense chills and shivers",
+          "lassitude"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "DIZZY, BALANCE, HIGHER BLOOD SUGARS, CARPAL TUNNAL, CRAMPS, JOINT PAIN, MEMORY LOSS, KIDNEY PROBLEMS.\nI STARTED ON ZOCOR AND CHANGED TO LIPITOR AFTER 1 YEAR BECAUSE OF BALANCE PROBLEMS.\nAFTER A COUPLE OF YEARS I BEGAN TO EXPERIENCE BALANCE PROBLEMS AND JOINT PAIN, BUT THE DOCTOR DID NOT THINK THAT LIPITOR WAS CAUSING THE PROBLEMS.\nBECAUSE OF HEART DISEASE THE DOCTOR WANTED MY CHOLESTEROL DOWN TO 150 IT WAS AROUND 200.\nHE PRESCRIBED 40 MG OF LIPITOR FOR SEVERAL YEARS AND EVENTUALLY ADDED GEMFIBROSIL, AND NIACIN BECAUSE OF HIGH TRIGLYCERIDES.\nAFTER A YEAR OF TAKING THESE DRUGS, MY TYPE II DIABETES BECAME UNCONTROLLED AND MY KIDNEY READINGS BECAME BAD.\nI WAS THEN PUT ON INSULIN.\nI BEGAN TO DEVELOP JOINT PAIN AND NEUROPATHY.\nTHE PAIN IN MY HANDS BECAME SO BAD THAT I HAD TO HAVE CARPAL TUNNAL SURGERY.\nI COULD NOT WALK WITHOUT FALLING.\nI FINALLY BECAME SO DEBILITATED THAT I HAD TO RETIRE EARLY.\nTHE DOCTORS TOOK ME OFF THE LIPITOR AFTER THE KIDNEY READINGS BECAME SO HIGH.\nHOWEVER THEY DID TRY TO PUT ME BACK ON THEM SEVERAL TIMES.\nI HAVE BEEN OFF STATIN DRUGS FOR FOUR YEARS AND I HAV.",
+        "reported_symptoms": [
+          "DIZZY",
+          "BALANCE",
+          "HIGHER BLOOD SUGARS",
+          "CARPAL TUNNAL",
+          "CRAMPS",
+          "JOINT PAIN",
+          "MEMORY LOSS",
+          "KIDNEY PROBLEMS",
+          "BALANCE PROBLEMS",
+          "BALANCE PROBLEMS",
+          "JOINT PAIN",
+          "KIDNEY READINGS BECAME BAD",
+          "TYPE II DIABETES BECAME UNCONTROLLED",
+          "JOINT PAIN",
+          "NEUROPATHY",
+          "PAIN IN MY HANDS",
+          "COULD NOT WALK WITHOUT FALLING",
+          "DEBILITATED",
+          "KIDNEY READINGS BECAME SO HIGH"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Dizziness,falls,poor memory,loss of fine motor skills,stiffness in legs, sore feet.\nI began having falls shortly after starting lipitor approx 5years ago.\nHad an EEG at that time with no abnormalities.\nHad another EEG 6months ago with Frontal Lobe abnormalities which I suspect is due to Lipitor.\nStarted on 20mg and progressed to 80mg.",
+        "reported_symptoms": [
+          "Dizziness",
+          "falls",
+          "poor memory",
+          "loss of fine motor skills",
+          "stiffness in legs",
+          "sore feet",
+          "falls",
+          "Frontal Lobe abnormalities"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "dizzyness, coninuing and increasing weakness (especially legs), aches & pains, loss of coherent thought, memory loss, wildly varying blood pressure, syptoms similar to TIA's.\nAfter 2 years on this drug I seriously felt life was not worth living.\nStarted Lipitor when recovering from major surgery, and attributed effects to that; but after initial uphill recovery, went downhill at an expotential rate.\nTwo days after stopping, myself and my family noticed the difference - now 3 weeks have passed and have not had any of the above symptons.\nNow just want to find someway to help recovery from Lipitor damage.",
+        "reported_symptoms": [
+          "dizzyness",
+          "weakness",
+          "aches",
+          "pains",
+          "loss of coherent thought",
+          "memory loss",
+          "varying blood pressure",
+          "syptoms similar to TIA"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_026",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10047868",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "My dad has been on Lipitor for over a year, they increased his dose by doubling it.\nWithin a month he started to experience lower leg weakness, cramping of the calf muscles after walking only a block and while resting.\nHe read an article about Baycor, Lipitor, etc\nWe asked his M.D. about this & he told us that the side effects of Lipitor were an INFLAMMATORY muscle weakness & degeneration.\nWith my coaxing & the Dr's okay my day stopped Lipitor for one month.\nHis legs did not get better OR worse.\nThe Dr's have him so worried about his cholesterol that he started taking it again.\nHe is now so debilitated, he was using a walker, & his wheelchair is being delivered today.\nWe have been to a Neurologist, Vascular Surgeon, and blood Dr\nHe can no longer drive.\nHe has reduced feeling below the knees, he has fallen 4 times.\nHe is losing the feeling in his right hand and the inability to perform fine motor skills.\nWith all the tests he has had to rule out other causes, it seems that Lipitor is the culprit.\nUntil the dose was doubled my dad was active, able to walk, drive, and enjoy life.\nIf Lipitor is the cause of all these problems, high cholesterol does not look so bad.\nI would never take or recommend this drug to anyone.\nIt has destroyed my father's life.",
+        "reported_symptoms": [
+          "lower leg weakness",
+          "cramping of the calf muscles",
+          "debilitated",
+          "reduced feeling below the knees",
+          "losing the feeling in his right hand",
+          "inability to perform fine motor skills"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I took it for about 8 years, starting at age 25, with no side effects (at least, nothing I attributed to the Lipitor).\nWent off on a couple occasions to have a baby then right back on.\nAfter 8 years, suddenly started having severe weaknesses in my legs, specifically thigh muscles felt like I had been trying to run marathons with no exertion.\nWent off Lipitor and pain went away.\nNow I'm on Crestor and just started having even worse side effects :o(.\nThis medication DID help lower my cholesterol, I was close to 300 when I started it (and I did eat healthy and exercise moderately at the time, it's hereditary for me).\nand I was taking 40 mg.\nto get my cholesterol down around 200.\nMy mother has taken it for even longer at max dose (80 mg) and has had no side effects she attributes to the medication.\nThe bottom line is, listen and pay attention to your body.\neveryone's body is different and some people can't take the same thing!\nMy brother also tried Lipitor and he couldn't tolerate it, it made him fall asleep!.",
+        "reported_symptoms": [
+          "weaknesses in my legs",
+          "pain",
+          "fall asleep"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "I have been on lipitor for 10 years for heart maintenance 20Mg.\nIwas changed to 10Mg and added tricor 145 Mg because of high ldl.\nI do experience leg weakness and cramping.\ncramping relieved with Potassium.",
+        "reported_symptoms": [
+          "leg weakness",
+          "cramping",
+          "cramping"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Most of the side effects everyone else has: weak legs, muscle and back soreness, ears ringing, feel bad, all usually in the mornings.\nHowever, it lowered my cholesterol, tryglycerides, and blood pressure, along with a lot of exercising.\nI had by-pass surgery in 1986, angioplasty in the mid 90's, started on Zocor, then my doctor switched me to Lipitor and have not had to have either since I started on the statins.\n(started with 20mg. then 40mg., and now 80mg.)\nIts not perfect, but it keeps me alive.\nI am now 65 and I thank God every single day for my doctor and my medicine.\nI just gut it up and make my self jog a mile and walk a mile 4-5 times a week, pain or no pain.\nI have lived to see my grandchildren and two great grandchildren.\nLife is good.\nThink positive!.",
+        "reported_symptoms": [
+          "weak legs",
+          "muscle soreness",
+          "back soreness",
+          "ears ringing",
+          "feel bad"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Weakness in both legs, hip pain, knee pain, feet and ankle pain.\nLower back pain.\nMuscle weakness from the pevis down to my toes!\nCould not stand comfortably for 5 minutes.\nStarted seeing a chiropractor for relief-did not work.\nStopped taking Lipitor 40 ml.\nand side effects started to go away after 5 days.\nHave some lingering aches in legs.",
+        "reported_symptoms": [
+          "Weakness in both legs",
+          "hip pain",
+          "knee pain",
+          "feet pain",
+          "ankle pain",
+          "Lower back pain",
+          "Muscle weakness from the pevis down to my toes",
+          "aches in legs"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_027",
+    "drug_name": "LIPITOR",
+    "is_signal": true,
+    "signal_code": "10033371",
+    "gt_escalate": true,
+    "gt_recommended_action": "signal_team_review",
+    "reports": [
+      {
+        "report_text": "Very bad pain in left side and buttocks.\nHurt to get up from sitting position; hurt to walk; hurt to stand.\nBack pain also but much more on left side at waist area and thigh/butt muscle areas.",
+        "reported_symptoms": [
+          "Very bad pain",
+          "Hurt to get up",
+          "hurt to walk",
+          "hurt to stand",
+          "Back pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "After using Lipitor for 2.5 years, I decided to stop two weeks ago because of severe pain in my left arm.\nI am left handed and recently couldn't normally do my job.\nTwice I told my doctor about pain in my arm and he didn't take that seriously, ignoring my complaint.\nAfter two weeks of not taking Lipitor my arm almost recovered and I can work without any pain or any problem.\nIt started a long time ago with tingling in my arms, they were often fall asleep, usually when I wake up in the morning.\nFrom month to month pain was worst until I almost lost all strength and couldn't use my arm.\nAnyway, I think I made a good decision by not using Lipitor anymore (my doctor will be mad at me).\nI will try with natural supplements and more exercising.\nI am very \"anxious\" about medication that can cause myopathy, liver damage or cancer.\n.",
+        "reported_symptoms": [
+          "severe pain in my left arm",
+          "pain in my arm",
+          "pain",
+          "tingling in my arms",
+          "pain",
+          "lost all strength",
+          "couldn't use my arm"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "After 4 uneventful years on Lipitor, I started having intense shoulder and upper arm pain.\nIf I don't stop the Lipitor, what will happen?\nIs this life-threatening?.\nWhy aren't we told about the consequences of various side effects of Lipitor, so we can evaluate whether to continue with the drug?\nWhy doesn't the product literature mention the possible effects of Lipitor on cognitive function?.",
+        "reported_symptoms": [
+          "intense shoulder and upper arm pain"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Extremely severe pain in right shoulder as if from extreme workout or injury(none which apply).\nStopped taking lipitor seven days ago and still experiencing pain in shoulder and tingling and numbness down right arm radiating into fingers.\nNo more medications.\nwill attempt holistic approach.\nvitamins C and/or niacin.",
+        "reported_symptoms": [
+          "severe pain in shoulder",
+          "pain in shoulder",
+          "tingling",
+          "numbness"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "extreme joint pain.\nFirst started as a stiff neck.\nThat went away, then it was my knee.\nThe pain has since radiated to wrists and hips.\nI felt general malaise and depression.\nWhen shopping, I needed a cart for support.\nThis is very unlike me.\nI have been on this drug for almost 3 years.\nI have a very high tolerance to pain, so I hesitated to call my doctor thinking the pain would go away.\nWhen I did call, his advice, get off the Lipitor !\nI was glad to find this site to compare my side effects with others.",
+        "reported_symptoms": [
+          "extreme joint pain",
+          "stiff neck",
+          "wrists pain",
+          "hips pain",
+          "general malaise",
+          "depression",
+          "pain"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_028",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "Fuzzy, dizzy, light-headedness feeling I've never had before.\nLow grade headache goes with it.\nMild insomnia.\nPoor concentration, noise intolerance.\nI rarely get headaches.\nStarted getting them a while back, never put 2 and 2 together.\nSaw an internist and 2 neurolgists, had MRI, MRA, all showing nothing.\nStopped Lipitor 2 weeks ago, with 40% reduction in severity but still waiting for it to go away.\nNot many here have posted follow-up.\nBecause so many people take Lipitor, and headaches, etc are so coommon, what we need is to show that there is an increased incidence of side effects like these compared to those not taking Lipitor, AND that the side effects go away once stopping it.\nI will re-post when either 3 months goes by or the side effects disappear, whichever is 1st.\nI suspect that it will take at least a few more weeks, before the build-up effects of this mess can be cleared from my brain.",
+        "reported_symptoms": [
+          "Fuzzy",
+          "dizzy",
+          "light-headedness feeling",
+          "Low grade headache",
+          "Mild insomnia",
+          "Poor concentration",
+          "noise intolerance"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "constant pain in right thigh, abdominal pain, intermittent pain throughout body, unable to walk more than 1/8 mile w/o excruciating pain in the leg, tingling of feet, elevated liver function.\nwicked drug.\nwonder how much my doc was compensated by the drug company for prescribing it.",
+        "reported_symptoms": [
+          "constant pain",
+          "abdominal pain",
+          "intermittent pain",
+          "unable to walk",
+          "pain in the leg",
+          "tingling of feet",
+          "elevated liver function"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Ruined my physical ability to do anything.\nMuscles no more.\nWeak all the time.\nI will never take another one these pills.\nDoctors are pill pushers getting paid by the drug makers.\nWake up America !!.",
+        "reported_symptoms": [
+          "Weak"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "After 1 1/2 years of taking 10 mg/ day I am experiencing constant gas and diarrhea.\nHave stopped taking drug one week ago and hope this goes away.\nExcellent job of lowering my cholesterol!.",
+        "reported_symptoms": [
+          "constant gas",
+          "diarrhea"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "developed parkinson's disease.\ndiscovered thru 23andme DNA profiling I possess a mutation in a gene, SLCO1B1, that codes a transport protein responsible for moving statins into the liver to be detoxified.\nStudies have noted patients with greatly incrased plasma statin levels (>134% and AUCs more than 400% ABOVE NORMAL) toxic levels indeed.\nThe neurological damage I have suffered due to toxic levels of lipitor seems to be permanent.\nNothing I have tried has reversed the extreme symptoms.\nin the beginning megadoses of coenzyme Q10 did help; that was 6 yrs ago.\nthe deterioration continues.\nthe slco1b1 mutation IS NOT rare, occurring in 26-34% of caucasian poulation, less in african am, and more in Asian pop.\nseems many individuals with the mutation(s) develop severe myalgias and myopathies, prompting discontinuance of the statin.\nfor those of us who did not suffer the muscle dmaage, neurodegeneration is what occurs in my opinion.\nAm aware of 7 other indicviduals who feel they are sufferring same effects as I from a fat soluble statin.",
+        "reported_symptoms": [
+          "neurological damage",
+          "severe myalgias",
+          "myopathies",
+          "muscle dmaage",
+          "neurodegeneration"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  },
+  {
+    "episode_id": "task3_029",
+    "drug_name": "LIPITOR",
+    "is_signal": false,
+    "signal_code": null,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only",
+    "reports": [
+      {
+        "report_text": "I started experiencing severe leg cramping at night with the pain traveling to my buddocks and stomach as well.\nThe pain was so bad I could not get out of the bed and had to crawl to get to the bathroom to take Advil.\nI asked my doctor what could have caused this and he said it was probably from the Lipitor.\nRecently I experienced extreme stomach pain that stretched to my side and back.\nThe stomach pain came suddenly and it would come and go for a week before it became so bad I could not sleep.\nI had just gotten over a urinery tract infection (one of the side-effects) and I thought it had returned but the symptoms were different.\nI still had the urge to urinate constantly but it would come and go and I would have no symptoms for a day then it would return again.\nI remembered reading the phamplet that comes with the prescription drugs and it mentioning some of symptoms that I was experiencing.\nI stopped taking the Lipitor for a day and I did not have any more stomach pain or urgency.\nI also had been experiencing lack of energy for quite some time and I attributed this to stress but after reading this website I feel it was due to the Lipitor also.\nI don't think I will take this drug anymore and since I read that taking vitamin C can help you with your cholesterol I think I will try this method instead.\nI think there should be a better alternative to lowering cholesterol than such a potent drug that can cause so many side effects.\nI don't want to be a case-study when they finally take this drug off the market.",
+        "reported_symptoms": [
+          "leg cramping",
+          "pain traveling to my stomach",
+          "pain traveling to my buddocks",
+          "pain",
+          "stomach pain",
+          "stomach pain",
+          "could not sleep",
+          "urinery tract infection",
+          "urge to urinate",
+          "stomach pain",
+          "urgency",
+          "lack of energy"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Muscle weakness,lack of concentration,joint pain,abnormal liver function, ( ? ) unknown skin condition on hands.\nI was living with the initial, common side effects, but after 2 years my fingertips got puffy and/or scaly.\nIn a couple weeks the skin began to come off and the condition spread to the sides of my fingers and my palms.\nI DO NOT KNOW if this is lipitor related, but after using 2 prescription ointments with little relief, I quit taking lipitor and after 1 month my hands were healed and I have had no problems since (1 yr.)\nNone of my doctors can (or are unwilling) to explain this.\nThey want me back on a statin drug, but I will not untill I have an answer.",
+        "reported_symptoms": [
+          "Muscle weakness",
+          "lack of concentration",
+          "joint pain",
+          "abnormal liver function",
+          "skin condition",
+          "fingertips scaly",
+          "fingertips got puffy",
+          "skin began to come off"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "Muscle twitches and calf/toe cramps -also the.\n10mg taken\nThe drug does lower the cholesterol reading but as I have also made diet changes and lifestyle changes - not sure if all due to drug or own common sense.\nI was not as aware of dangers as I am now and would not have taken it if not advised by MD.\nI aim to stop taking it.",
+        "reported_symptoms": [
+          "Muscle twitches",
+          "calf cramps",
+          "toe cramps"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "After taking Crestor and having muscle pain and lack of control when standing in the mornings, my Dr prescribed Lipitor.\nI have had increasing non stop Pain in neck and back and now severe tingling and burning in hands and feet with itchy crawly feeling all over.\nMy bad levels have decreased but now I am afraid I may have nerve damage or liver problems and after reading this sites comments will stop taking Lipitor.",
+        "reported_symptoms": [
+          "muscle pain",
+          "lack of control",
+          "Pain in back",
+          "Pain in neck",
+          "severe tingling",
+          "burning",
+          "itchy crawly feeling"
+        ],
+        "drug_name": "LIPITOR"
+      },
+      {
+        "report_text": "day two of taking the product, and I have pain and tingling in my fingers as well as a major sharp pain in the side, which could be of of many things including simply gas - a common problem as reported here.\nWay too early to post something more constructive, but I will come back later.\nThanks to all posters here - big relief from your reports to know this is not unusual.",
+        "reported_symptoms": [
+          "pain in my fingers",
+          "tingling in my fingers",
+          "major sharp pain in the side",
+          "gas"
+        ],
+        "drug_name": "LIPITOR"
+      }
+    ]
+  }
+]
