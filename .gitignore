@@ -1,0 +1,9 @@
+data
+*.html
+project_context.md
+env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea
