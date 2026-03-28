@@ -1,4 +1,3 @@
-data/*.json
 *.html
 project_context.md
 .env
@@ -10,3 +9,4 @@ __pycache__/
 .idea
 .vscode
 .gitattributes
+data/*.json
