@@ -1,7 +1,5 @@
 """
 models.py — Shared data models for pharma-vigil-env
-All teammates import from here. Do NOT modify field names without
-notifying P2 (graders) and P3 (FastAPI) — they depend on this schema.
 """
 
 from __future__ import annotations

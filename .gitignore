@@ -9,5 +9,4 @@ __pycache__/
 .idea
 raw.zip
 notebooks/graders_defined_referenced.ipynb
-notebooks/baseline.ipynb
 .env
