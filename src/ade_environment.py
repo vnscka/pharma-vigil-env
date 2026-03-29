@@ -15,7 +15,7 @@ TASK_FILES = {
 }
 
 VALID_SEVERITY = {"serious", "non_serious", "life_threatening"}
-VALID_ACTIONS = {"monitor_only", "request_followup", "expedited_review", "signal_team_review", "urgent_regulatory_notification"}
+VALID_ACTIONS = {"monitor_only", "request_followup", "expedited_review", "close"}
 
 class ADEEnvironment:
     def __init__(self)->None:
