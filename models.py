@@ -1,7 +1,5 @@
 """
 models.py — Shared data models for pharma-vigil-env
-All teammates import from here. Do NOT modify field names without
-notifying P2 (graders) and P3 (FastAPI) — they depend on this schema.
 """
 
 from __future__ import annotations
@@ -25,10 +23,10 @@ class Observation(BaseModel):
 
 class Action (BaseModel):
     model_config = ConfigDict(populate_by_name=True)
-    severity: str = Field(..., description="One of: serious | non_serious | life_threatening")
+    severity: str = Field(..., description="One of: serious | non_serious | life_threatening | fatal"
     causality: float = Field(..., ge=0.0, le=1.0, description="Causality confidence score 0,0 to 1.0")
     escalate: bool
-    rec_action: str = Field(..., alias="rec_action", description="One of: monitor_only | request_followup | expedited_review | close")
+    rec_action: str = Field(..., alias="rec_action", description="One of: monitor_only | request_followup | expedited_review | signal_team_review | urgent_regulatory_notification"
     is_signal : bool | None = None
     # Property alias for graders
     @property
