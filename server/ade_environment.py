@@ -4,7 +4,7 @@ import random
 from pathlib import Path
 from typing import Optional
 from models import Action, EnvState, GroundTruth, Observation, SingleReport, StepInfo
-from server.graders import grade_task1, grade_task2, grade_task3
+from graders import grade_task1, grade_task2, grade_task3
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
