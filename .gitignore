@@ -1,7 +1,8 @@
 data/raw
 *.html
 project_context.md
-env
+.env
+.env.*
 __pycache__/
 *.pyc
 *.pyo
@@ -10,3 +11,6 @@ __pycache__/
 raw.zip
 notebooks/graders_defined_referenced.ipynb
 .env
+.vscode
+.gitattributes
+data/*.json

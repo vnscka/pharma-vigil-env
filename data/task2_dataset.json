@@ -1,0 +1,1809 @@
+[
+  {
+    "episode_id": "task2_000",
+    "report_text": "Cramps in my feet, pain in the lower part of my knees, fatigue, mental fog.\nDuring the three years that I was taking Lipitor, my cholesterol averaged as follows (n = 5) all units mg/dL: Total Cholesterol - 140 HDL - 38 LDL - 74 Triglycerides - 139 Total/HDL Ratio - 3.67\nAfter stopping Lipitor and all other statins in 2010: Total Cholesterol - 218 HDL - 34 LDL - 184 Triglycerides - 167 Total/HDL ratio - 6.4\nAfter switching to 10 mg Simvistatin: Total Cholesterol - 136 HDL - 38 LDL - 70 Triglycerides - 138 Total/HDL ratio - 3.58\nI take 1/2 of a 20 mg generic Simvistatin pill daily.\nVery little side effects, cheaper, and does the same job as Lipitor.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Cramps in my feet",
+      "pain in the lower part of my knees",
+      "fatigue",
+      "mental fog"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_001",
+    "report_text": "Second time trying this.\nFirst time I got a frozen shoulder.\nTriedit a couple of years later and I have back and chest pain that made think i was having a cardio event.\nStopped the Lipitor about a week ago and still having horrible back pain.\nIf this stuff is damaging my muscles what is it doing to my major muscle.\nmy HEART!\nThis is a terrible drug! DO NOT TAKE!\nI would rather take the risk of elevated lipids!.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "frozen shoulder",
+      "back pain",
+      "chest pain",
+      "back pain",
+      "damaging my muscles"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_002",
+    "report_text": "Very sore and achy joints, especially ankles and knees.\nMild headache that rarely goes away.\nFeel foggy like in a slight daze.\nMany muscle cramps in legs and left arm.\nMuscle spasms all the time especially right leg constantly feels like a buzzing sensation all over it.\nThe spasms rarely go away as muscles are constantly quivering - more at night time.\nMakes me restless at night and hard to sleep.\nI have only been on Lipitor for 3 weeks so I don't know how it has worked on my cholesterol but the muscle cramps,spasms, and joint pain are soon going to force me from taking the drug.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Very sore and achy joints",
+      "Mild headache",
+      "foggy",
+      "muscle cramps",
+      "Muscle spasms",
+      "leg buzzing sensation",
+      "spasms",
+      "muscles quivering",
+      "restless",
+      "hard to sleep",
+      "muscle cramps",
+      "spasms",
+      "joint pain"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_003",
+    "report_text": "Doc put me on 10 mg/day.\nSome stomach discomfort initially, but I seemed to get over that after the first few weeks.\nSome muscle aches and pains which I didn't have before now seem to come and go.\nWife says that I am a lot grouchier since I started taking it.\nAnd just yesterday, was out doing the yard spring clean-up, and noticed extreme fatigue and shortness of breath.\nVery worrisome.\nI have stopped taking Lipitor, and will check back with my doctor asap.\nI just recently had my 3 month cholesterol check-up, and the doctor was very pleased since my overall cholesterol count dropped to 3.7 from over 7.\nI also take Atacand for high blood pressure - have been on that one for years.\nHe doesn't know yet about the fatigue and shortness of breath attacks, because that just happened.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "stomach discomfort",
+      "muscle aches and pains",
+      "a lot grouchier",
+      "extreme fatigue",
+      "shortness of breath",
+      "fatigue",
+      "shortness of breath"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "life_threatening",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "expedited_review"
+  },
+  {
+    "episode_id": "task2_004",
+    "report_text": "Extreme tiredness and flatulence.\nNot sure whether it is the Lipitor but I am now tired to the point of exhaustion.\nIs it work, is it me getting older or is it the Lipitor??.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Extreme tiredness",
+      "flatulence",
+      "exhaustion"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_005",
+    "report_text": "i was prescribed arthrotec 75 to take twice a day with or before food.\ni took the very first tablet as directed,two hours later i was doubled up in pain with stomach cramps, i had very bad diarrhoa,and heavy menstral bleeding with clots even though i had just finished my cycle a week before.\nto add to this i couldnt pass urine,when i eventualy did it was full of blood.\ni also felt very weak and could not stop shaking.\nI spoke with my doctor just hours after taking this medication,i described all my symptoms,the bleeding was dismissed as being a coincedence and nothing to do with the medication!!\nI can say that is total rubbish.\nI would avoid this medication at all costs.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "pain with stomach cramps",
+      "diarrhoa",
+      "heavy menstral bleeding with clots even though i had just finished my cycle a week before",
+      "couldnt pass urine",
+      "urine full of blood",
+      "felt very weak",
+      "could not stop shaking",
+      "bleeding"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_006",
+    "report_text": "It seems as if bleeding forever is a side effect but doctors tell you that its not the drug\nI have been on Arthotec for Three months I still have pain and stiffness\nat first week into this drug I was in so much pain I sat on the floor at work and thought I was gaving a baby.\nI always feel weak and almost fainted a bunch of times.\nConsider somthing that works I am switching today as this isnt in my head.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "bleeding",
+      "so much pain",
+      "feel weak and almost fainted"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_007",
+    "report_text": "Sleeping all day and night - exhaustion.\n10mg started two weeks ago - have slept soundly 30 of the last 48 hours.\nBut even when awake, feel exhausted.\nCan't continue this way.\nWill ask physician for alternative at next visit.\nNormally have high energy and sleep average of 6 to 7 hrs per day.\nHaven't been back yet for blood work to establish reduction numbers.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "exhaustion",
+      "Sleeping all day and night",
+      "feel exhausted"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_008",
+    "report_text": "Hair loss (Diffuse Alopecia), hair thinning.\nI have had type 1 diabetes for 21 years.\nMy blood sugar control has always been good (Hemoglobin A1C tests always below 6%).\nI have a healthy diet and a normal weight.\nMy Thyroid function is normal.\nI have been taking, Olmetec(olmesartan), Istin(amlodipine) and Lipitor(atorvastatin).\nSince taking Lipitor my hair has started falling out at an alarming rate.\nThe thinning is most pronounced at the back and sides of my head so it's not conventional male pattern baldness.\nLipitor has certainly lowered by cholesterol but I've stopped taking it after 9 months.\nThe stress caused by losing my hair in this way will probably do me more harm than having high cholesterol.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Hair loss (Diffuse Alopecia)",
+      "hair thinning",
+      "hair has started falling out",
+      "thinning at the back and sides of my head",
+      "losing my hair"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_009",
+    "report_text": "I feel a bit drowsy & have a little blurred vision, so far no gastric problems.\nI've been on Arthrotec 50 for over 10 years on and off, only taking it when I needed it.\nDue to my arthritis getting progressively worse, to the point where I am in tears with the agony, gp's started me on 75 twice a day and I have to take it.\nevery day for the next month to see how I get on, here goes.\nSo far its been very good, pains almost gone, but I feel a bit weird, didn't have that when on 50.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "bit drowsy",
+      "little blurred vision",
+      "gastric problems",
+      "feel a bit weird"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_010",
+    "report_text": "The pill eliminated all pain I felt in my hip, but it was hard on my stomach.\nOn my 10th day of medication, I experienced vaginal bleeding.\nThis scared me because it was two weeks after my normal period.\nThere is something really fishy about this drug.\nI do not advise anyone to take it as there are many adverse side effects.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "hard on my stomach",
+      "vaginal bleeding"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.5,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_011",
+    "report_text": "I'm not sure if this is related to the lipitor, but shortly after I started taking it, I exprienced complete paralysis in my forehead (peripheral neuropathy).\nWent to a neurologist,GP and ENT, none of whom have ever seen this kind of paralysis (both sides) with no other symptoms.\nHas any one else come across this symptom?\nI m tempted to go off the medicine to see if the paralysis goes away.\nIt really lowered my cholestrol a lot, so I hope this problem isn;t related.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "paralysis",
+      "paralysis",
+      "peripheral neuropathy",
+      "paralysis"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_012",
+    "report_text": "incredible depression almost immediately after I started taking it.\ncrying all the time, not sleeping, reliving of past terrible events that had occurred in my life, like someone pushing a doorbell and holding it to keep ringing and reliving all the terrible negative things in my life over and over again.\nI kept asking my doctor if there were any side effects like mine and he said no.\nI had been taking zocor with no problem but insurance company wouldn't pay for it anymore and made me go on lipitor.\nAfter about six months I had my docteor write a letter to ins. co. saying I couldn't take lipitor and they agreed to put me back on zocor.\nBut the long term effect of those six months sent me into a psyhcological tailspin that I never recovered from.\nI went to three psychiatrist and they finally came up with a diagnoses of bipolar disorder.\nCause unknown.\nThis was three years ago.\nThe drug ruined my life, I am now seperated after this all occurred and before the lipitor I was an energtic happy family man with a great wife and two kids.\nI know it was the lipitor because the only other medication I take is an aspirin once a day.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "depression",
+      "crying all the time",
+      "not sleeping",
+      "reliving of past terrible events",
+      "psyhcological tailspin"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_013",
+    "report_text": "This drug MAY have caused edema of fingers and face after taking for 4 days.\nAlso may have caused shortness of breath.\nAlso some crabbiness and cramping (as in menstrual) and spotting.\nTiming off for a true period, so suspect Voltaren is the culprit.\nTook one 50 mg pill each day for 5 days.\nThe first day it seemed to make all the pain of a muscle spasm in shoulder go away.\nIt almost seemed like a miracle.\nThe effects diminished each day (I have pain almost all the time) and now my face and fingers are swollen and I am short of breath, cramping and bloated.\nInteresting to see females posting similar troubles.\nI will NEVER take another one of these.",
+    "drug_name": "VOLTAREN",
+    "patient_age": null,
+    "reported_symptoms": [
+      "edema of fingers and face",
+      "shortness of breath",
+      "cramping",
+      "spotting",
+      "short of breath",
+      "cramping",
+      "bloated",
+      "crabbiness",
+      "Timing off for a true period",
+      "face and fingers are swollen"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "life_threatening",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "expedited_review"
+  },
+  {
+    "episode_id": "task2_014",
+    "report_text": "Naseua, vomiting, cramps, dry eyes, loss of appetite.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Naseua",
+      "vomiting",
+      "cramps",
+      "loss of appetite",
+      "dry eyes"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_015",
+    "report_text": "Some added gas/wind.\n\n(Cont'd - Pt.4) , but don't cut your life short by raging against a drug that may be saving/extending lives of thousands like me.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "gas/wind"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_016",
+    "report_text": "leg pains,thigh cramps, fatique, shortness of breath,cannot walk,indigestion,sexual dysfunction, tired and ache all over.\nnothing but poison!!!!!!!!!!!!!.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "leg pains",
+      "thigh cramps",
+      "fatique",
+      "shortness of breath",
+      "cannot walk",
+      "indigestion",
+      "sexual dysfunction",
+      "tired",
+      "ache all over"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "life_threatening",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "expedited_review"
+  },
+  {
+    "episode_id": "task2_017",
+    "report_text": "Very slowly, over many years, I've developed debilitating muscle pains, horrible fatigue, tingling in my arms, legs and fingers; I've gone to the doctor for 5 years, at least, trying to find out what is wrong with me.\nI JUST turned 40 years old and should not feel like this.\nOut of nowhere, I heard about CoQ10 depletion and just started the supplement today.\nI was never told ANY of these symptoms could relate to the Lipitor - in fact, I specifically asked if any of my medications could be causing these problems.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "debilitating muscle pains",
+      "horrible fatigue",
+      "tingling in my legs",
+      "tingling in my fingers",
+      "tingling in my arms"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_018",
+    "report_text": "Stomach distress, gum trouble, muscle ache, eye trouble.\nI took the 10 milligram pills for almost fifteen years, experiencing stomach pains, abdominal bloating and other symptoms that I chalked off to a bad stomach.\nI had aches and stiffness in my hips and knees.\nWhen my doctor upped my dose to 40 mg, to treat aggressively a spike in my blood sugar, in three weeks I developed such severe stomach pain that I literally couldn't walk more than half a block without doubling over in agony.\nUnbelievable pain.\nAlso, I was constipated, and I never am constipated.\nWhen I stopped takin it, the pains went away, including body aches and stiffness I had chalked up to aging.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Stomach distress",
+      "muscle ache",
+      "eye trouble",
+      "gum trouble",
+      "stomach pains",
+      "bloating",
+      "stomach pain",
+      "pain",
+      "constipated",
+      "pains",
+      "body aches",
+      "aches and stiffness knees",
+      "aches and stiffness hips",
+      "couldn't walk",
+      "constipated",
+      "stiffness"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_019",
+    "report_text": "muscle pain/inability to walk with left foot pain.\nMemory loss.\noverall loss of muscle tone.\nUnable to control weight.\nTry to get a cardiologist to listen to you regarding symptoms.\nCalled Pfizer and talked with nurse there and she recommended I let my doctor know about symptoms.\nShe explained that drug was mfg in USA.\nMy concern was that maybe some of the drug was mfg outside of USA, like maybe China and that a portion of the formula was causing problems.\nBut in general the whole formula is poison so far as I am concerned.\nThank God for this website.\nAm seeing new GP this week, and if he doesn't take me off Lipitor, am going to do it myself.\nWill take my chances rather than live this hell any longer.\nHave been on Lipitor for 6 years too long.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "muscle pain",
+      "inability to walk with left foot pain",
+      "Memory loss",
+      "overall loss of muscle tone",
+      "Unable to control weight"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_020",
+    "report_text": "Severe headache, joint and muscle pain, anorexia, extreme gas, memory loss, mood swings.\nI had a LAD artery 100% blocked a couple years ago and suffered a miocardial infarction.\nThe pain was unbearable and the pain from the headache Lipitor caused was WORSE!\nI've taken Zocor, Crestor and had similar problems with side effects, but i thought Lipitor was going to cause my death.\nNEVER again!.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Severe headache",
+      "joint pain",
+      "muscle pain",
+      "anorexia",
+      "extreme gas",
+      "memory loss",
+      "mood swings",
+      "pain from the headache"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_021",
+    "report_text": "very minor--slight nausea when taken on empty stomach--which was gone in 15 minutes.\ngave me my life back.\nconcerned about long term effects.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "slight nausea"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_022",
+    "report_text": "Body Pains all over, major on going muscle cramps, very bad stomach pains, nervous system problems, pushing blood presure up and up and early signs of osteoarthritis.\nVery bad not for my body type.\nCame off it to see what happens.\nI am trying some other things to control the bad cholesterol - change of diet, exercise and some other natural things.\nBy stopping Lipitor my quality of life has returned.\nMy bad cholesterol is fine for now the same as a normal persons reading but not as low as the doctors would like it.\nWho would think such a drug can do so much harm and is recommended by the family doctor.\nIt does lower cholesterol but it also is a major contributor to other health problems.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Body Pains",
+      "muscle cramps",
+      "stomach pains",
+      "nervous system problems",
+      "pushing blood presure up",
+      "signs of osteoarthritis"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_023",
+    "report_text": "This medicine completely relieves my thumb pain, and really helps with my back pain.\nBUT, it makes my stomach hurt soooo bad that I'm not sure what is worse.\nI only use it when my thumbs hurt so bad I want to cry.\nThen I put up with the stomach pain.\nIt also give you diarrhea but I can handle that.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "diarrhea",
+      "stomach hurt soooo bad",
+      "stomach pain"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_024",
+    "report_text": "frequent heartburn.\ntake it once a day and it works very well on the pain.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "heartburn"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_025",
+    "report_text": "terrible muscle pain terrible mood changes could hardly walk or lift my arms.\nstopped taking them 4 years ago and still suffer terrible muscle pain and wasting.\ni have set up a website for australians to connect who have been afflicted by this medication please come and join and unite in effort to educate the medical fraterity of their ignorance or denial http://australianstatinvictims.com/.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "muscle pain",
+      "mood changes",
+      "hardly lift my arms",
+      "hardly walk",
+      "muscle pain",
+      "muscle wasting"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_026",
+    "report_text": "I have vaginal bleeding and cramping.\n.\n.\nit's taken me almost a week to realize this bleeding is due to the medication.\nThe bleeding started almost immediately after taking the first dose.\nI initially thought I was having my period (even though it was not time).\nIf anyone can give me info regarding how long this bleeding and cramping lasts, I would appreciate it.",
+    "drug_name": "VOLTAREN",
+    "patient_age": null,
+    "reported_symptoms": [
+      "vaginal bleeding",
+      "cramping"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_027",
+    "report_text": "severe pain in buttocks and left leg Sciatica like symptoms.\nI don't know if it helped anything.\nFelt no difference except sudden onset of pain after one month.\nCouldn't sleep.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "severe pain in left leg",
+      "severe pain in buttocks",
+      "Sciatica like symptoms",
+      "sudden onset of pain",
+      "Couldn't sleep"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_028",
+    "report_text": "I am writing this for my husband.\nHe initially took 10mg every other day several years ago but would complain of muscle soreness and tore a calf muscle while running once.\nAt that point he stopped the Lipitor and improved.\nFast forward 3 years, he went to dr for check up (he has known coronary disease) and was started back on Lipitor 20mg.\nAt about 2 months in, he had nausea and sweating occasionally.\nOne month later he ended up in hospital for coronary disease and dose up to 40.\nAfter 1 more month had episodes of extreme fatigue, increased belching, stomach discomfort and leg heaviness, low bp and pulse.\nLike the flu without fever.\nHospitalized and cathed again but heart arteries were fine and previously placed stents open Dr stopped blood pressure meds and Lipitor.\nHe was back to normal in a week.\nWe thought it was the Toprol at first due to low bp and pulse also.\nSo started back on Lipitor and within a week felt horrible again.\nStopped it a week ago and will NOT go back on it.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "muscle soreness",
+      "nausea",
+      "sweating",
+      "fatigue",
+      "increased belching",
+      "stomach discomfort",
+      "leg heaviness",
+      "low bp",
+      "low pulse"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_029",
+    "report_text": "Aches and pain from head to toe, very grouchy.\nI have been competitive in road racing for almost 20 years, but after starting this drug I began to notice my performance falling off.\nLater I got pains so bad that I could not run.\nI stopped taking this drug and after about 3 months am almost back where I was with my running.\nI detest lawyers, but statin class drugs are crying out for a class action lawsuit to stop their use.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Aches and pain from head to toe",
+      "very grouchy",
+      "pains so bad"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_030",
+    "report_text": "At the beginning I didn't experience any side effects at all on 10 mg.\nIt did lower my cholesterol.\nIn my 2nd year I started having very bad leg cramps in the night and spinning head when laying down.\nIn the 8th year my sugar started to go up which I am tested for every 6 months.\nIn my 11th year I have now developed Tinnitus (ringing in the ears) as well as still all the above side effects.\nWhen I did research I read that all of the side effects I am experiencing have most likely been cause from taking Lipitor for a long time.\nI have now decided to stop taking Lipitor before something else happens to me.\nToo bad all of this showed up after so many years.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "leg cramps",
+      "spinning head",
+      "Tinnitus",
+      "ringing in the ears",
+      "sugar started to go up"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_031",
+    "report_text": "terrible neck pain, memory loss is just terrible.\nBrain feel kind of foggy.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "neck pain",
+      "memory loss",
+      "Brain feel kind of foggy"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_032",
+    "report_text": "muscle aches and weakness, nearly bed ridden over it and soon after they took me off I had a high sugar attack and have been on insalin ever since.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "muscle aches",
+      "weakness",
+      "high sugar attack"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_033",
+    "report_text": "Was on Lipitor only 3 weeks and experienced very sore muscle pain in both shoulders, heart palpatations, sore knees, felt like a truck hit me.\nI'm only 56 and in good health otherwise.\nStopped drug 1 week today (3/10) still have muscle pain.\nHow long will this last????.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "very sore muscle pain in both shoulders",
+      "heart palpatations",
+      "sore knees",
+      "felt like a truck hit me",
+      "muscle pain"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_034",
+    "report_text": "Serious stomach discomfort.\nDiarreha, cramps, gas, bloating.\nIt started about 10 day into my treatment.\nAround 4 hours after I took the pill (on a full stomach) the pain and diarreha would start.\nI stop treatment and went to an over-the-counter med.\nThe kneejoin paint stopped but the side effects were awful.",
+    "drug_name": "VOLTAREN-XR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "stomach discomfort",
+      "Diarreha",
+      "cramps",
+      "gas",
+      "bloating",
+      "pain",
+      "diarreha"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_035",
+    "report_text": "Within 5 minutes of taking drug, developed severe colon and uterine cramping.\nCold sweat, fainting, heart palpitations.\nWill never use again or recommend.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "severe uterine cramping",
+      "heart palpitations",
+      "Cold sweat",
+      "severe colon cramping",
+      "fainting"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_036",
+    "report_text": "Taken for excruciating disc related shooting pains through my hips and down both legs.\nWas fine for the first 2 days, didn't feel much change in the pain but started feeling nauseous all the time which makes it hard to take because I need to take them with food.\nHavent had any for 2 days and still feel sick all the time, I'm supposed to take them for 3 weeks but I think I'll just go back to the dr and ask for the cortisone injection.",
+    "drug_name": "VOLTAREN",
+    "patient_age": null,
+    "reported_symptoms": [
+      "nauseous"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_037",
+    "report_text": "Heartburn and stomach upset.\nIt seems to be working pretty well.\nI still have pain but less severe.\nI have been somewhat concerned about taking this drug for so long due to the possible side effects, but my Dr checks me out (blood work, etc )every four months and I seem to be doing allright.\nI don't want to get started on stronger, possibly habit forming drugs.",
+    "drug_name": "VOLTAREN",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Heartburn",
+      "stomach upset"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_038",
+    "report_text": "I started experiencing severe leg cramping at night with the pain traveling to my buddocks and stomach as well.\nThe pain was so bad I could not get out of the bed and had to crawl to get to the bathroom to take Advil.\nI asked my doctor what could have caused this and he said it was probably from the Lipitor.\nRecently I experienced extreme stomach pain that stretched to my side and back.\nThe stomach pain came suddenly and it would come and go for a week before it became so bad I could not sleep.\nI had just gotten over a urinery tract infection (one of the side-effects) and I thought it had returned but the symptoms were different.\nI still had the urge to urinate constantly but it would come and go and I would have no symptoms for a day then it would return again.\nI remembered reading the phamplet that comes with the prescription drugs and it mentioning some of symptoms that I was experiencing.\nI stopped taking the Lipitor for a day and I did not have any more stomach pain or urgency.\nI also had been experiencing lack of energy for quite some time and I attributed this to stress but after reading this website I feel it was due to the Lipitor also.\nI don't think I will take this drug anymore and since I read that taking vitamin C can help you with your cholesterol I think I will try this method instead.\nI think there should be a better alternative to lowering cholesterol than such a potent drug that can cause so many side effects.\nI don't want to be a case-study when they finally take this drug off the market.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "leg cramping",
+      "pain traveling to my stomach",
+      "pain traveling to my buddocks",
+      "pain",
+      "stomach pain",
+      "stomach pain",
+      "could not sleep",
+      "urinery tract infection",
+      "urge to urinate",
+      "stomach pain",
+      "urgency",
+      "lack of energy"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_039",
+    "report_text": "Indigestion - never had it before and stopped when I stopped taking the statin.\nChest pains waking me up at night - never had it before and stopped when I stopped taking the statin.\nNeuropothy in right hand & arm - never had it before and stopped when I stopped taking the statin.\n.\nI believe it is totally unnecessary for healthy people.\nWe NEED cholesterol.\nIn trying to reduce it, statins stop a whole cascade of addditional enzymes and proteins that are absolutely necessary for healthy bodies.\nIt took three years of statins (2 on Zocor then 1 one on Lipitor) at 40mg per day to finally cause the above reactions to the destruction the stains were doing to my body.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Indigestion",
+      "Chest pains",
+      "Neuropothy in right arm",
+      "Neuropothy in right hand"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_040",
+    "report_text": "debilitating sciatica, I wake up with my right leg( from my buttocks to my toes) tingling and numb.\nBy end of day I am in extreme pain, and can barely walk.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "sciatica",
+      "extreme pain",
+      "tingling",
+      "numb",
+      "can barely walk"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_041",
+    "report_text": "After taking Lipitor for a number of years my muscles and joints in my legs and shoulders gradually became very painful.\nMy arms are so weak I can hardly lift them.\nI stopped taking the drug for about a month.\nSymptoms have decreased but I am worried I have caused permanent damage to my shoulder joints.\nI also cannot concentrate like I used to I get tired vry easily.\nLipitor reduced my cholesterol, but the side effects are too great.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "painful muscles",
+      "painful joints",
+      "arms weak",
+      "damage to my shoulder joints",
+      "cannot concentrate",
+      "get tired vry easily"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_042",
+    "report_text": "Where to begin?\nOverall fatigue.\nNow get a lot of sinus colds(major pressure pain).\nAlso used to be able to walk 3 miles easily.\nNow cant walk 50 ft without feeling like I am having a heart attack.\nNausea.\nI was on Lipitor of a total of 3 weeks before I had my first chest pain walking to car.\nNow a month off the drug I still have the pain.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "fatigue",
+      "pressure pain",
+      "cant walk",
+      "feeling like I am having a heart attack",
+      "Nausea",
+      "chest pain",
+      "pain"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_043",
+    "report_text": "Well after 3 days of use I consulted doctor with throat pain.\nMake a very long story short.\nAfter 3 days of use it gave me 3 esofogual uclers.\nAlso couldn't eat or drink for over a week which isn't pretty.\nIt's 3 months later and I still can't eat normal.\nI'm always sick.",
+    "drug_name": "DICLOFENAC-POTASSIUM",
+    "patient_age": null,
+    "reported_symptoms": [
+      "throat pain",
+      "esofogual uclers",
+      "couldn't eat or drink",
+      "can't eat normal"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_044",
+    "report_text": "Diarrhea after only one pill.\nUnbearable after two.\nI stopped after 2 days, waited 2 weeks and tried again.\nSame results.\nI have lots of food and chemical sensitivities, so I'm sure this is not a typical response.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Diarrhea"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_045",
+    "report_text": "Daily headaches.\nI also started on hormones and thought that might be causing them but as I'm reading this I'm thinking it's the Lipitor.\nI haven't been on it long enough to know if it reduces my cholesterol but even if it does I don't know if I'll continue to take it if the headaches don't go away.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "headaches",
+      "headaches"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_046",
+    "report_text": "I only took Lipitor a short time then was switched to Zocor.\nLeg cramps, fatique, overall weak feeling.\nI quit taking the Statin drug 2 years ago.\nI went to American Heart lung ass. website and put in my 10 year risk factor.\nBy dropping my total cholesterol from 259 down to 200 only reduced my risk factor by 1%.\nI showed this and other info to my Doctor and she understood and said it was my choice.\nI feel normal today and will never take these drugs again.\nHere is site to check your risk factor. http://www.fda.gov/opacom/backgrounders/problem.html\nAlso I found out you should report side effects to FDA at. http://www.fda.gov/opacom/backgrounders/problem.html\nThey estimate only 20% to 30% of drug side effects get reported.\nI encourage everyone to report their experiences with these drugs.\n(We have to the Doctors don't).\nThese Statins are dangerous over perscribed drugs.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Leg cramps",
+      "fatique",
+      "overall weak feeling"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_047",
+    "report_text": "muscles aches specially in back of legs , memory weakened , fatigue , lack of sexual drive ,and more recently muscle inflamation in my shoulder and upper arm, taking medication for it .",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "muscles aches",
+      "memory weakened",
+      "fatigue",
+      "lack of sexual drive",
+      "muscle inflamation"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_048",
+    "report_text": "Reduced chol from 300 to 160 (29 yrs old in great shape just genetically high).\nMiracle drug- until year 3.\nLeg began having vibrating sensation (kept thinking cell phone was in pocket but it wasnt).\nEntire body ached; toes felt arthritic; had problems with memory & coordination (fell down stairs # of times).\nStopped and all symptoms have gone away.\nExperienced same issue w/ all Statins- not just lipitor.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "vibrating sensation",
+      "body ached",
+      "toes felt arthritic;",
+      "problems with coordination",
+      "problems with memory"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_049",
+    "report_text": "weakness, tired all the time, leg, arm and back pain, not concentrating well, flu symptons randomly every few weeks, bad dreams a lot, purple sploches around waist.\nI know that it works but I would rather feel like my old self as I have always been active and love exercising but on this medication I have to make myself get out and walk and go to my gym classes.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "weakness",
+      "tired all the time",
+      "leg pain",
+      "arm pain",
+      "back pain",
+      "not concentrating well",
+      "flu symptons",
+      "bad dreams",
+      "purple sploches around waist"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_050",
+    "report_text": "Can cause a little stomach discomfort so take with food or milk.\nThis has only happened to me when I've taken it on an empty stomach or accidentally took 2 pills in a 24 hour period.\nI have been taking voltaren for approx 8 years to help me battle gout.\nIt is most effective when taken at first sign of gout symptoms.\nMy doctor has me get a blood test every six months to make sure my liver and kidneys are ok.",
+    "drug_name": "VOLTAREN-XR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "stomach discomfort"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_051",
+    "report_text": "depression, general malaise, nausea, taste loss, insomnia, hair loss, bronchitis and/or flu 3 times during winter and 1-2 times during summer, abdominal pain, muscle spasmns in legs and left arm, back pain.\nI felt always like I had a veil over my head and lead in my legs.\nThis drug is a nightmare and should be discontinued.\nI had my first child at 34 and my husband and I wanted a second one badly.\nBecause of all the medical issues this had to be postponed.\nMeanwhile my husband lost his job and we had to apply for insurance coverage - I was refused due to my medical history even I had been an extremely healthy individual until I was put on this medication.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "depression",
+      "general malaise",
+      "nausea",
+      "taste loss",
+      "insomnia",
+      "hair loss",
+      "bronchitis",
+      "abdominal pain",
+      "muscle spasmns in left arm",
+      "muscle spasmns in legs",
+      "back pain",
+      "felt like I had a veil over my head",
+      "felt like I had lead in my legs"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_052",
+    "report_text": "Possibly diarrhea and stomach pain, but most likely none because I am taking this with a nasty antibiotic for a sinus infection that definitely causes diarrhea and nausea.\nI was supposed to take it 2x/day for 7 days and then 2x/day as needed.\nI completed the 7 days and then did not take it on the 8th day.\nThe pain was immediately worse than before taking Voltaren.\nIt does help the pain in my knee, which is a strained meniscus, but I'm afraid that the drug is masking the pain which enables me to overexert my joints and cause more injury.\nThis really makes me nervous.\nI am going to speak with my doctor about this possibility.",
+    "drug_name": "VOLTAREN",
+    "patient_age": null,
+    "reported_symptoms": [
+      "diarrhea",
+      "diarrhea",
+      "stomach pain",
+      "nausea"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_053",
+    "report_text": "the muscle spasms in my legs were so bad I had difficulty climbing 4 stairs - highly unusual for me.\nyou need to keep on top of these drugs because the dr. doesn't always monitor enough.\nI wouldn't have known what was wrong with me if I hadn't seen an ad on t.v. for this med. describing side effects.\nDr said it was vitamin C deficiency.\nI stopped the lipitol and the symptoms went away.\nI would have believed the dr. if it weren't for a kind pharmacist who said I should get a second opinion.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "muscle spasms"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_054",
+    "report_text": "severe pain and severe limitation in movement in upper arm muscles; memory deficits and mental fogginess; worsening cataract; parkinson's-type tremor in left hand.\nTwo weeks after discontinuing mevacor, the muscle pain was very much improved (full range of motion took a year to recover); tremor disappeared; vision in eye awaiting cataract surgery improved to pre-Mevacor level (my eye surgeon said that he had seen existing cataracts made more severe by statins in other patients as well); noticed distinct improvement mental function in two weeks.\nThere have been reports of worsening of gum disease as well, which I had had and which did improve.\nIf you read the research carefully, there is reason to believe that higher levels of cholesterol are associated with lower overall mortality rather than higher, especially in older women.\nCholesterol is an important part of brain tissue and many essential biochemicals, and that serum cholesterol levels do not correlate well with arterial placque.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "severe pain",
+      "severe limitation in movement in upper arm muscles",
+      "memory deficits",
+      "mental fogginess",
+      "worsening cataract",
+      "parkinson's-type tremor in left hand",
+      "muscle pain",
+      "tremor"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_055",
+    "report_text": "Debilitating muscle and joint pain, swelling of feet and hands, numbness and tingling in feet and hands, headaches, fatigue, blurred vision.\nStopped taking it 7 days ago but the pain + other symptoms are not getting any better (all except blurred vison, that went away after 3 days off Lipitor).\nI am scared of permanet damage.\nI really really hope it is reversible, because I can't walk or do anything with my hands.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "muscle and joint pain",
+      "swelling feet",
+      "swelling hands",
+      "numbness",
+      "tingling",
+      "headaches",
+      "fatigue",
+      "blurred vision",
+      "pain",
+      "blurred vison",
+      "can't do anything with my hands",
+      "can't walk"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_056",
+    "report_text": "cramps ,diarreah dont take this stuff.",
+    "drug_name": "VOLTAREN",
+    "patient_age": null,
+    "reported_symptoms": [
+      "cramps",
+      "diarreah"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_057",
+    "report_text": "nausea,extreme hunger,stomach pain, abdominal pain, vaginal bleeding,cramps.\nI really think that my doctor hates me.\notherwise why would he give me this poison????\nafter 4 days of suffering I'm stopping this nightmare and yes there was some improvement with the pain but is not worth to continue.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "vaginal bleeding",
+      "cramps",
+      "abdominal pain",
+      "stomach pain",
+      "nausea",
+      "extreme hunger"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_058",
+    "report_text": "No side effect to begin, but now starting to upset my stomach even while taking with food and plenty of water.\nDidn't work for me.\nStill can't sleep, can't work without pain.\nDidn't see any positive change.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "starting to upset my stomach"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_059",
+    "report_text": "I've been taking LIPITOR for a few years (had been on Baycol),.\na couple of years ago, I began experiencing increasing joint and muscle pain that is now so severe that I am wodering if it's worth living with such pain.\nI'm very depressed.\nThe pain is often so severe that it limits my ability to walk and climb stairs, to lift anything heavier than a few pounds.\nI've had some excruciating thigh cramps, and more recently, I have noticed a generalized weakness all over my body.\nIt scares me to stop taking some statin drug because my cholesterol was very high without them, but my quality of life is so drastically affected that I think I have to.\nI believe it's very dangerous stuff.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "joint pain",
+      "muscle pain",
+      "pain",
+      "depressed",
+      "pain",
+      "limits my ability climb stairs",
+      "limits my ability lift anything",
+      "limits my ability to walk",
+      "thigh cramps",
+      "weakness"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_060",
+    "report_text": "Very little side effects,some gas.\nGave me my life back.\nNow I can sleep at night and do most activities.\nMobility without pain!.\nWorry about the long term side effects of an NSAid drug.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "gas"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_061",
+    "report_text": "Took 10 mg. for two years with no problems, then started to have burning,numb feet in toe area - both feet.\nAlso, had discomfort in right side upper and lower of stomach area.\nAfter assorted blood tests which were all normal, read an article regarding neurophathy and statins drugs.\nStopped the Lipitor and slowly the stomach discomfort went away, but two years later my feet are still a mess.\nWould not take this or any other statin drug.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "burning feet in toe area",
+      "numb feet in toe area",
+      "discomfort in right side upper and lower of stomach area",
+      "stomach discomfort"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_062",
+    "report_text": "Pain in hip, lower back, knees & elbow.\nStiffness in lower back and legs when getting up in the morning.\nExcercise intolerance and general muscle weakness.\nI ask my doctor about these pains months ago and he said lipitor would not cause my problems.\nHowever, after reading the common side effects with others on this site, I will stop this medication immediately, it not worth feeling like an old man at age 46!.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Pain in lower back",
+      "Pain in knees",
+      "Pain in elbow",
+      "Stiffness in lower back",
+      "Stiffness in legs",
+      "Excercise intolerance",
+      "general muscle weakness",
+      "pains",
+      "Pain in hip"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_063",
+    "report_text": "on 10mg tightness and fatigue in forearms and legs.\nPain in side muscles on one side of chest.\nOff balanced-ness.\nHowever, I started to have these symptoms to a lesser degree two weeks before I started the Lipitor due to a viral upper respiratory infection.\nThese symptoms increased with Lipitor and lessened when I went off it.\nWondering if metabolic changes battling high cholesterol is the cause rather than the drug formulation itself.\nI will try taking Co-Enzyme Q to moderate side effects.\nI also take Zinc and Omega 3-6-9 capsules (which lowers cholesterol).",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "in forearms tightness",
+      "tightness in legs",
+      "fatigue in legs",
+      "fatigue in forearms",
+      "Pain in side muscles on one side of chest",
+      "Off balanced-ness"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_064",
+    "report_text": "EXTREME PAIN IN NECK AND SHOULDERS FOR THREE WEEKS, MEMORY LOSS, INABILITY TO FUNCTION, ZONED OUT, SICK TO MY STOMACH.\nVERY SCAREY DRUG.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "EXTREME PAIN IN SHOULDERS",
+      "EXTREME PAIN IN NECK",
+      "MEMORY LOSS",
+      "INABILITY TO FUNCTION",
+      "ZONED OUT",
+      "SICK TO MY STOMACH"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_065",
+    "report_text": "Lots of stomach gurgling after eating, which has been consistent even after adjusting to the medication, and initial doses gave diarrhea for a few days.\nI have switched to taking it with a snack before bedtime with good results.\nFor me, it has been very effective pain relief for my chronic bone/joint pain from a broken elbow.\nSo effective that I was able to substantially reduce the amount of narcotic pain reliever I was using once the Voltaren kicked in after about 2 days.",
+    "drug_name": "VOLTAREN",
+    "patient_age": null,
+    "reported_symptoms": [
+      "diarrhea"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_066",
+    "report_text": "Muscle aches.\nVision severe impairment in a.m.\nand pain and heaviness in eyes that were hard to open in morning felt like the eyes had blown up overnight.\nI did not want to get up in the morning because of the eye pain.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Muscle aches",
+      "Vision severe impairment",
+      "pain",
+      "eye pain",
+      "heaviness in eyes"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_067",
+    "report_text": "Taking 10 mg. and experiencing pain in feet and legs, including terrible leg cramps.\nAlso have difficulty sleeping, occasional headaches and fatigue.\nSex drive has decreased too.\nWondering if the benefits are worth putting up with all of this.\nCholesterol dropped from 225 to 145, but will ask doctor for an alternative.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "pain in legs",
+      "pain in feet",
+      "terrible leg cramps",
+      "difficulty sleeping",
+      "headaches",
+      "fatigue",
+      "Sex drive has decreased"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_068",
+    "report_text": "severe joint pains, needed help getting out of bed and off a chair, whereas had been previously active, neck pain up to the back of the head, right knee protruding out of joint, whereas left knee remained normal, wrist and arm joints sore, red dots on skin all over body, liver function tests normal, however had all of other side effects.\nOnce I stopped Lipitor, side effects went away gradually.\nI had a similar reaction recently to Tricor, another cholesterol lowering medication.\nHad similar muscle and joint pains and decided to go off of that.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "severe joint pains",
+      "needed help getting out of bed and off a chair",
+      "neck pain up to the back of the head",
+      "right knee protruding out of joint",
+      "wrist joints sore",
+      "arm joints sore",
+      "red dots on skin all over body"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_069",
+    "report_text": "Most of the side effects everyone else has: weak legs, muscle and back soreness, ears ringing, feel bad, all usually in the mornings.\nHowever, it lowered my cholesterol, tryglycerides, and blood pressure, along with a lot of exercising.\nI had by-pass surgery in 1986, angioplasty in the mid 90's, started on Zocor, then my doctor switched me to Lipitor and have not had to have either since I started on the statins.\n(started with 20mg. then 40mg., and now 80mg.)\nIts not perfect, but it keeps me alive.\nI am now 65 and I thank God every single day for my doctor and my medicine.\nI just gut it up and make my self jog a mile and walk a mile 4-5 times a week, pain or no pain.\nI have lived to see my grandchildren and two great grandchildren.\nLife is good.\nThink positive!.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "weak legs",
+      "muscle soreness",
+      "back soreness",
+      "ears ringing",
+      "feel bad"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_070",
+    "report_text": "Peripheral Neuropathy.\nThis side effect makes you feel like you are constantly wearing heavy socks and gloves.\nIt also causes problems with balance - especially tring to walk heel to toe.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Peripheral Neuropathy",
+      "feel like you are constantly wearing heavy socks and gloves",
+      "problems with balance"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_071",
+    "report_text": "Started taking Lipitor 20mg in Feb '08; in Sept '10 experienced stiff, achy joints around shoulders/arms, hips and Achilles tendons.\nStopped 1/22/11; slowly feeling less stiff.\nCan now take shirts off over my head without wincing; not great, but better.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "stiff joints",
+      "achy joints",
+      "stiff",
+      "wincing"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_072",
+    "report_text": "Lower gut pain, diahrrea.\nThis is the only NSAID I've ever taken that gave me discernable relief within 90 minutes of taking it.\nGastrointestinal problems were due largely to my taking the drug too close together, or after having consumed large amounts of alcohol.",
+    "drug_name": "CATAFLAM",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Lower gut pain",
+      "diahrrea",
+      "Gastrointestinal problems"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_073",
+    "report_text": "90% effective- Hard on my stomach even when I take it with food.\nIt surpasses any other new drug on the market.\nI give excellent marks for the original VOLTAREN.",
+    "drug_name": "DICLOFENAC-SODIUM",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Hard on my stomach"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.5,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_074",
+    "report_text": "With this one it just makes me a little drowsy!.",
+    "drug_name": "VOLTAREN-XR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "drowsy"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_075",
+    "report_text": "Periphiral neuropathy.\nTingling in hands, face, back and Ulnar nerve sensitivity.\nEffects reversed over 2 months after terminating the 10mg/day dose.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Periphiral neuropathy",
+      "nerve sensitivity",
+      "Tingling"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_076",
+    "report_text": "nausea.\nsome pain relief.",
+    "drug_name": "ZIPSOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "nausea"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_077",
+    "report_text": "vaginal bleeding and cramping 2 years after menopause.\nWhile this helped some with the joint pain, I was unpleasantly surprised at the return of my period after 2 years.\nI had severe endometriosis and adenomyosis all my life, plus the impairment in blood clotting due to EDS, so my doctor probably should not have prescribed this drug.\nI'm not taking any more tablets.\nCymbalta 120 mg per day helps enough with the pain.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "vaginal bleeding",
+      "cramping",
+      "return of my period"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.5,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_078",
+    "report_text": "I was prescribed this drug because I had spent a whole night in complete agony; abdominal pain, lower back pain, all that I imagine labor pain to be, except I was not in labor.\nThough the cause of my pain remains undetermined, the Arthrotec combined with Paracetamol pretty much eliminated the pain.\nThis was a big relief, as the 1200 MG of Ibuprofen I had taken throughout the night had done nothing.\nI only took 1 Arthrotec and 1 Paracetamol and that did the trick.\nHOWEVER: I had a very bad headache yesterday and Ibuprofen again didn't work.\nI still had the other Arthrotec pills left, so I took one.\nAlthough it alleviated the pain, I got up this morning with heavy vaginal bleeding even though my period ended last week.\nI was relieved to read that this could be a side effect, as it means I probably don't have something serious, but I will have to be in some serious pain to risk bleeding from the vagina again.\nNext time I'll try my luck with Paracetamol.\nThe pill I took consisted of 50 MG Diclofenac and 200 MG Misoprostol.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "headache",
+      "heavy vaginal bleeding"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_079",
+    "report_text": "Flatulence.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Flatulence"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_080",
+    "report_text": "I have vaginal bleeding and my vaginal skin burns a lot, my cycle was back (I'm menopausal ), breast pain Other symptoms I have: erithema, my skin is so dry I have little cuts on my hands, I 'm sweating a lot (usually I don't), pruritus ani etc\nI took it 3 times: the first for 3 days, then I stopped because it didn't make great improvements and I had diarrhea.\nMy doctor told me the symptoms had to go away after taking few more Second time: I took other 3 pills in 3 days.\nlittle improvement with the pain.\nI had the first vaginal bleeding, a lot of pruritus and my skin was all red but I didn't know it was diclofenac.\nMy doctor prescribed me a topical cream , did some vaginal test to exclude infections.\nI had my cycle The last one for 4 days.\nMore problems and this time I had the idea to go on Internet and I discovered I had a lot of the side effects by taking it.",
+    "drug_name": "VOLTAREN",
+    "patient_age": null,
+    "reported_symptoms": [
+      "pruritus ani",
+      "vaginal bleeding",
+      "vaginal skin burns",
+      "breast pain",
+      "erithema",
+      "skin is so dry",
+      "sweating",
+      "diarrhea",
+      "vaginal bleeding",
+      "pruritus"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_081",
+    "report_text": "DIZZY, BALANCE, HIGHER BLOOD SUGARS, CARPAL TUNNAL, CRAMPS, JOINT PAIN, MEMORY LOSS, KIDNEY PROBLEMS.\nI STARTED ON ZOCOR AND CHANGED TO LIPITOR AFTER 1 YEAR BECAUSE OF BALANCE PROBLEMS.\nAFTER A COUPLE OF YEARS I BEGAN TO EXPERIENCE BALANCE PROBLEMS AND JOINT PAIN, BUT THE DOCTOR DID NOT THINK THAT LIPITOR WAS CAUSING THE PROBLEMS.\nBECAUSE OF HEART DISEASE THE DOCTOR WANTED MY CHOLESTEROL DOWN TO 150 IT WAS AROUND 200.\nHE PRESCRIBED 40 MG OF LIPITOR FOR SEVERAL YEARS AND EVENTUALLY ADDED GEMFIBROSIL, AND NIACIN BECAUSE OF HIGH TRIGLYCERIDES.\nAFTER A YEAR OF TAKING THESE DRUGS, MY TYPE II DIABETES BECAME UNCONTROLLED AND MY KIDNEY READINGS BECAME BAD.\nI WAS THEN PUT ON INSULIN.\nI BEGAN TO DEVELOP JOINT PAIN AND NEUROPATHY.\nTHE PAIN IN MY HANDS BECAME SO BAD THAT I HAD TO HAVE CARPAL TUNNAL SURGERY.\nI COULD NOT WALK WITHOUT FALLING.\nI FINALLY BECAME SO DEBILITATED THAT I HAD TO RETIRE EARLY.\nTHE DOCTORS TOOK ME OFF THE LIPITOR AFTER THE KIDNEY READINGS BECAME SO HIGH.\nHOWEVER THEY DID TRY TO PUT ME BACK ON THEM SEVERAL TIMES.\nI HAVE BEEN OFF STATIN DRUGS FOR FOUR YEARS AND I HAV.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "DIZZY",
+      "BALANCE",
+      "HIGHER BLOOD SUGARS",
+      "CARPAL TUNNAL",
+      "CRAMPS",
+      "JOINT PAIN",
+      "MEMORY LOSS",
+      "KIDNEY PROBLEMS",
+      "BALANCE PROBLEMS",
+      "BALANCE PROBLEMS",
+      "JOINT PAIN",
+      "KIDNEY READINGS BECAME BAD",
+      "TYPE II DIABETES BECAME UNCONTROLLED",
+      "JOINT PAIN",
+      "NEUROPATHY",
+      "PAIN IN MY HANDS",
+      "COULD NOT WALK WITHOUT FALLING",
+      "DEBILITATED",
+      "KIDNEY READINGS BECAME SO HIGH"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_082",
+    "report_text": "Insomnia, vivid nightmares when I did sleep, muscle pain, weakness, tired all the time, depression to the point of considering suicide.\nStatins are damaging to so many body processes.\nThe clinical trials for FDA approval weren't nearly long enough to observe all the adverse effects.\nWe're in the REAL clinical trials now, while lining the pockets of the pharmaceutical companies.\nI take grape juice and cider vinegar now - it reduces cholesterol and blood pressure with no side effects.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Insomnia",
+      "vivid nightmares",
+      "muscle pain",
+      "weakness",
+      "tired all the time",
+      "depression"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_083",
+    "report_text": "started having a severe sudden onset headache in the back of head, resulted in trip to DR, BP was extrememly high, and pulse was high as well, after three shots, and 3 clonidine to bring down bp was recommend to visit ER.\nHad high BP for another 10 days, before it came back down to normal, and pulse is still extremely high 3 weeks after stopping the medicine.\nI only took for 7 days, and it caused this much problems.\nNever again, I would not recommend this to use.\nI have had 2 trips back to dr, since this happened and a third visit due to the tachycardia is schedule in 3 more days.\nI will not use anymore.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "severe sudden onset headache in the back of head",
+      "BP was extrememly high",
+      "pulse was high",
+      "high BP",
+      "pulse is still extremely high",
+      "tachycardia"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_084",
+    "report_text": "vomitting - I have to fight to not throw up I am supposed to take this twice a day - but it makes me soooooo sick that I take literally as I a going to bed, so that I am asleep before the sickness kicks in.\nI have tried and tried to take the day dose - but I would rather live without the sickness - its just too awful.\nvery painful joints - but with this tablet, the pain is much much reduced.\nIf I miss a couple of days I really know about it.\nIf I could find the same sort of thing without the EXTREME nausea - I would switch drugs in teh blink of an eye.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "EXTREME nausea",
+      "vomitting",
+      "sick",
+      "sickness",
+      "sickness"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_085",
+    "report_text": "My Grandmother is in the hopital with side affect of a storke, the Dr now think that it could be a reaction to Lipitor that she has been taking.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "storke"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.5,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_086",
+    "report_text": "Slight Gasto discomfort, but usually take NEXIUM so discomfort is tolerable.\nI take ARTHROTEC 50 every day, sometimes BID and have found nothing that works better.\nNow I am running out, am un-insured and can't afford the medication.\nWill probably go back to IB 800 mg BID.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Gasto discomfort"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_087",
+    "report_text": "I have taken 6 pills in the past (75mg each), but the side effect I had from my last pill was awful.\nIt induced severe vaginal cramps without bleeding about 2 hours after I took the medication.\nI ended up having to take additional medication to get rid of the cramps (pamprin) so that I could sleep.\nSat on the bathroom for 30 minutes.\nIf I knew I would have went to bed with a sore knee instead - it hurt less than the cramps.\nThis is the only anti-inflammatory drug that helps for my knee pain/inflammation and its reliable in that.\nI take it infrequently, once every several months and 1 pill is often enough for me.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "severe vaginal cramps",
+      "cramps",
+      "cramps"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_088",
+    "report_text": "Hunger pangs.\nBrilliant, I have a new lease of life, i walk up & down steps properly, no longer sideways like a toddler, hip pain as gone other than if i jar it.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "Hunger pangs"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_089",
+    "report_text": "First of all, I noticed severe lower back pain.\nI put this off as a work-out related pain.\nAfter the pain intensified after it should have gone away, I became concerned.\nThen I noticed that my knee and my right hip hurt.\nThen I started crying for no reason.\nI yelled at my poor dog for doing nothing.\nALl in all, this drug really sucks.\nI hate it.\nI hate the doctor that put me on it.\nI can't wait to get off of it.\nI shouldn't have been on it in the first place.\nI swear she must be doing it for the drug compant kick backs.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "severe lower back pain",
+      "pain",
+      "pain",
+      "knee hurt",
+      "hip hurt",
+      "crying for no reason"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_090",
+    "report_text": "Some stomach irritation, feels a bit like my pressure is up (in my head mostly).\nI pulled my lower back at the gym 2 times.\nlast time was about 1 1/2 years ago and it was pretty bad.\nSince then my back has really gotten worse.\nI still exercise everyday and stretch, but it really is not helping.\nI final went to the doctor and i am getting x-rays on my spine tomorrow.\nHe gave me about 25 samples of Arthrotec 75.\n3 days later I cannot believe how good my back feels.\nIt has to be this drub, because this is the first day i can comfortably bend down with no pain and even touch my toes without bending my knees.\nIt seems that this drug, like many drugs, works for some and not for all.\nas for me seems to be really good.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "stomach irritation",
+      "pressure is up"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.5,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_091",
+    "report_text": "Didn't have much pain relief, and within a few days of starting the meds I began having cramps and heavy vaginal bleeding.\nMy period ended last week and this med made me have another one!.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "cramps",
+      "heavy vaginal bleeding",
+      "period another"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.5,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_092",
+    "report_text": "fatigue and extremely high sleep requirement,pain and loss of support in calf musells, unable to walk,vertigo like attacks at night while in bed, loss of any sex drive(not complaining),ability to think ahead improving,.\nadd on to 11/8/2006 report, been off lipitor for about 27 days sleep requirement went from 14 hrs to 8 ,still some fatique leg support weak but able to walk general mussel weakness persists with mild improvement,vertigo decreased no attacks balance not as good as it use to be, hope some more of my energy returns, exercise sessions indicate a recovery to 29% from 5% relating to pre attack exercise levels.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "fatigue",
+      "high sleep requirement",
+      "loss of support in calf musells",
+      "fatique",
+      "vertigo",
+      "pain",
+      "unable to walk",
+      "vertigo like attacks",
+      "loss of any sex drive",
+      "leg support weak",
+      "mussel weakness"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_093",
+    "report_text": "Slight stomach upset; blood in bowel movements, bloating.\nThe Pain is 80% gone.\nLimbs and joints are so much more limber and inflamation has gone down amazingly.\nStarted working within a few days.",
+    "drug_name": "VOLTAREN-XR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "stomach upset",
+      "blood in bowel movements",
+      "bloating"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_094",
+    "report_text": "heavy legs, muscle aches, confusion, not able to remember things like whether I had done something or where I had placed something, stomach upset, indigestion, insomnia, sweating, shaking, shortness of breath, twitching, depression worse, fibromyalgia much worse.\nDid help lower my bad cholesterol but caused me to crave sweets and carbohydrates.\nConstipation to the point I suffered bouts of diverticulitis.\nIt happened gradually and I didn't realize it was Lipitor, neither did my MD, said perhaps beginning of MS or lupus.\nI hope these side effects all go away eventually.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "heavy legs",
+      "muscle aches",
+      "confusion",
+      "not able to remember things like whether I had done something or where I had placed something",
+      "stomach upset",
+      "indigestion",
+      "insomnia",
+      "sweating",
+      "shaking",
+      "shortness of breath",
+      "twitching",
+      "depression",
+      "fibromyalgia",
+      "crave carbohydrates",
+      "crave sweets",
+      "Constipation",
+      "bouts of diverticulitis"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "life_threatening",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "expedited_review"
+  },
+  {
+    "episode_id": "task2_095",
+    "report_text": "After 1 1/2 years of taking 10 mg/ day I am experiencing constant gas and diarrhea.\nHave stopped taking drug one week ago and hope this goes away.\nExcellent job of lowering my cholesterol!.",
+    "drug_name": "LIPITOR",
+    "patient_age": null,
+    "reported_symptoms": [
+      "constant gas",
+      "diarrhea"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_096",
+    "report_text": "No side effects at all in first 24 hours.\nFirst day.\nImmediate and absolute relief.\nI don't get immediate and lasting relief from panadeine or Ibuprofen plus.\nCodeine medications aren't as effective and upset my stomach on occasions.\nSo far this voltaren rapid 25 hasn't.\nFirst time in years my back ache has gone away so effectively.\nReally hope it last and i can wake up still feeling completely pain free.",
+    "drug_name": "VOLTAREN",
+    "patient_age": null,
+    "reported_symptoms": [
+      "upset my stomach"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "non_serious",
+    "gt_causality": 0.8,
+    "gt_escalate": false,
+    "gt_recommended_action": "monitor_only"
+  },
+  {
+    "episode_id": "task2_097",
+    "report_text": "Ate a decent meal and took one pill at 4:30 pm, the 75 size, on 9/10.\nWithin 15-20 minutes my stomach felt empty and hollow.\nWithin 1 hour I had stomach pain that felt like deep pain- like gas pains.\nI kept eating a small amount of food to make the stomach emptiness and pain ease up.\nWent to bed and felt hot flashes and sweated (I don't sweat, am cold natured) and had pain in the pit of my stomach all night.\nI felt a deep ache from my waist down to the heels of my feet (Like \"back labor\" pains during childbirth, for those of you who have experienced such a thing, or a prolonged miscarriage.)\nMy stomach stayed upset and painful through 9/14.\nOn 9/15 my stomach quit hurting, but the deep pain in my pelvis and down my legs (it felt like my leg bones were filled with cold metal and ached deeply and hurt!)continued through 9/16.\nI was just tapering off of my menstrual period when I took the one pill, but noticed an increase in cramping and breasts getting more and more (and more!.\nThe side effects were harder to deal with than the condition I was taking it for- and it made me feel 200% worse!\nNot worth it!\nI will carefully take ibuprofen or Aleve (naproxen sodium)- limit using it as much as I am able- and deal with ulcers if I ever end up with one!\nTaking this horrid stuff to prevent one just is not worth it!\nPharmacist finds it hard to believe one pill did all this- but looked at other meds, and no other explaination.\nI took last Lyrica, after a two week trial, on 9/15.\nFYI:(I reacted about the same way (excessive mestrual bleeding) to oral, low-dose Prednisone, as well.)\nI seem to be more hormonally/chemically sensitive than a lot of people.\nIt may not be important, but it MAY be> I cannot take, whether because of over-reaction, adverse reaction, allergy: Birth control pills or shots, Codeine, any opiate-based, hydrocodone, prednisone, corti-cortisones, pseudoephedrine, morphine, demerol, percocette, darvon, cyclobenzoprene, (sulfur drugs listed as possibly lethal due to parent's reaction.)\nAllergic to citrus fruits & bioflavenoids, lanolin/wool, and topical Benedryl.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "my stomach felt empty and hollow",
+      "stomach pain",
+      "deep pain- like gas pains",
+      "stomach emptiness and pain",
+      "hot flashes",
+      "sweated",
+      "pain in the pit of my stomach",
+      "deep ache from my waist down to the heels of my feet",
+      "stomach stayed upset and painful",
+      "\"back labor\" pains",
+      "prolonged miscarriage",
+      "deep pain in my pelvis and down my legs",
+      "increase in cramping",
+      "breasts getting more and more (and more!",
+      "excessive mestrual bleeding",
+      "felt like my leg bones were filled with cold metal and ached deeply and hurt"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_098",
+    "report_text": "swelling, bloating, increased appetite, empty stomach feeling,dry,itchy skin.\nArthrotec works wonders, but side effects worry me.\nAm trying to wean off it with glucoasamine/chondroitin and MSM, which are supposed to be good for arthritis, bone enhancement/elasticity etc\nTaking all at same time now,pain is too great!\nWas on IB 1600 a day and 2 tylenol 8's a day.\nnot enough.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "swelling",
+      "bloating",
+      "increased appetite",
+      "dry,itchy skin",
+      "empty stomach feeling"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.5,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  },
+  {
+    "episode_id": "task2_099",
+    "report_text": "Particularly diahrea!\nMany unscheduled washroom stops over the time I've taken this medication.\nLately ankle swelling and lower tendon pain that was not experienced previously.\nMales tend to tolerate this medication better than women from my observation.\nThis medication helped get me back to work and achieve tolerable pain levels and mobility.\nI stopped taking it for 4 days and the pain returned.\nCurrently take one 75mg dose 2 hours before work and seems to be enough to ease my particular condition.\nProbably alright for otherwise healthy individuals but those with other medical problems should probably avoid it.\nIt will most likely exacerbate there ill health with unwelcome side effects.",
+    "drug_name": "ARTHROTEC",
+    "patient_age": null,
+    "reported_symptoms": [
+      "diahrea",
+      "ankle swelling",
+      "lower tendon pain"
+    ],
+    "prior_actions_taken": [],
+    "gt_severity": "serious",
+    "gt_causality": 0.8,
+    "gt_escalate": true,
+    "gt_recommended_action": "request_followup"
+  }
+]

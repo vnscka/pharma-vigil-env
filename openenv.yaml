@@ -1,0 +1,73 @@
+name: pharmacovigilance-triage
+version: "1.0.0"
+description: >
+  AI evaluation environment for adverse drug event triage.
+  An agent reads real ADE reports and performs FDA-style
+  safety assessment across three difficulty levels.
+
+tags:
+  - pharmacovigilance
+  - medical
+  - safety
+  - nlp
+
+tasks:
+  - id: 1
+    name: severity-classification
+    difficulty: easy
+    description: Classify adverse drug event severity as serious or non-serious
+    dataset: data/task1_dataset.json
+    max_steps: 1
+    reward_range: [0.0, 1.0]
+
+  - id: 2
+    name: full-triage
+    difficulty: medium
+    description: Full triage across severity, causality, escalation and recommended action
+    dataset: data/task2_dataset.json
+    max_steps: 1
+    reward_range: [0.0, 1.0]
+
+  - id: 3
+    name: signal-detection
+    difficulty: hard
+    description: Detect pharmacovigilance signals across a cluster of 5 related reports
+    dataset: data/task3_dataset.json
+    max_steps: 1
+    reward_range: [0.0, 1.0]
+
+reward:
+  min: 0.0
+  max: 1.0
+  decimals: 4
+  shaping:
+    missed_serious_case: -0.30
+    false_escalation: -0.05
+    causality_mismatch: -0.10
+    signal_detection_error: -0.20
+
+action_schema:
+  severity:
+    type: string
+    enum: [serious, non_serious, life_threatening]
+  causality:
+    type: float
+    range: [0.0, 1.0]
+  escalate:
+    type: bool
+  recommended_action:
+    type: string
+    enum: [monitor_only, request_followup, expedited_review, close]
+  is_signal:
+    type: bool
+    nullable: true
+    description: Required for task 3 only
+
+endpoints:
+  reset: POST /reset
+  step: POST /step
+  state: GET /state
+  tasks: GET /tasks
+  grader: POST /grader
+  baseline: GET /baseline
+  health: GET /health
