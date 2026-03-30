@@ -15,61 +15,92 @@ client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
     base_url="https://api.groq.com/openai/v1"
 )
-MODEL = "llama-3.1-8b-instant"
+MODEL = "llama-3.3-70b-versatile"
 
 BASE_URL = os.environ.get("ENV_BASE_URL", "http://localhost:8000")
 EPISODES_EACH = 20
 # TASKS = ["task1", "task2", "task3"]
-TASKS = [1, 2, 3]
+TASKS = [1,2,3]
 
 print(f"Model : {MODEL}")
 print(f"URL : {BASE_URL}")
 print(f"Episodes per task: {EPISODES_EACH}")
 
 # Prompt builder
-def build_prompt(task_id: str, obs: dict) -> str:
-    # if task_id in ["task1", "task2"]:
-    if task_id in [1, 2]:
-        return f"""You are a pharmacovigilance safety reviewer. Read the adverse drug event report and triage it.
+def build_prompt(task_id, obs: dict) -> str:
+    if task_id == 1:
+        return f"""You are a medical text classifier. Classify this sentence as serious or non_serious.
+
+Sentence: {obs.get('report_text', '')}
+
+RULE: If the sentence describes a drug CAUSING an adverse event or side effect → "serious"
+If the sentence does NOT describe a drug causing an adverse event → "non_serious"
+
+Respond ONLY with this JSON:
+{{
+  "severity": "serious" or "non_serious",
+  "causality": 0.9 if serious else 0.1,
+  "escalate": true if serious else false,
+  "rec_action": "request_followup" if serious else "monitor_only",
+  "is_signal": null
+}}
+
+No explanation. No markdown. Just the JSON."""
+
+    elif task_id == 2:
+        return f"""You are a pharmacovigilance safety reviewer. Triage this adverse drug event report.
 
 Report: {obs.get('report_text', '')}
 Drug: {obs.get('drug_name', 'UNKNOWN')}
-Reported symptoms: {obs.get('reported_symptoms', [])}
+Symptoms: {obs.get('reported_symptoms', [])}
 
-Respond ONLY with a JSON object with exactly these fields:
+Severity guide:
+- non_serious: mild symptoms (headache, nausea, drowsiness)
+- serious: significant symptoms (muscle pain, depression, memory issues, fatigue)
+- life_threatening: severe events (breathing difficulty, cardiac issues, severe muscle damage)
+- fatal: death
+
+Respond ONLY with this JSON:
 {{
   "severity": one of ["non_serious", "serious", "life_threatening", "fatal"],
-  "causality": float between 0.0 and 1.0,
-  "escalate": true or false,
+  "causality": float 0.0-1.0 (how likely drug caused this),
+  "escalate": true if serious or worse, false if non_serious,
   "rec_action": one of ["monitor_only", "request_followup", "expedited_review", "signal_team_review", "urgent_regulatory_notification"],
   "is_signal": null
 }}
 
-No explanation. No markdown. Just the JSON object."""
+No explanation. No markdown. Just the JSON."""
 
-    else:  # task3
+    else:  # task 3
         reports = obs.get("reports", [])
         reports_text = "\n\n".join(
             f"Report {i+1}: {r.get('report_text', '')[:300]}"
             for i, r in enumerate(reports)
         )
         return f"""You are a pharmacovigilance signal detection specialist.
-Review these 5 related adverse drug event reports and decide if they represent a new safety signal.
+Review these 5 patient reports about {obs.get('drug_name', 'LIPITOR')} and decide if they represent a new safety signal.
 
-Drug: {obs.get('drug_name', 'LIPITOR')}
+A TRUE SIGNAL means: all 5 reports describe the SAME specific symptom pattern 
+(e.g. all mention muscle pain, or all mention memory loss, or all mention liver issues).
+
+NOISE means: the 5 reports describe DIFFERENT symptoms with no clear common pattern,
+OR the symptoms are very common/mild (headache, nausea, general pain).
+
+Look for a SPECIFIC repeated pattern across all 5. If symptoms vary widely → false.
+If one clear symptom dominates all 5 reports → true.
 
 {reports_text}
 
-Respond ONLY with a JSON object with exactly these fields:
+Respond ONLY with this JSON:
 {{
   "severity": one of ["non_serious", "serious", "life_threatening", "fatal"],
-  "causality": float between 0.0 and 1.0,
-  "escalate": true or false,
-  "rec_action": one of ["monitor_only", "request_followup", "expedited_review", "signal_team_review", "urgent_regulatory_notification"],
-  "is_signal": true or false
+  "causality": float 0.0-1.0,
+  "escalate": true if this IS a safety signal, false if NOT,
+  "rec_action": "signal_team_review" if signal, "monitor_only" if not,
+  "is_signal": true if safety signal, false if not
 }}
 
-No explanation. No markdown. Just the JSON object."""
+No explanation. No markdown. ONE single JSON object only — your combined decision across all 5 reports."""
 
 print("Prompt builder defined.")
 
@@ -79,17 +110,27 @@ def parse_action(text: str) -> dict:
     if text.startswith("```"):
         lines = text.split("\n")
         text = "\n".join(lines[1:-1])
+    # extract first JSON object only
     try:
-        raw = json.loads(text)
+        start = text.index("{")
+        depth = 0
+        for i, ch in enumerate(text[start:], start):
+            if ch == "{":
+                depth += 1
+            elif ch == "}":
+                depth -= 1
+                if depth == 0:
+                    first_json = text[start:i+1]
+                    break
+        raw = json.loads(first_json)
         return {
-            "severity":  raw.get("severity", "serious"),
-            "causality": max(0.0, min(1.0, float(raw.get("causality", 0.5)))),
-            "escalate":  bool(raw.get("escalate", True)),
+            "severity":   raw.get("severity", "serious"),
+            "causality":  max(0.0, min(1.0, float(raw.get("causality", 0.5)))),
+            "escalate":   bool(raw.get("escalate", True)),
             "rec_action": raw.get("rec_action", "request_followup"),
-            "is_signal": raw.get("is_signal", None),
+            "is_signal":  raw.get("is_signal", None),
         }
     except Exception:
-        # safe fallback
         return {
             "severity":  "serious",
             "causality": 0.5,
@@ -97,7 +138,6 @@ def parse_action(text: str) -> dict:
             "rec_action": "request_followup",
             "is_signal": None,
         }
-
 print("Parser defined.")
 
 # Single episode runner
