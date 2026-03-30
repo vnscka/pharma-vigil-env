@@ -200,6 +200,7 @@ def baseline():
             capture_output=True,
             text=True,
             timeout=600,
+            cwd="/app",
             env={**os.environ, "OPENAI_API_KEY": openai_key},
         )
     except subprocess.TimeoutExpired:
