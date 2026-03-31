@@ -1,3 +1,16 @@
+---
+title: Pharma Vigil Env
+emoji: ⚡
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+license: mit
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+
 # pharma_vigil_env
 
 **Pharmacovigilance ADE Triage Environment** — an OpenEnv environment where an AI agent triages adverse drug event (ADE) reports like a real FDA safety reviewer.
