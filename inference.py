@@ -7,17 +7,17 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 # Config
-API_KEY = os.environ.get("OPENAI_API_KEY")
+API_KEY = os.environ.get("HF_TOKEN")
 # if not API_KEY:
 #     raise EnvironmentError("Set OPENAI_API_KEY environment variable first.")
 
 client = OpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
-    base_url="https://api.groq.com/openai/v1"
+    api_key=os.environ.get("HF_TOKEN"),
+    base_url=os.environ.get("API_BASE_URL", "https://api.groq.com/openai/v1")
 )
-MODEL = "llama-3.3-70b-versatile"
-
+MODEL = os.environ.get("MODEL_NAME", "llama-3.3-70b-versatile")
 BASE_URL = os.environ.get("ENV_BASE_URL", "http://localhost:8000")
+
 EPISODES_EACH = 20
 # TASKS = ["task1", "task2", "task3"]
 TASKS = [1,2,3]
@@ -166,9 +166,6 @@ def run_episode(task_id: str) -> float:
     return result.get("reward", 0.0)
 
 print("Episode runner defined.")
-
-
-
 
 
 # Run baseline

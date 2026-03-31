@@ -10,3 +10,7 @@ __pycache__/
 .vscode
 .gitattributes
 data/*.json
+data/raw/
+env/
+README2.md
+data/raw.zip

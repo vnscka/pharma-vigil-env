@@ -196,7 +196,7 @@ def baseline():
  
     try:
         result = subprocess.run(
-            [sys.executable, "baseline.py"],
+            [sys.executable, "inference.py"],
             capture_output=True,
             text=True,
             timeout=600,
@@ -204,12 +204,12 @@ def baseline():
             env={**os.environ, "OPENAI_API_KEY": openai_key},
         )
     except subprocess.TimeoutExpired:
-        raise HTTPException(status_code=504, detail="baseline.py timed out after 10 min")
+        raise HTTPException(status_code=504, detail="inference.py timed out after 10 min")
  
     if result.returncode != 0:
         raise HTTPException(
             status_code=500,
-            detail=f"baseline.py failed: {result.stderr[:500]}",
+            detail=f"inference.py failed: {result.stderr[:500]}",
         )
  
     scores = _parse_baseline_output(result.stdout)
@@ -247,7 +247,7 @@ def _apply_reward_shaping(action: Action, gt, raw_score: float, task_id: int):
  
  
 def _parse_baseline_output(stdout: str) -> dict:
-    """Parse printed scores from baseline.py output."""
+    """Parse printed scores from inference.py output."""
     scores = {"task1_score": None, "task2_score": None, "task3_score": None, "overall_mean": None}
     for line in stdout.splitlines():
         line = line.strip().lower()
