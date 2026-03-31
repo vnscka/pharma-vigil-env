@@ -6,6 +6,7 @@ description: >
   safety assessment across three difficulty levels.
 
 tags:
+  - openenv
   - pharmacovigilance
   - medical
   - safety
@@ -49,7 +50,7 @@ reward:
 action_schema:
   severity:
     type: string
-    enum: [serious, non_serious, life_threatening]
+    enum: [serious, non_serious, life_threatening, fatal]
   causality:
     type: float
     range: [0.0, 1.0]
@@ -57,7 +58,7 @@ action_schema:
     type: bool
   recommended_action:
     type: string
-    enum: [monitor_only, request_followup, expedited_review, close]
+    enum: [monitor_only, request_followup, expedited_review, signal_team_review, urgent_regulatory_notification]
   is_signal:
     type: bool
     nullable: true

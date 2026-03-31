@@ -34,7 +34,7 @@ class GraderRequest(BaseModel):
 
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    return {"status": "healthy"}
 
 @app.post("/reset")
 def reset(req: ResetRequest) -> Observation:
@@ -187,11 +187,11 @@ def baseline():
     if _baseline_cache is not None:
         return _baseline_cache
  
-    openai_key = os.environ.get("OPENAI_API_KEY", "")
+    openai_key = os.environ.get("HF_TOKEN", "") or os.environ.get("OPENAI_API_KEY", "")
     if not openai_key:
         raise HTTPException(
             status_code=503,
-            detail="OPENAI_API_KEY not set — cannot run baseline",
+            detail="HF_TOKEN not set — cannot run baseline",
         )
  
     try:
@@ -201,7 +201,7 @@ def baseline():
             text=True,
             timeout=600,
             cwd="/app",
-            env={**os.environ, "OPENAI_API_KEY": openai_key},
+            env={**os.environ, "HF_TOKEN": openai_key, "OPENAI_API_KEY": openai_key},
         )
     except subprocess.TimeoutExpired:
         raise HTTPException(status_code=504, detail="inference.py timed out after 10 min")
@@ -268,3 +268,38 @@ def _extract_float(line: str) -> Optional[float]:
     return float(match.group(1)) if match else None
 
 
+@app.get("/metadata")
+def metadata():
+    return {
+        "name": "pharmacovigilance-triage",
+        "description": "AI evaluation environment for adverse drug event triage."
+    }
+
+@app.get("/schema")
+def schema():
+    return {
+        "action": {
+            "severity": ["serious", "non_serious", "life_threatening", "fatal"],
+            "causality": "float 0.0-1.0",
+            "escalate": "bool",
+            "rec_action": ["monitor_only", "request_followup", "expedited_review", "signal_team_review", "urgent_regulatory_notification"],
+            "is_signal": "bool or null"
+        },
+        "observation": {
+            "episode_id": "str",
+            "task_id": "int",
+            "report_text": "str",
+            "drug_name": "str",
+            "reported_symptoms": "list[str]"
+        },
+        "state": {
+            "episode_id": "str",
+            "task_id": "int",
+            "step": "int",
+            "done": "bool"
+        }
+    }
+
+@app.post("/mcp")
+def mcp():
+    return {"jsonrpc": "2.0", "id": 1, "result": {}}

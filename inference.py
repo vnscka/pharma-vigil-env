@@ -15,7 +15,7 @@ client = OpenAI(
     api_key=os.environ.get("HF_TOKEN"),
     base_url=os.environ.get("API_BASE_URL", "https://api.groq.com/openai/v1")
 )
-MODEL = os.environ.get("MODEL_NAME", "llama-3.3-70b-versatile")
+MODEL = os.environ.get("MODEL_NAME", "llama-3.1-8b-instant")
 BASE_URL = os.environ.get("ENV_BASE_URL", "http://localhost:8000")
 
 EPISODES_EACH = 20
@@ -143,7 +143,7 @@ print("Parser defined.")
 # Single episode runner
 def run_episode(task_id: str) -> float:
     # reset
-    resp = requests.post(f"{BASE_URL}/reset", json={"task_id": task_id}, timeout=30)
+    resp = requests.post(f"{BASE_URL}/reset", json={"task_id": task_id, "seed": 42}, timeout=30)
     resp.raise_for_status()
     obs = resp.json()
 
