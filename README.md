@@ -133,12 +133,12 @@ The asymmetric penalty (−0.30 for missing a serious case vs −0.05 for false 
 
 Evaluated using `llama-3.3-70b-versatile` via Groq (OpenAI-compatible), 20 episodes per task:
 
-| Task | Score      |
-|---|------------|
-| Task 1 — Severity classification | 1.00       |
-| Task 2 — Full triage | 0.878      |
-| Task 3 — Signal detection | 0.385      |
-| **Overall mean** | **0.7543** |
+| Task | Score     |
+|---|-----------|
+| Task 1 — Severity classification | 0.85      |
+| Task 2 — Full triage | 0.79      |
+| Task 3 — Signal detection | 0.415     |
+| **Overall mean** | **0.685** |
 
 ---
 

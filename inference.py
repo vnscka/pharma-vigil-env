@@ -15,7 +15,8 @@ client = OpenAI(
     api_key=os.environ.get("HF_TOKEN"),
     base_url=os.environ.get("API_BASE_URL", "https://api.groq.com/openai/v1")
 )
-MODEL = os.environ.get("MODEL_NAME", "llama-3.1-8b-instant")
+MODEL = os.environ.get("MODEL_NAME", "llama-3.3-70b-versatile")
+# MODEL = os.environ.get("MODEL_NAME", "nvidia/nemotron-3-super-120b-a12b")
 BASE_URL = os.environ.get("ENV_BASE_URL", "http://localhost:8000")
 
 EPISODES_EACH = 20
