@@ -2,33 +2,44 @@ import os
 import json
 import time
 import requests
+from typing import Optional
 from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv(".env")
 
-# Config
-API_KEY = os.environ.get("HF_TOKEN")
-# if not API_KEY:
-#     raise EnvironmentError("Set OPENAI_API_KEY environment variable first.")
-
-client = OpenAI(
-    api_key=os.environ.get("HF_TOKEN"),
-    base_url=os.environ.get("API_BASE_URL", "https://api.groq.com/openai/v1")
-)
-MODEL = os.environ.get("MODEL_NAME", "llama-3.3-70b-versatile")
-# MODEL = os.environ.get("MODEL_NAME", "nvidia/nemotron-3-super-120b-a12b")
-BASE_URL = os.environ.get("ENV_BASE_URL", "http://localhost:8000")
+API_KEY      = os.environ.get("HF_TOKEN") or os.environ.get("API_KEY")
+API_BASE_URL = os.environ.get("API_BASE_URL", "https://api.groq.com/openai/v1")
+MODEL        = os.environ.get("MODEL_NAME", "llama-3.3-70b-versatile")
+BASE_URL     = os.environ.get("ENV_BASE_URL", "http://localhost:7860")
 
 EPISODES_EACH = 20
-# TASKS = ["task1", "task2", "task3"]
-TASKS = [1,2,3]
+TASKS         = [1, 2, 3]
+BENCHMARK     = "pharma_vigil_env"
 
-print(f"Model : {MODEL}")
-print(f"URL : {BASE_URL}")
-print(f"Episodes per task: {EPISODES_EACH}")
+client = OpenAI(api_key=API_KEY, base_url=API_BASE_URL)
 
-# Prompt builder
-def build_prompt(task_id, obs: dict) -> str:
+
+# ── Mandatory log helpers ─────────────────────────────────────────────────────
+
+def log_start(task: str, env: str, model: str) -> None:
+    print(f"[START] task={task} env={env} model={model}", flush=True)
+
+def log_step(step: int, action: str, reward: float, done: bool, error: Optional[str]) -> None:
+    print(
+        f"[STEP] step={step} action={action} reward={reward:.2f} done={str(done).lower()} error={error or 'null'}",
+        flush=True,
+    )
+
+def log_end(success: bool, steps: int, score: float, rewards: list) -> None:
+    print(
+        f"[END] success={str(success).lower()} steps={steps} score={score:.3f} rewards={','.join(f'{r:.2f}' for r in rewards)}",
+        flush=True,
+    )
+
+
+# ── Prompt builder ────────────────────────────────────────────────────────────
+
+def build_prompt(task_id: int, obs: dict) -> str:
     if task_id == 1:
         return f"""You are a medical text classifier. Classify this sentence as serious or non_serious.
 
@@ -72,7 +83,7 @@ Respond ONLY with this JSON:
 
 No explanation. No markdown. Just the JSON."""
 
-    else:  # task 3
+    else:
         reports = obs.get("reports", [])
         reports_text = "\n\n".join(
             f"Report {i+1}: {r.get('report_text', '')[:300]}"
@@ -81,14 +92,8 @@ No explanation. No markdown. Just the JSON."""
         return f"""You are a pharmacovigilance signal detection specialist.
 Review these 5 patient reports about {obs.get('drug_name', 'LIPITOR')} and decide if they represent a new safety signal.
 
-A TRUE SIGNAL means: all 5 reports describe the SAME specific symptom pattern 
-(e.g. all mention muscle pain, or all mention memory loss, or all mention liver issues).
-
-NOISE means: the 5 reports describe DIFFERENT symptoms with no clear common pattern,
-OR the symptoms are very common/mild (headache, nausea, general pain).
-
-Look for a SPECIFIC repeated pattern across all 5. If symptoms vary widely → false.
-If one clear symptom dominates all 5 reports → true.
+A TRUE SIGNAL means: all 5 reports describe the SAME specific symptom pattern.
+NOISE means: the 5 reports describe DIFFERENT symptoms with no clear common pattern.
 
 {reports_text}
 
@@ -101,29 +106,25 @@ Respond ONLY with this JSON:
   "is_signal": true if safety signal, false if not
 }}
 
-No explanation. No markdown. ONE single JSON object only — your combined decision across all 5 reports."""
+No explanation. No markdown. ONE single JSON object only."""
 
-print("Prompt builder defined.")
 
-# Action parser
+# ── Action parser ─────────────────────────────────────────────────────────────
+
 def parse_action(text: str) -> dict:
     text = text.strip()
     if text.startswith("```"):
         lines = text.split("\n")
         text = "\n".join(lines[1:-1])
-    # extract first JSON object only
     try:
         start = text.index("{")
         depth = 0
         for i, ch in enumerate(text[start:], start):
-            if ch == "{":
-                depth += 1
-            elif ch == "}":
-                depth -= 1
-                if depth == 0:
-                    first_json = text[start:i+1]
-                    break
-        raw = json.loads(first_json)
+            if ch == "{":   depth += 1
+            elif ch == "}": depth -= 1
+            if depth == 0:
+                raw = json.loads(text[start:i+1])
+                break
         return {
             "severity":   raw.get("severity", "serious"),
             "causality":  max(0.0, min(1.0, float(raw.get("causality", 0.5)))),
@@ -133,67 +134,70 @@ def parse_action(text: str) -> dict:
         }
     except Exception:
         return {
-            "severity":  "serious",
-            "causality": 0.5,
-            "escalate":  True,
+            "severity":   "serious",
+            "causality":  0.5,
+            "escalate":   True,
             "rec_action": "request_followup",
-            "is_signal": None,
+            "is_signal":  None,
         }
-print("Parser defined.")
-
-# Single episode runner
-def run_episode(task_id: str) -> float:
-    # reset
-    resp = requests.post(f"{BASE_URL}/reset", json={"task_id": task_id, "seed": 42}, timeout=30)
-    resp.raise_for_status()
-    obs = resp.json()
-
-    # call LLM
-    prompt = build_prompt(task_id, obs)
-    completion = client.chat.completions.create(
-        model=MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0,
-        seed=42,
-        max_tokens=200,
-    )
-    raw = completion.choices[0].message.content
-    action = parse_action(raw)
-
-    # step
-    step_resp = requests.post(f"{BASE_URL}/step", json=action, timeout=30)
-    step_resp.raise_for_status()
-    result = step_resp.json()
-    return result.get("reward", 0.0)
-
-print("Episode runner defined.")
 
 
-# Run baseline
-# Make sure ENV_BASE_URL is set to live HF Space URL before running this cell
-# e.g. os.environ['ENV_BASE_URL'] = 'https://your-hf-space.hf.space'
+# ── Single episode ────────────────────────────────────────────────────────────
+
+def run_episode(task_id: int) -> tuple:
+    try:
+        resp = requests.post(
+            f"{BASE_URL}/reset",
+            json={"task_id": task_id},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        obs = resp.json()
+
+        prompt     = build_prompt(task_id, obs)
+        completion = client.chat.completions.create(
+            model=MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0,
+            seed=42,
+            max_tokens=200,
+        )
+        raw_text   = completion.choices[0].message.content
+        action     = parse_action(raw_text)
+        action_str = json.dumps(action, separators=(",", ":"))
+
+        step_resp = requests.post(f"{BASE_URL}/step", json=action, timeout=30)
+        step_resp.raise_for_status()
+        result = step_resp.json()
+        return result.get("reward", 0.0), action_str, None
+
+    except Exception as e:
+        return 0.0, "null", str(e)
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
 
 all_scores = []
 
 for task_id in TASKS:
-    scores = []
-    print(f"\nRunning {task_id}...")
-    for ep in range(EPISODES_EACH):
-        try:
-            reward = run_episode(task_id)
-            scores.append(reward)
-            print(f"  ep{ep+1:02d}: {reward:.4f}")
-        except Exception as e:
-            print(f"  ep{ep+1:02d}: ERROR — {e}")
-            scores.append(0.0)
+    task_name = f"task{task_id}"
+    rewards   = []
+
+    log_start(task=task_name, env=BENCHMARK, model=MODEL)
+
+    for ep in range(1, EPISODES_EACH + 1):
+        reward, action_str, error = run_episode(task_id)
+        rewards.append(reward)
+        log_step(step=ep, action=action_str, reward=reward, done=True, error=error)
         time.sleep(0.3)
 
-    mean = round(sum(scores) / len(scores), 4)
-    all_scores.append(mean)
-    print(f"  {task_id} mean: {mean}")
+    score   = round(sum(rewards) / len(rewards), 4)
+    success = score > 0.0
+    log_end(success=success, steps=EPISODES_EACH, score=score, rewards=rewards)
+    all_scores.append(score)
 
 overall = round(sum(all_scores) / len(all_scores), 4)
-print(f"Task 1 score : {all_scores[0]}")
-print(f"Task 2 score : {all_scores[1]}")
-print(f"Task 3 score : {all_scores[2]}")
-print(f"Overall mean : {overall}")
+print(f"Task 1 score : {all_scores[0]}", flush=True)
+print(f"Task 2 score : {all_scores[1]}", flush=True)
+print(f"Task 3 score : {all_scores[2]}", flush=True)
+print(f"Overall mean : {overall}",       flush=True)
