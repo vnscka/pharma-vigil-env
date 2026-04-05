@@ -5,6 +5,7 @@ import requests
 from typing import Optional
 from openai import OpenAI
 from dotenv import load_dotenv
+
 load_dotenv(".env")
 
 API_KEY      = os.environ.get("HF_TOKEN") or os.environ.get("API_KEY")
@@ -19,25 +20,31 @@ BENCHMARK     = "pharma_vigil_env"
 client = OpenAI(api_key=API_KEY, base_url=API_BASE_URL)
 
 
-# ── Mandatory log helpers ─────────────────────────────────────────────────────
+# ── Mandatory log helpers ─────────────────────────────────────────
 
 def log_start(task: str, env: str, model: str) -> None:
     print(f"[START] task={task} env={env} model={model}", flush=True)
 
+
 def log_step(step: int, action: str, reward: float, done: bool, error: Optional[str]) -> None:
     print(
-        f"[STEP] step={step} action={action} reward={reward:.2f} done={str(done).lower()} error={error or 'null'}",
+        f"[STEP] step={step} action={action} reward={reward:.2f} "
+        f"done={str(done).lower()} error={error or 'null'}",
         flush=True,
     )
+
 
 def log_end(success: bool, steps: int, score: float, rewards: list) -> None:
     print(
-        f"[END] success={str(success).lower()} steps={steps} score={score:.3f} rewards={','.join(f'{r:.2f}' for r in rewards)}",
+        f"[END] success={str(success).lower()} "
+        f"steps={steps} "
+        f"score={score:.2f} "
+        f"rewards={','.join(f'{r:.2f}' for r in rewards)}",
         flush=True,
     )
 
 
-# ── Prompt builder ────────────────────────────────────────────────────────────
+# ── Prompt builder ────────────────────────────────────────────────
 
 def build_prompt(task_id: int, obs: dict) -> str:
     if task_id == 1:
@@ -66,16 +73,10 @@ Report: {obs.get('report_text', '')}
 Drug: {obs.get('drug_name', 'UNKNOWN')}
 Symptoms: {obs.get('reported_symptoms', [])}
 
-Severity guide:
-- non_serious: mild symptoms (headache, nausea, drowsiness)
-- serious: significant symptoms (muscle pain, depression, memory issues, fatigue)
-- life_threatening: severe events (breathing difficulty, cardiac issues, severe muscle damage)
-- fatal: death
-
 Respond ONLY with this JSON:
 {{
   "severity": one of ["non_serious", "serious", "life_threatening", "fatal"],
-  "causality": float 0.0-1.0 (how likely drug caused this),
+  "causality": float 0.0-1.0,
   "escalate": true if serious or worse, false if non_serious,
   "rec_action": one of ["monitor_only", "request_followup", "expedited_review", "signal_team_review", "urgent_regulatory_notification"],
   "is_signal": null
@@ -90,10 +91,6 @@ No explanation. No markdown. Just the JSON."""
             for i, r in enumerate(reports)
         )
         return f"""You are a pharmacovigilance signal detection specialist.
-Review these 5 patient reports about {obs.get('drug_name', 'LIPITOR')} and decide if they represent a new safety signal.
-
-A TRUE SIGNAL means: all 5 reports describe the SAME specific symptom pattern.
-NOISE means: the 5 reports describe DIFFERENT symptoms with no clear common pattern.
 
 {reports_text}
 
@@ -101,103 +98,92 @@ Respond ONLY with this JSON:
 {{
   "severity": one of ["non_serious", "serious", "life_threatening", "fatal"],
   "causality": float 0.0-1.0,
-  "escalate": true if this IS a safety signal, false if NOT,
-  "rec_action": "signal_team_review" if signal, "monitor_only" if not,
-  "is_signal": true if safety signal, false if not
-}}
-
-No explanation. No markdown. ONE single JSON object only."""
+  "escalate": true if signal, false if not,
+  "rec_action": "signal_team_review" if signal else "monitor_only",
+  "is_signal": true or false
+}}"""
 
 
-# ── Action parser ─────────────────────────────────────────────────────────────
+# ── Action parser ────────────────────────────────────────────────
 
 def parse_action(text: str) -> dict:
     text = text.strip()
-    if text.startswith("```"):
-        lines = text.split("\n")
-        text = "\n".join(lines[1:-1])
     try:
         start = text.index("{")
         depth = 0
         for i, ch in enumerate(text[start:], start):
-            if ch == "{":   depth += 1
+            if ch == "{": depth += 1
             elif ch == "}": depth -= 1
             if depth == 0:
                 raw = json.loads(text[start:i+1])
                 break
         return {
-            "severity":   raw.get("severity", "serious"),
-            "causality":  max(0.0, min(1.0, float(raw.get("causality", 0.5)))),
-            "escalate":   bool(raw.get("escalate", True)),
+            "severity": raw.get("severity", "serious"),
+            "causality": max(0.0, min(1.0, float(raw.get("causality", 0.5)))),
+            "escalate": bool(raw.get("escalate", True)),
             "rec_action": raw.get("rec_action", "request_followup"),
-            "is_signal":  raw.get("is_signal", None),
+            "is_signal": raw.get("is_signal", None),
         }
     except Exception:
         return {
-            "severity":   "serious",
-            "causality":  0.5,
-            "escalate":   True,
+            "severity": "serious",
+            "causality": 0.5,
+            "escalate": True,
             "rec_action": "request_followup",
-            "is_signal":  None,
+            "is_signal": None,
         }
 
 
-# ── Single episode ────────────────────────────────────────────────────────────
+# ── Episode runner ───────────────────────────────────────────────
 
-def run_episode(task_id: int) -> tuple:
+def run_episode(task_id: int):
     try:
-        resp = requests.post(
-            f"{BASE_URL}/reset",
-            json={"task_id": task_id},
-            timeout=30,
-        )
-        resp.raise_for_status()
-        obs = resp.json()
+        obs = requests.post(f"{BASE_URL}/reset", json={"task_id": task_id}).json()
 
-        prompt     = build_prompt(task_id, obs)
         completion = client.chat.completions.create(
             model=MODEL,
-            messages=[{"role": "user", "content": prompt}],
+            messages=[{"role": "user", "content": build_prompt(task_id, obs)}],
             temperature=0,
-            seed=42,
             max_tokens=200,
         )
-        raw_text   = completion.choices[0].message.content
-        action     = parse_action(raw_text)
+
+        action = parse_action(completion.choices[0].message.content)
         action_str = json.dumps(action, separators=(",", ":"))
 
-        step_resp = requests.post(f"{BASE_URL}/step", json=action, timeout=30)
-        step_resp.raise_for_status()
-        result = step_resp.json()
+        result = requests.post(f"{BASE_URL}/step", json=action).json()
+
         return result.get("reward", 0.0), action_str, None
 
     except Exception as e:
         return 0.0, "null", str(e)
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
-
-all_scores = []
+# ── Main ─────────────────────────────────────────────────────────
 
 for task_id in TASKS:
     task_name = f"task{task_id}"
-    rewards   = []
+    rewards = []
 
-    log_start(task=task_name, env=BENCHMARK, model=MODEL)
+    log_start(task_name, BENCHMARK, MODEL)
 
-    for ep in range(1, EPISODES_EACH + 1):
+    for step in range(1, EPISODES_EACH + 1):
         reward, action_str, error = run_episode(task_id)
         rewards.append(reward)
-        log_step(step=ep, action=action_str, reward=reward, done=True, error=error)
-        time.sleep(0.3)
 
-    score   = round(sum(rewards) / len(rewards), 4)
-    success = score > 0.0
-    log_end(success=success, steps=EPISODES_EACH, score=score, rewards=rewards)
-    all_scores.append(score)
+        log_step(
+            step=step,
+            action=action_str,
+            reward=reward,
+            done=True,
+            error=error,
+        )
 
-overall = round(sum(all_scores) / len(all_scores), 4)
-print(f"Task 1 score : {all_scores[0]}", flush=True)
-print(f"Task 2 score : {all_scores[1]}", flush=True)
-print(f"Task 3 score : {all_scores[2]}", flush=True)
-print(f"Overall mean : {overall}",       flush=True)
+        time.sleep(0.2)
+
+    score = sum(rewards) / len(rewards)
+    log_end(
+        success=score > 0.0,
+        steps=EPISODES_EACH,
+        score=score,
+        rewards=rewards,
+    )
