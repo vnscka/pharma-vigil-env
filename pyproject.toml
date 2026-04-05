@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "pharma-vigil-env"
@@ -15,7 +15,11 @@ dependencies = [
     "openai>=1.0.0",
     "requests>=2.25.0",
     "python-dotenv>=1.0.0",
+    "openenv-core>=0.2.0"
 ]
+
+[project.scripts]
+server = "server.app:main"
 
 [project.optional-dependencies]
 dev = [
