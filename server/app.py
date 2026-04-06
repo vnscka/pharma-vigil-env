@@ -38,11 +38,19 @@ def health():
     return {"status": "healthy"}
 
 
+# @app.post("/reset")
+# def reset(req: ResetRequest) -> Observation:
+#     if req.task_id not in (1, 2, 3):
+#         raise HTTPException(status_code=400, detail="task_id must be 1, 2, or 3")
+#     return env.reset(task_id=req.task_id)
+
 @app.post("/reset")
-def reset(req: ResetRequest) -> Observation:
+def reset(req: Optional[ResetRequest] = None) -> Observation:
+    if req is None:
+        req = ResetRequest()
     if req.task_id not in (1, 2, 3):
         raise HTTPException(status_code=400, detail="task_id must be 1, 2, or 3")
-    return env.reset(task_id=req.task_id)
+    return env.reset(task_id=req.task_id, seed=req.seed)
  
  
 @app.post("/step")
