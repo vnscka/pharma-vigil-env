@@ -24,7 +24,7 @@ _baseline_cache: Optional[dict] = None
 
 
 class ResetRequest(BaseModel):
-    task_id: int
+    task_id: int = 1
  
 class GraderRequest(BaseModel):
     episode_id: str
