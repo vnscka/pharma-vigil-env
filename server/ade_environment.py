@@ -128,7 +128,7 @@ class ADEEnvironment:
                 reward -= 0.20
                 penalties.append("signal_detection_error")
 
-        reward = round(max(0.0, min(1.0, reward)), 4)
+        reward = round(max(0.01, min(0.99, reward)), 4)
         return reward, penalties
 
     def _build_observation(self, sample: dict, task_id: int) -> Observation:
