@@ -196,7 +196,7 @@ def _apply_reward_shaping(action: Action, gt, raw_score: float, task_id: int):
             reward -= 0.20
             penalties.append("signal_error")
 
-    reward = max(0.0, min(1.0, reward))
+    reward = round(max(0.01, min(0.99, reward)), 4)
 
     return None, reward, True, {"penalties": penalties}
 
